@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_003_Verify login with multiple user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1764637-4ee7-4715-9318-7525816bb3e1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3dc72e3a-b0e0-4e3e-96d4-08c326a070f6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dd654102-a041-44e6-9146-9d6af800c0da</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e6c8c908-3009-4492-8a2d-d9a777ac7dec</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login'</defaultValue>
+      <description></description>
+      <id>3dc72e3a-b0e0-4e3e-96d4-08c326a070f6</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Multiple user login')</defaultValue>
+      <description></description>
+      <id>dd654102-a041-44e6-9146-9d6af800c0da</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Multiple user login')</defaultValue>
+      <description></description>
+      <id>e6c8c908-3009-4492-8a2d-d9a777ac7dec</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
