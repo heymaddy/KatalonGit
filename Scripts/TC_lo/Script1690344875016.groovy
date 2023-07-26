@@ -17,5 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('www.google.com')
+WebUI.openBrowser('https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login')
+
+WebUI.maximizeWindow()
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('OB_001_Login screen/Login Screen/Username'))
+
+WebUI.setText(findTestObject('OB_001_Login screen/Login Screen/Username'), 'BSO-2300')
+
+WebUI.click(findTestObject('OB_001_Login screen/Login Screen/Password'))
+
+WebUI.setText(findTestObject('OB_001_Login screen/Login Screen/Password'), 'Password@2300')
+
+WebUI.click(findTestObject('OB_001_Login screen/Login Screen/button_Sign in'))
+
+WebUI.delay(8)
+
+WebUI.verifyTextPresent('VC Smart', false)
 
