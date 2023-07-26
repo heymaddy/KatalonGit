@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_NRD Dashboard</name>
+   <tag></tag>
+   <elementGuidId>dd342ee1-8fcd-4385-bd02-55822e6308dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='topDiv']/app-menu-aside/aside/section/ul/li[6]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(6) > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f9613e89-1984-4b46-99a9-c723a82bef27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#/nrd-dashboard</value>
+      <webElementGuid>4cdac1ae-425f-4f08-929e-175f5bf9bba6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>NRD Dashboard</value>
+      <webElementGuid>0e62bf9f-9a2a-432e-bb47-c579994e96cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;topDiv&quot;)/app-menu-aside[1]/aside[@class=&quot;main-sidebar&quot;]/section[@class=&quot;sidebar&quot;]/ul[@class=&quot;sidebar-menu&quot;]/li[6]/a[1]</value>
+      <webElementGuid>138a0b0a-582a-4fa5-a2d5-adc4a07c5550</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='topDiv']/app-menu-aside/aside/section/ul/li[6]/a</value>
+      <webElementGuid>3cd6cd56-13b6-4eb2-9a6f-cc86cba0eba9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin'])[1]/following::a[1]</value>
+      <webElementGuid>6225ffbb-1ce7-4322-b7f6-f293f7deeaa2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Track By Criteria'])[1]/following::a[2]</value>
+      <webElementGuid>5161ccb9-9f6d-4af6-804b-63e44c71efb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright 2021'])[1]/preceding::a[1]</value>
+      <webElementGuid>a73d3514-8b97-41d8-be41-554757a33fc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#/nrd-dashboard')]</value>
+      <webElementGuid>c65730e0-9b01-45d4-804f-7e00a341865f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/a</value>
+      <webElementGuid>cbe02844-af7f-49cd-aba9-12ed89cf350b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#/nrd-dashboard' and (text() = 'NRD Dashboard' or . = 'NRD Dashboard')]</value>
+      <webElementGuid>08b9d6f5-3fae-426a-8784-c843ac60e48b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

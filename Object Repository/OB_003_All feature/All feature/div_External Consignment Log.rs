@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_External Consignment Log</name>
+   <tag></tag>
+   <elementGuidId>209ae0f9-1b09-4e5b-9a3b-5b6aa2cd738c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='mainSection']/div/app-reports-menu/div/div[2]/div[3]/a/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c387fd35-41e8-4347-a3e1-396ed5cadeae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body </value>
+      <webElementGuid>03c7a3b0-67dc-4425-9d0e-5108566d2806</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> External Consignment Log</value>
+      <webElementGuid>a67d5703-d6d6-4107-9cd0-5d557ada78da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainSection&quot;)/div[@class=&quot;box box-default&quot;]/app-reports-menu[1]/div[@class=&quot;animated fadeIn&quot;]/div[@class=&quot;row row-eq-height&quot;]/div[@class=&quot;col-xs-12 col-sm-6 col-md-3 col-lg-3&quot;]/a[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>4a2e40ae-6313-4046-a57e-a9a1619e69dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='mainSection']/div/app-reports-menu/div/div[2]/div[3]/a/div/div</value>
+      <webElementGuid>fae038df-75e7-4008-8258-9044efa05ad2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exception Report'])[1]/following::div[3]</value>
+      <webElementGuid>d08390bc-ac73-4994-b7f4-c6b1cf306a20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Safety Index Report'])[1]/following::div[7]</value>
+      <webElementGuid>7ee18b42-a13b-4f73-81ed-122755e81cbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login History Report'])[1]/preceding::div[2]</value>
+      <webElementGuid>2d647306-36c4-49b6-87a5-a91104705afc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/a/div/div</value>
+      <webElementGuid>2f6f20ef-20c4-40bc-b2a1-ca3149acbd37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' External Consignment Log' or . = ' External Consignment Log')]</value>
+      <webElementGuid>86fde751-b418-4c85-a3b0-7aced8efe182</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

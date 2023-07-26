@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Exception Report</name>
+   <tag></tag>
+   <elementGuidId>a8862fc9-37a3-42d4-88a0-6fcc8a0d7055</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='mainSection']/div/app-reports-menu/div/div[2]/div[2]/a/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>14f34753-0580-46a1-87f9-7247bad66176</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body </value>
+      <webElementGuid>0414910a-8b5c-45ba-9878-040c4778c3f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Exception Report</value>
+      <webElementGuid>8d22ea8d-ca8e-4579-ae14-5004bac9a5ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainSection&quot;)/div[@class=&quot;box box-default&quot;]/app-reports-menu[1]/div[@class=&quot;animated fadeIn&quot;]/div[@class=&quot;row row-eq-height&quot;]/div[@class=&quot;col-xs-12 col-sm-6 col-md-3 col-lg-3&quot;]/a[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>a87ed3ab-c7f8-4ecf-804d-99f22fc311bf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='mainSection']/div/app-reports-menu/div/div[2]/div[2]/a/div/div</value>
+      <webElementGuid>ef4af6ff-e309-47a8-8c01-14f91108c896</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Safety Index Report'])[1]/following::div[3]</value>
+      <webElementGuid>9e44a5a8-99a6-41bc-af42-be2ef7b8127d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WESTERN COALFIELDS LTD.-(0000156867)'])[1]/following::div[12]</value>
+      <webElementGuid>78afeaa3-9514-4b2f-bb84-796c6384f01d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='External Consignment Log'])[1]/preceding::div[2]</value>
+      <webElementGuid>ec6cb0a7-c8f5-44c7-a52c-bdc8b1329d88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a/div/div</value>
+      <webElementGuid>6fa22a86-4ac1-4b6c-9b40-21a4753ef111</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Exception Report' or . = ' Exception Report')]</value>
+      <webElementGuid>7ec8c038-a0e1-40d0-b8a3-e80f5119971f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

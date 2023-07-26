@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_User Access Report</name>
+   <tag></tag>
+   <elementGuidId>42e22da4-8fca-4c6d-bb47-c6290089c980</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='mainSection']/div/app-reports-menu/div/div[2]/div[5]/a/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ea423b20-1652-45d0-9bfc-fae77458a127</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body </value>
+      <webElementGuid>b51efa97-4c97-414c-8f25-6039dafeb405</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> User Access Report</value>
+      <webElementGuid>7b34b3d6-3e28-4cc4-ae16-bafd7145399d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainSection&quot;)/div[@class=&quot;box box-default&quot;]/app-reports-menu[1]/div[@class=&quot;animated fadeIn&quot;]/div[@class=&quot;row row-eq-height&quot;]/div[@class=&quot;col-xs-12 col-sm-6 col-md-3 col-lg-3&quot;]/a[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>e07a59d0-c713-4bfc-8b62-321bb44e7c78</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='mainSection']/div/app-reports-menu/div/div[2]/div[5]/a/div/div</value>
+      <webElementGuid>110ee153-5adb-496f-94cd-0353ec908c7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login History Report'])[1]/following::div[3]</value>
+      <webElementGuid>be30562b-2d67-49aa-bbf1-6be776ae4131</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='External Consignment Log'])[1]/following::div[7]</value>
+      <webElementGuid>43d0109d-a52b-49a7-96b0-fae51d51da68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Trip Report'])[1]/preceding::div[2]</value>
+      <webElementGuid>ae1c8805-3a4d-41c0-8028-dd8fc6859081</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/a/div/div</value>
+      <webElementGuid>2d94ea50-ea52-452e-bd9d-c00caf3f4166</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' User Access Report' or . = ' User Access Report')]</value>
+      <webElementGuid>c59b10f0-0cb3-4dfe-8ead-579702fbc887</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
