@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_002_Samity Test 1_VC smart web app" time="331.189" tests="3" failures="0" errors="0">
+   <testsuite name="TS_002_Samity Test 1_VC smart web app" tests="3" failures="0" errors="0" time="331.189" skipped="0" timestamp="2023-07-27 18:42:43" hostname="windows 10 - DESKTOP-21ATSCV" id="Test Suites/TS_002_Samity Test 1_VC smart web app">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230727_184233\\TS_002_Samity Test 1_VC smart web app\\20230727_184233"/>
+         <property name="logFiles" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230727_184233\\TS_002_Samity Test 1_VC smart web app\\20230727_184233\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230727_184233\\TS_002_Samity Test 1_VC smart web app\\20230727_184233\\1690463715024.png"/>
+         <property name="hostName" value="windows 10 - DESKTOP-21ATSCV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.102"/>
+         <property name="sessionId" value="c0123c494233bd68311abb60e20aa4af"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_001_Verify the Login feature with valid credentials" time="41.539" classname="Test Cases/TC_001_Verify the Login feature with valid credentials" status="PASSED">
+         <system-out><![CDATA[2023-07-27 18:42:43 - [TEST_CASE][PASSED] - Test Cases/TC_001_Verify the Login feature with valid credentials: Test Cases/TC_001_Verify the Login feature with valid credentials
+
+2023-07-27 18:42:44 - [TEST_STEP][PASSED] - openBrowser("https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login"): Browser is opened with url: 'https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login'
+
+2023-07-27 18:42:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-27 18:42:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-27 18:43:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login'
+
+2023-07-27 18:43:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-27 18:43:01 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-27 18:43:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-27 18:43:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-27 18:43:06 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/Username")): Object: 'Object Repository/OB_001_Login screen/Login Screen/Username' is clicked on
+
+2023-07-27 18:43:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/Username' is clicked on
+
+2023-07-27 18:43:06 - [TEST_STEP][PASSED] - setText(findTestObject("OB_001_Login screen/Login Screen/Username"), "BSO-2300"): Text 'BSO-2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Username'
+
+2023-07-27 18:43:07 - [MESSAGE][PASSED] - Text 'BSO-2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Username'
+
+2023-07-27 18:43:07 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/Password")): Object: 'Object Repository/OB_001_Login screen/Login Screen/Password' is clicked on
+
+2023-07-27 18:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/Password' is clicked on
+
+2023-07-27 18:43:08 - [TEST_STEP][PASSED] - setText(findTestObject("OB_001_Login screen/Login Screen/Password"), "Password@2300"): Text 'Password@2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Password'
+
+2023-07-27 18:43:09 - [MESSAGE][PASSED] - Text 'Password@2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Password'
+
+2023-07-27 18:43:09 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/button_Sign in")): Object: 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clicked on
+
+2023-07-27 18:43:09 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clicked on
+
+2023-07-27 18:43:09 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2023-07-27 18:43:17 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2023-07-27 18:43:17 - [TEST_STEP][PASSED] - verifyTextPresent("VC Smart", false): Text 'VC Smart' is present on page 
+
+2023-07-27 18:43:25 - [MESSAGE][PASSED] - Text 'VC Smart' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_004_Verify the TBC feature" time="75.337" classname="Test Cases/TC_004_Verify the TBC feature" status="PASSED">
+         <system-out><![CDATA[2023-07-27 18:43:25 - [TEST_CASE][PASSED] - Test Cases/TC_004_Verify the TBC feature: Test Cases/TC_004_Verify the TBC feature
+
+2023-07-27 18:43:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_001_Verify the Login feature with valid credentials"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_001_Verify the Login feature with valid credentials' successfully
+
+2023-07-27 18:43:26 - [TEST_CASE][PASSED] - Test Cases/TC_001_Verify the Login feature with valid credentials: Test Cases/TC_001_Verify the Login feature with valid credentials
+
+2023-07-27 18:43:26 - [TEST_STEP][PASSED] - openBrowser("https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login"): Browser is opened with url: 'https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login'
+
+2023-07-27 18:43:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-27 18:43:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-27 18:43:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-27 18:43:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login'
+
+2023-07-27 18:43:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-27 18:43:39 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-27 18:43:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-27 18:43:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-27 18:43:44 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/Username")): Object: 'Object Repository/OB_001_Login screen/Login Screen/Username' is clicked on
+
+2023-07-27 18:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/Username' is clicked on
+
+2023-07-27 18:43:44 - [TEST_STEP][PASSED] - setText(findTestObject("OB_001_Login screen/Login Screen/Username"), "BSO-2300"): Text 'BSO-2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Username'
+
+2023-07-27 18:43:45 - [MESSAGE][PASSED] - Text 'BSO-2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Username'
+
+2023-07-27 18:43:45 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/Password")): Object: 'Object Repository/OB_001_Login screen/Login Screen/Password' is clicked on
+
+2023-07-27 18:43:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/Password' is clicked on
+
+2023-07-27 18:43:46 - [TEST_STEP][PASSED] - setText(findTestObject("OB_001_Login screen/Login Screen/Password"), "Password@2300"): Text 'Password@2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Password'
+
+2023-07-27 18:43:47 - [MESSAGE][PASSED] - Text 'Password@2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Password'
+
+2023-07-27 18:43:47 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/button_Sign in")): Object: 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clicked on
+
+2023-07-27 18:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clicked on
+
+2023-07-27 18:43:47 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2023-07-27 18:43:55 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2023-07-27 18:43:55 - [TEST_STEP][PASSED] - verifyTextPresent("VC Smart", false): Text 'VC Smart' is present on page 
+
+2023-07-27 18:44:03 - [MESSAGE][PASSED] - Text 'VC Smart' is present on page 
+
+2023-07-27 18:44:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_001_Verify the Login feature with valid credentials' successfully
+
+2023-07-27 18:44:03 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2023-07-27 18:44:11 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2023-07-27 18:44:11 - [TEST_STEP][PASSED] - click(findTestObject("OB_002_Feature1/Feature/a_Track By Criteria")): Object: 'Object Repository/OB_002_Feature1/Feature/a_Track By Criteria' is clicked on
+
+2023-07-27 18:44:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_002_Feature1/Feature/a_Track By Criteria' is clicked on
+
+2023-07-27 18:44:12 - [TEST_STEP][PASSED] - click(findTestObject("OB_002_Feature1/Feature/button_Submit")): Object: 'Object Repository/OB_002_Feature1/Feature/button_Submit' is clicked on
+
+2023-07-27 18:44:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_002_Feature1/Feature/button_Submit' is clicked on
+
+2023-07-27 18:44:16 - [TEST_STEP][PASSED] - delay(22): Delayed 22 second(s)
+
+2023-07-27 18:44:38 - [MESSAGE][PASSED] - Delayed 22 second(s)
+
+2023-07-27 18:44:38 - [TEST_STEP][PASSED] - verifyTextPresent("Vehicle Number", false): Text 'Vehicle Number' is present on page 
+
+2023-07-27 18:44:40 - [MESSAGE][PASSED] - Text 'Vehicle Number' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_005_Verify All feature of vc smart web application" time="178.867" classname="Test Cases/TC_005_Verify All feature of vc smart web application" status="PASSED">
+         <system-out><![CDATA[2023-07-27 18:45:15 - [TEST_CASE][PASSED] - Test Cases/TC_005_Verify All feature of vc smart web application: Test Cases/TC_005_Verify All feature of vc smart web application
+
+2023-07-27 18:45:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_001_Verify the Login feature with valid credentials"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_001_Verify the Login feature with valid credentials' successfully
+
+2023-07-27 18:45:15 - [TEST_CASE][PASSED] - Test Cases/TC_001_Verify the Login feature with valid credentials: Test Cases/TC_001_Verify the Login feature with valid credentials
+
+2023-07-27 18:45:15 - [TEST_STEP][PASSED] - openBrowser("https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login"): Browser is opened with url: 'https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login'
+
+2023-07-27 18:45:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-27 18:45:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-27 18:45:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-27 18:45:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login'
+
+2023-07-27 18:45:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-27 18:45:30 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-27 18:45:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-07-27 18:45:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-07-27 18:45:35 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/Username")): Object: 'Object Repository/OB_001_Login screen/Login Screen/Username' is clicked on
+
+2023-07-27 18:45:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/Username' is clicked on
+
+2023-07-27 18:45:35 - [TEST_STEP][PASSED] - setText(findTestObject("OB_001_Login screen/Login Screen/Username"), "BSO-2300"): Text 'BSO-2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Username'
+
+2023-07-27 18:45:36 - [MESSAGE][PASSED] - Text 'BSO-2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Username'
+
+2023-07-27 18:45:36 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/Password")): Object: 'Object Repository/OB_001_Login screen/Login Screen/Password' is clicked on
+
+2023-07-27 18:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/Password' is clicked on
+
+2023-07-27 18:45:37 - [TEST_STEP][PASSED] - setText(findTestObject("OB_001_Login screen/Login Screen/Password"), "Password@2300"): Text 'Password@2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Password'
+
+2023-07-27 18:45:38 - [MESSAGE][PASSED] - Text 'Password@2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Password'
+
+2023-07-27 18:45:38 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/button_Sign in")): Object: 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clicked on
+
+2023-07-27 18:45:38 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clicked on
+
+2023-07-27 18:45:38 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2023-07-27 18:45:46 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2023-07-27 18:45:46 - [TEST_STEP][PASSED] - verifyTextPresent("VC Smart", false): Text 'VC Smart' is present on page 
+
+2023-07-27 18:46:12 - [MESSAGE][PASSED] - Text 'VC Smart' is present on page 
+
+2023-07-27 18:46:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_001_Verify the Login feature with valid credentials' successfully
+
+2023-07-27 18:46:12 - [TEST_STEP][PASSED] - delay(11): Delayed 11 second(s)
+
+2023-07-27 18:46:23 - [MESSAGE][PASSED] - Delayed 11 second(s)
+
+2023-07-27 18:46:23 - [TEST_STEP][PASSED] - click(findTestObject("OB_003_All feature/All feature/a_Reports")): Object: 'Object Repository/OB_003_All feature/All feature/a_Reports' is clicked on
+
+2023-07-27 18:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_003_All feature/All feature/a_Reports' is clicked on
+
+2023-07-27 18:46:24 - [TEST_STEP][PASSED] - verifyTextPresent("Safety Index Report", false): Text 'Safety Index Report' is present on page 
+
+2023-07-27 18:46:25 - [MESSAGE][PASSED] - Text 'Safety Index Report' is present on page 
+
+2023-07-27 18:46:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-27 18:46:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-27 18:46:28 - [TEST_STEP][PASSED] - click(findTestObject("OB_003_All feature/All feature/div_Safety Index Report")): Object: 'Object Repository/OB_003_All feature/All feature/div_Safety Index Report' is clicked on
+
+2023-07-27 18:46:28 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_003_All feature/All feature/div_Safety Index Report' is clicked on
+
+2023-07-27 18:46:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-27 18:46:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-27 18:46:32 - [TEST_STEP][PASSED] - click(findTestObject("OB_003_All feature/All feature/a_Reports")): Object: 'Object Repository/OB_003_All feature/All feature/a_Reports' is clicked on
+
+2023-07-27 18:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_003_All feature/All feature/a_Reports' is clicked on
+
+2023-07-27 18:46:32 - [TEST_STEP][PASSED] - click(findTestObject("OB_003_All feature/All feature/div_User Access Report")): Object: 'Object Repository/OB_003_All feature/All feature/div_User Access Report' is clicked on
+
+2023-07-27 18:46:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_003_All feature/All feature/div_User Access Report' is clicked on
+
+2023-07-27 18:46:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-27 18:46:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-27 18:46:36 - [TEST_STEP][PASSED] - click(findTestObject("OB_003_All feature/All feature/a_Reports")): Object: 'Object Repository/OB_003_All feature/All feature/a_Reports' is clicked on
+
+2023-07-27 18:46:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_003_All feature/All feature/a_Reports' is clicked on
+
+2023-07-27 18:46:36 - [TEST_STEP][PASSED] - click(findTestObject("OB_003_All feature/All feature/div_New Trip Report")): Object: 'Object Repository/OB_003_All feature/All feature/div_New Trip Report' is clicked on
+
+2023-07-27 18:46:37 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_003_All feature/All feature/div_New Trip Report' is clicked on
+
+2023-07-27 18:46:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-27 18:46:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-27 18:46:40 - [TEST_STEP][PASSED] - click(findTestObject("OB_003_All feature/All feature/a_Reports")): Object: 'Object Repository/OB_003_All feature/All feature/a_Reports' is clicked on
+
+2023-07-27 18:46:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_003_All feature/All feature/a_Reports' is clicked on
+
+2023-07-27 18:46:45 - [TEST_STEP][PASSED] - click(findTestObject("OB_003_All feature/All feature/div_Login History Report")): Object: 'Object Repository/OB_003_All feature/All feature/div_Login History Report' is clicked on
+
+2023-07-27 18:46:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_003_All feature/All feature/div_Login History Report' is clicked on
+
+2023-07-27 18:46:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-27 18:46:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-27 18:46:49 - [TEST_STEP][PASSED] - click(findTestObject("OB_003_All feature/All feature/a_Reports")): Object: 'Object Repository/OB_003_All feature/All feature/a_Reports' is clicked on
+
+2023-07-27 18:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_003_All feature/All feature/a_Reports' is clicked on
+
+2023-07-27 18:46:49 - [TEST_STEP][PASSED] - click(findTestObject("OB_003_All feature/All feature/div_External Consignment Log")): Object: 'Object Repository/OB_003_All feature/All feature/div_External Consignment Log' is clicked on
+
+2023-07-27 18:46:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_003_All feature/All feature/div_External Consignment Log' is clicked on
+
+2023-07-27 18:46:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-27 18:46:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-27 18:46:53 - [TEST_STEP][PASSED] - click(findTestObject("OB_003_All feature/All feature/a_Reports")): Object: 'Object Repository/OB_003_All feature/All feature/a_Reports' is clicked on
+
+2023-07-27 18:46:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_003_All feature/All feature/a_Reports' is clicked on
+
+2023-07-27 18:46:53 - [TEST_STEP][PASSED] - click(findTestObject("OB_003_All feature/All feature/div_Exception Report")): Object: 'Object Repository/OB_003_All feature/All feature/div_Exception Report' is clicked on
+
+2023-07-27 18:46:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_003_All feature/All feature/div_Exception Report' is clicked on
+
+2023-07-27 18:46:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-07-27 18:46:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-07-27 18:46:57 - [TEST_STEP][PASSED] - click(findTestObject("OB_003_All feature/All feature/a_Reports")): Object: 'Object Repository/OB_003_All feature/All feature/a_Reports' is clicked on
+
+2023-07-27 18:47:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_003_All feature/All feature/a_Reports' is clicked on
+
+2023-07-27 18:47:07 - [TEST_STEP][PASSED] - click(findTestObject("OB_003_All feature/All feature/a_Admin")): Object: 'Object Repository/OB_003_All feature/All feature/a_Admin' is clicked on
+
+2023-07-27 18:47:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_003_All feature/All feature/a_Admin' is clicked on
+
+2023-07-27 18:47:08 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-07-27 18:47:12 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-07-27 18:47:12 - [TEST_STEP][PASSED] - verifyTextPresent("Landmark Manager", false): Text 'Landmark Manager' is present on page 
+
+2023-07-27 18:47:12 - [MESSAGE][PASSED] - Text 'Landmark Manager' is present on page 
+
+2023-07-27 18:47:12 - [TEST_STEP][PASSED] - click(findTestObject("OB_003_All feature/All feature/a_Admin")): Object: 'Object Repository/OB_003_All feature/All feature/a_Admin' is clicked on
+
+2023-07-27 18:47:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_003_All feature/All feature/a_Admin' is clicked on
+
+2023-07-27 18:47:13 - [TEST_STEP][PASSED] - click(findTestObject("OB_003_All feature/All feature/a_NRD Dashboard")): Object: 'Object Repository/OB_003_All feature/All feature/a_NRD Dashboard' is clicked on
+
+2023-07-27 18:47:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_003_All feature/All feature/a_NRD Dashboard' is clicked on
+
+2023-07-27 18:47:13 - [TEST_STEP][PASSED] - delay(11): Delayed 11 second(s)
+
+2023-07-27 18:47:24 - [MESSAGE][PASSED] - Delayed 11 second(s)
+
+2023-07-27 18:47:24 - [TEST_STEP][PASSED] - verifyTextPresent("Device Status", false): Text 'Device Status' is present on page 
+
+2023-07-27 18:47:29 - [MESSAGE][PASSED] - Text 'Device Status' is present on page 
+
+2023-07-27 18:47:29 - [TEST_STEP][PASSED] - click(findTestObject("OB_003_All feature/All feature/a_Map View")): Object: 'Object Repository/OB_003_All feature/All feature/a_Map View' is clicked on
+
+2023-07-27 18:47:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_003_All feature/All feature/a_Map View' is clicked on
+
+2023-07-27 18:47:30 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2023-07-27 18:47:42 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2023-07-27 18:47:42 - [TEST_STEP][PASSED] - verifyTextPresent("View Grid", false): Text 'View Grid' is present on page 
+
+2023-07-27 18:48:13 - [MESSAGE][PASSED] - Text 'View Grid' is present on page 
+
+2023-07-27 18:48:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-27 18:48:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-27 18:42:43 - [TEST_SUITE][FAILED] - TS_002_Samity Test 1_VC smart web app: Test Cases/TC_005_Verify All feature of vc smart web application FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/TC_001_Verify the Login feature with valid credentials' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at TC_005_Verify All feature of vc smart web application.run(TC_005_Verify All feature of vc smart web application:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690463553185.run(TempTestSuite1690463553185.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'VC Smart' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at TC_001_Verify the Login feature with valid credentials.run(TC_001_Verify the Login feature with valid credentials:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'VC Smart' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-out>
+      <system-err><![CDATA[2023-07-27 18:42:43 - [TEST_SUITE][FAILED] - TS_002_Samity Test 1_VC smart web app: Test Cases/TC_005_Verify All feature of vc smart web application FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/TC_001_Verify the Login feature with valid credentials' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at TC_005_Verify All feature of vc smart web application.run(TC_005_Verify All feature of vc smart web application:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690463553185.run(TempTestSuite1690463553185.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'VC Smart' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at TC_001_Verify the Login feature with valid credentials.run(TC_001_Verify the Login feature with valid credentials:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:144)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'VC Smart' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+   </testsuite>
+</testsuites>
