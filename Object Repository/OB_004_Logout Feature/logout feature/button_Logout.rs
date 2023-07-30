@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Logout</name>
+   <tag></tag>
+   <elementGuidId>1851ce23-fb09-4845-9198-d74aff07eb1f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.center.btn-primary.btn-flat</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='topDiv']/app-header/header/nav/div/div/div[2]/ul/li/ul/li[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e73b8dc6-1cf2-4437-a2df-0d4c4ffd5b88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn center btn-primary btn-flat</value>
+      <webElementGuid>dc001601-02e2-4a35-9b7d-8ccbdf26f6d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Logout</value>
+      <webElementGuid>72347e7a-f5db-4a25-bf55-964e4239aed4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;topDiv&quot;)/app-header[1]/header[@class=&quot;main-header&quot;]/nav[@class=&quot;navbar navbar-default&quot;]/div[1]/div[@class=&quot;navbar-header center&quot;]/div[@class=&quot;navbar-custom-menu&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[@class=&quot;dropdown user user-menu userBox open&quot;]/ul[@class=&quot;dropdown-menu&quot;]/li[@class=&quot;user-body&quot;]/button[@class=&quot;btn center btn-primary btn-flat&quot;]</value>
+      <webElementGuid>9ffc48f6-4950-4f5e-9094-59d0b5dff4f9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='topDiv']/app-header/header/nav/div/div/div[2]/ul/li/ul/li[2]/button</value>
+      <webElementGuid>23c9d6a3-b5bb-442a-885f-74802f018f92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobile Number :'])[1]/following::button[1]</value>
+      <webElementGuid>8ac90e52-2418-49c3-a0b9-2a16220f8105</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='customersupport_tmsi@trimble.com'])[1]/following::button[1]</value>
+      <webElementGuid>6312818d-42a2-4443-af49-145732addbe2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::button[1]</value>
+      <webElementGuid>718b5a75-26d4-4c57-b94b-081a77dc324a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Map View'])[1]/preceding::button[1]</value>
+      <webElementGuid>00c21ee3-f3b1-4694-90c6-4b9278c95479</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Logout']/parent::*</value>
+      <webElementGuid>858319fb-de7f-4569-98a0-180b001a28d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>5bace177-22b2-4666-aa10-8f27e3c721bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Logout' or . = 'Logout')]</value>
+      <webElementGuid>b386c2ee-cda7-4c0c-8d16-26531eec276e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
