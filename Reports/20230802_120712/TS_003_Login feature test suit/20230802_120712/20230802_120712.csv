@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_003_Login feature test suit,,,,2023-08-02 12:07:18,2023-08-02 12:07:41,23.092s,FAILED
+,,,,,,,
+Test Cases/TC_001_Verify the Login feature with valid credentials,,,,2023-08-02 12:07:26,2023-08-02 12:07:27,1.403s,FAILED
+"openBrowser(""https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login"")",,,,2023-08-02 12:07:26,2023-08-02 12:07:27,1.381s,FAILED
+,,,,,,,
+Test Cases/TC_002_Verify the Login feature with invalid credentials,,,,2023-08-02 12:07:33,2023-08-02 12:07:34,1.436s,FAILED
+openBrowser(url),,,,2023-08-02 12:07:33,2023-08-02 12:07:34,1.352s,FAILED
+,,,,,,,
+Test Cases/TC_006_Verify the Logout feature,,,,2023-08-02 12:07:39,2023-08-02 12:07:41,1.481s,FAILED
+"callTestCase(findTestCase(""TC_001_Verify the Login feature with valid credentials""), [:], STOP_ON_FAILURE)",,,,2023-08-02 12:07:39,2023-08-02 12:07:41,1.468s,FAILED

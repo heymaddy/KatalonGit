@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_002_Sanity Test 1_VC smart web app,Chrome 114.0.0.0,,,2023-07-31 14:42:11,2023-07-31 14:51:49,9m - 38.774s,PASSED
+,,,,,,,
+Test Cases/TC_001_Verify the Login feature with valid credentials,Chrome 114.0.0.0,,,2023-07-31 14:42:11,2023-07-31 14:43:07,56.343s,PASSED
+"openBrowser(""https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login"")",Chrome 114.0.0.0,,,2023-07-31 14:42:11,2023-07-31 14:42:21,9.677s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-31 14:42:21,2023-07-31 14:42:21,0.147s,PASSED
+delay(5),Chrome 114.0.0.0,,,2023-07-31 14:42:21,2023-07-31 14:42:26,5.039s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Username""))",Chrome 114.0.0.0,,,2023-07-31 14:42:26,2023-07-31 14:42:27,0.466s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Username""), ""BSO-2300"")",Chrome 114.0.0.0,,,2023-07-31 14:42:27,2023-07-31 14:42:27,0.805s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Password""))",Chrome 114.0.0.0,,,2023-07-31 14:42:27,2023-07-31 14:42:28,0.355s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Password""), ""Password@2300"")",Chrome 114.0.0.0,,,2023-07-31 14:42:28,2023-07-31 14:42:29,0.763s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 114.0.0.0,,,2023-07-31 14:42:29,2023-07-31 14:42:29,0.369s,PASSED
+delay(8),Chrome 114.0.0.0,,,2023-07-31 14:42:29,2023-07-31 14:42:37,8.006s,PASSED
+"verifyTextPresent(""VC Smart"", false)",Chrome 114.0.0.0,,,2023-07-31 14:42:37,2023-07-31 14:43:07,30.348s,PASSED
+,,,,,,,
+Test Cases/TC_004_Verify the TBC feature,Chrome 114.0.0.0,,,2023-07-31 14:43:07,2023-07-31 14:44:41,1m - 33.608s,PASSED
+"callTestCase(findTestCase(""TC_001_Verify the Login feature with valid credentials""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-31 14:43:08,2023-07-31 14:43:59,51.796s,PASSED
+delay(8),Chrome 114.0.0.0,,,2023-07-31 14:43:59,2023-07-31 14:44:07,8.011s,PASSED
+"click(findTestObject(""OB_002_Feature1/Feature/a_Track By Criteria""))",Chrome 114.0.0.0,,,2023-07-31 14:44:07,2023-07-31 14:44:08,0.513s,PASSED
+"click(findTestObject(""OB_002_Feature1/Feature/button_Submit""))",Chrome 114.0.0.0,,,2023-07-31 14:44:08,2023-07-31 14:44:17,9.474s,PASSED
+delay(22),Chrome 114.0.0.0,,,2023-07-31 14:44:17,2023-07-31 14:44:39,22.018s,PASSED
+"verifyTextPresent(""Vehicle Number"", false)",Chrome 114.0.0.0,,,2023-07-31 14:44:39,2023-07-31 14:44:41,1.507s,PASSED
+,,,,,,,
+Test Cases/TC_005_Verify All feature of vc smart web application,Chrome 114.0.0.0,,,2023-07-31 14:44:41,2023-07-31 14:50:03,5m - 22.426s,PASSED
+"callTestCase(findTestCase(""TC_001_Verify the Login feature with valid credentials""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-31 14:44:41,2023-07-31 14:45:37,55.440s,PASSED
+delay(11),Chrome 114.0.0.0,,,2023-07-31 14:45:37,2023-07-31 14:45:48,11.011s,PASSED
+"click(findTestObject(""OB_003_All feature/All feature/a_Reports""))",Chrome 114.0.0.0,,,2023-07-31 14:45:48,2023-07-31 14:46:18,30.271s,PASSED
+"verifyTextPresent(""Safety Index Report"", false)",Chrome 114.0.0.0,,,2023-07-31 14:46:18,2023-07-31 14:46:48,30.086s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-07-31 14:46:48,2023-07-31 14:46:51,3.004s,PASSED
+"click(findTestObject(""OB_003_All feature/All feature/div_Safety Index Report""))",Chrome 114.0.0.0,,,2023-07-31 14:46:51,2023-07-31 14:47:21,30.250s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-07-31 14:47:21,2023-07-31 14:47:24,3.012s,PASSED
+"click(findTestObject(""OB_003_All feature/All feature/a_Reports""))",Chrome 114.0.0.0,,,2023-07-31 14:47:24,2023-07-31 14:47:25,0.391s,PASSED
+"click(findTestObject(""OB_003_All feature/All feature/div_User Access Report""))",Chrome 114.0.0.0,,,2023-07-31 14:47:25,2023-07-31 14:47:25,0.553s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-07-31 14:47:25,2023-07-31 14:47:28,3.010s,PASSED
+"click(findTestObject(""OB_003_All feature/All feature/a_Reports""))",Chrome 114.0.0.0,,,2023-07-31 14:47:28,2023-07-31 14:47:29,0.379s,PASSED
+"click(findTestObject(""OB_003_All feature/All feature/div_New Trip Report""))",Chrome 114.0.0.0,,,2023-07-31 14:47:29,2023-07-31 14:47:29,0.600s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-07-31 14:47:29,2023-07-31 14:47:32,3.012s,PASSED
+"click(findTestObject(""OB_003_All feature/All feature/a_Reports""))",Chrome 114.0.0.0,,,2023-07-31 14:47:32,2023-07-31 14:47:52,19.712s,PASSED
+"click(findTestObject(""OB_003_All feature/All feature/div_Login History Report""))",Chrome 114.0.0.0,,,2023-07-31 14:47:52,2023-07-31 14:47:52,0.533s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-07-31 14:47:52,2023-07-31 14:47:55,3.007s,PASSED
+"click(findTestObject(""OB_003_All feature/All feature/a_Reports""))",Chrome 114.0.0.0,,,2023-07-31 14:47:55,2023-07-31 14:47:56,0.376s,PASSED
+"click(findTestObject(""OB_003_All feature/All feature/div_External Consignment Log""))",Chrome 114.0.0.0,,,2023-07-31 14:47:56,2023-07-31 14:47:56,0.548s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-07-31 14:47:56,2023-07-31 14:47:59,3.002s,PASSED
+"click(findTestObject(""OB_003_All feature/All feature/a_Reports""))",Chrome 114.0.0.0,,,2023-07-31 14:47:59,2023-07-31 14:48:00,0.510s,PASSED
+"click(findTestObject(""OB_003_All feature/All feature/div_Exception Report""))",Chrome 114.0.0.0,,,2023-07-31 14:48:00,2023-07-31 14:48:00,0.563s,PASSED
+delay(3),Chrome 114.0.0.0,,,2023-07-31 14:48:00,2023-07-31 14:48:03,3.010s,PASSED
+"click(findTestObject(""OB_003_All feature/All feature/a_Reports""))",Chrome 114.0.0.0,,,2023-07-31 14:48:03,2023-07-31 14:48:34,30.206s,PASSED
+"click(findTestObject(""OB_003_All feature/All feature/a_Admin""))",Chrome 114.0.0.0,,,2023-07-31 14:48:34,2023-07-31 14:48:59,25.495s,PASSED
+delay(4),Chrome 114.0.0.0,,,2023-07-31 14:48:59,2023-07-31 14:49:03,4.002s,PASSED
+"verifyTextPresent(""Landmark Manager"", false)",Chrome 114.0.0.0,,,2023-07-31 14:49:03,2023-07-31 14:49:04,0.377s,PASSED
+"click(findTestObject(""OB_003_All feature/All feature/a_Admin""))",Chrome 114.0.0.0,,,2023-07-31 14:49:04,2023-07-31 14:49:04,0.411s,PASSED
+"click(findTestObject(""OB_003_All feature/All feature/a_NRD Dashboard""))",Chrome 114.0.0.0,,,2023-07-31 14:49:04,2023-07-31 14:49:04,0.381s,PASSED
+delay(11),Chrome 114.0.0.0,,,2023-07-31 14:49:04,2023-07-31 14:49:15,11.012s,PASSED
+"verifyTextPresent(""Device Status"", false)",Chrome 114.0.0.0,,,2023-07-31 14:49:15,2023-07-31 14:49:19,3.860s,PASSED
+"click(findTestObject(""OB_003_All feature/All feature/a_Map View""))",Chrome 114.0.0.0,,,2023-07-31 14:49:19,2023-07-31 14:49:20,0.448s,PASSED
+delay(12),Chrome 114.0.0.0,,,2023-07-31 14:49:20,2023-07-31 14:49:32,12.006s,PASSED
+"verifyTextPresent(""View Grid"", false)",Chrome 114.0.0.0,,,2023-07-31 14:49:32,2023-07-31 14:50:03,30.887s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-31 14:50:03,2023-07-31 14:50:03,0.768s,PASSED
+,,,,,,,
+Test Cases/TC_006_Verify the Logout feature,Chrome 114.0.0.0,,,2023-07-31 14:50:03,2023-07-31 14:51:49,1m - 46.135s,PASSED
+"callTestCase(findTestCase(""TC_001_Verify the Login feature with valid credentials""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-31 14:50:04,2023-07-31 14:50:58,54.790s,PASSED
+delay(8),Chrome 114.0.0.0,,,2023-07-31 14:50:58,2023-07-31 14:51:06,8.014s,PASSED
+"click(findTestObject(""OB_004_Logout Feature/logout feature/a_IOCL""))",Chrome 114.0.0.0,,,2023-07-31 14:51:06,2023-07-31 14:51:35,28.959s,PASSED
+delay(5),Chrome 114.0.0.0,,,2023-07-31 14:51:35,2023-07-31 14:51:40,5.005s,PASSED
+"click(findTestObject(""OB_004_Logout Feature/logout feature/button_Logout""))",Chrome 114.0.0.0,,,2023-07-31 14:51:40,2023-07-31 14:51:41,0.379s,PASSED
+delay(8),Chrome 114.0.0.0,,,2023-07-31 14:51:41,2023-07-31 14:51:49,8.010s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-07-31 14:51:49,2023-07-31 14:51:49,0.684s,PASSED
