@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>All Vehicle BOX</name>
+   <tag></tag>
+   <elementGuidId>d3ee1001-64d5-4434-8095-999c5b650c91</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#all</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='all']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c96e16be-3c9b-4a3f-9830-ca64d070857c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card dash-dial py-3 px-1</value>
+      <webElementGuid>b0925f7e-e56b-4fb6-b1ec-c3e19acf48fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>all</value>
+      <webElementGuid>69577249-70f9-4937-bccf-b160600f0f30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>28All vehicles Grid view  Map view</value>
+      <webElementGuid>105cdf9a-779f-4d6d-8e9a-532021775bdb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;all&quot;)</value>
+      <webElementGuid>f93489b2-0dda-4071-8fda-d54d510c301d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='all']</value>
+      <webElementGuid>247ab0af-a5a4-44d4-b18e-7bfea42b649f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='FMSContainer']/app-dashboard/div/div/div/div</value>
+      <webElementGuid>8e90da10-c0cf-4566-a12f-099bdc13fb0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refresh'])[1]/following::div[5]</value>
+      <webElementGuid>80728193-bcec-40b4-9db8-709673f074a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[2]/following::div[6]</value>
+      <webElementGuid>fea95970-cc3d-444d-b355-276da9c6eb31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div</value>
+      <webElementGuid>2343900e-9430-429b-81e2-8f4baf7baead</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'all' and (text() = '28All vehicles Grid view  Map view' or . = '28All vehicles Grid view  Map view')]</value>
+      <webElementGuid>c9796b2c-0d13-4840-8363-6a49158486f7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

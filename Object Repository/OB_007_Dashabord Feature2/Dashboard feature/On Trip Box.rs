@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>On Trip Box</name>
+   <tag></tag>
+   <elementGuidId>5fbaca59-fedf-4c09-bc71-e6bd7cc738e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#onTrip</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='onTrip']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>de47bf3b-ebdc-4db9-8bfd-ae40e28ebb18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card dash-dial py-3 px-1</value>
+      <webElementGuid>d1ad7bcd-dbbd-46de-90a0-5b3699505369</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>onTrip</value>
+      <webElementGuid>0e48841e-8df7-4497-8a96-5703f8eccb9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>21On trip vehicles Grid view  Map view</value>
+      <webElementGuid>d1c3daea-6009-43db-a9a9-f54d5355b538</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;onTrip&quot;)</value>
+      <webElementGuid>fdba812d-7048-4f8a-9ba5-64db9fb020e5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='onTrip']</value>
+      <webElementGuid>4104b006-82fa-4a36-b773-80eadd4b5de3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='FMSContainer']/app-dashboard/div/div/div[6]/div</value>
+      <webElementGuid>4e447fdc-0552-4c84-9158-cc344831f50c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Untracked vehicles'])[1]/following::div[2]</value>
+      <webElementGuid>bbb10457-9310-4ac2-831e-fab1d30a8874</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Map view'])[4]/following::div[5]</value>
+      <webElementGuid>cc5ada63-abde-41b6-b762-cc70df388227</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[6]/div</value>
+      <webElementGuid>9c739c78-000f-4e32-a15d-4ed88dcf5c86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'onTrip' and (text() = '21On trip vehicles Grid view  Map view' or . = '21On trip vehicles Grid view  Map view')]</value>
+      <webElementGuid>fb95be5a-9262-4cfe-a5c3-f3dcc1071120</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

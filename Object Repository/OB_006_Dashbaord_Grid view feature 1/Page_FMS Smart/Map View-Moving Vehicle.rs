@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Map View-Moving Vehicle</name>
+   <tag></tag>
+   <elementGuidId>403a4587-3560-452c-90ae-1cae51aee4ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.checkmark.bg-success.py-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='FMSContainer']/app-mapview/div/div/div/div/label[2]/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7ccd8e8c-1e34-440f-997c-1422ef954350</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>checkmark bg-success py-1</value>
+      <webElementGuid>65bc291b-fcfb-4cf8-a089-ad2464155b87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;FMSContainer&quot;)/app-mapview[1]/div[@class=&quot;animated fadeIn&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-header p-1&quot;]/div[@class=&quot;row m-0&quot;]/label[@class=&quot;checkmark-container bg-white col-md-2 col-sm-6&quot;]/span[@class=&quot;checkmark bg-success py-1&quot;]</value>
+      <webElementGuid>f60371d8-879e-4290-aed4-dfae06f770d9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='FMSContainer']/app-mapview/div/div/div/div/label[2]/span[2]</value>
+      <webElementGuid>9e056a7e-6803-4460-8a80-49fa0bae55d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label[2]/span[2]</value>
+      <webElementGuid>7e386364-18ef-46ce-b9f7-9024e39ab944</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

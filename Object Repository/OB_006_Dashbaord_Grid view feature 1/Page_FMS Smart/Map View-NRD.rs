@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Map View-NRD</name>
+   <tag></tag>
+   <elementGuidId>a7a71e81-5123-44b6-912a-078d64508542</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.checkmark.bg-danger.py-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='FMSContainer']/app-mapview/div/div/div/div/label[4]/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f10e18b9-1252-4ed5-b880-7a17f88c7ad9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>checkmark bg-danger py-1</value>
+      <webElementGuid>8688d643-5760-4e64-9b46-c99527c0614d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;FMSContainer&quot;)/app-mapview[1]/div[@class=&quot;animated fadeIn&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-header p-1&quot;]/div[@class=&quot;row m-0&quot;]/label[@class=&quot;checkmark-container bg-white col-md-2 col-sm-6&quot;]/span[@class=&quot;checkmark bg-danger py-1&quot;]</value>
+      <webElementGuid>feeff7dc-e81b-4927-ac76-7dc63b3e6e72</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='FMSContainer']/app-mapview/div/div/div/div/label[4]/span[2]</value>
+      <webElementGuid>8b2ec413-6223-449c-828e-82a0d08314b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label[4]/span[2]</value>
+      <webElementGuid>f93f38d0-efcb-4251-acca-0fbc4baf61f5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

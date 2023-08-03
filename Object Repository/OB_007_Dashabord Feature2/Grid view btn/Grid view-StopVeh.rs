@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Grid view-StopVeh</name>
+   <tag></tag>
+   <elementGuidId>cc16f994-0b6e-4292-a332-2bff3ae493eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#stopped > div.card-footer.btn-group.btnGotoMapView.p-0 > div.dropdown.optionsMenu > #dropdownMenuButton</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@id='dropdownMenuButton'])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>291d9d65-8c6d-436a-996e-9c43097eead9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>dropdownMenuButton</value>
+      <webElementGuid>83b6ac40-a3b1-4aff-83f4-c88e0a0b0610</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>140d314e-ad19-45d3-9412-154bd11c5ab8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-warning text-center text-white my-1 pointer btn-sm</value>
+      <webElementGuid>6032b113-1f91-41c3-ab4a-fe402f1bbb2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Grid view </value>
+      <webElementGuid>799890c4-80c5-47f2-93fb-f69e66579d02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;stopped&quot;)/div[@class=&quot;card-footer btn-group btnGotoMapView p-0&quot;]/div[@class=&quot;dropdown optionsMenu&quot;]/button[@id=&quot;dropdownMenuButton&quot;]</value>
+      <webElementGuid>abd43e1f-d719-4e94-acd6-27064037576d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@id='dropdownMenuButton'])[3]</value>
+      <webElementGuid>fe87703a-f37f-4fce-aa5c-5bd18cb56f68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='stopped']/div[2]/div/button</value>
+      <webElementGuid>069c33da-a227-4229-87c9-819d14f992e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stopped vehicles'])[1]/following::button[1]</value>
+      <webElementGuid>643540c8-0676-4c12-8cf2-fe0fadb440f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Map view'])[2]/following::button[1]</value>
+      <webElementGuid>8fc14103-b963-459c-90b9-d8065eaebb66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Map view'])[3]/preceding::button[1]</value>
+      <webElementGuid>5b99100f-9134-43e1-b80a-3bd4dd33fc14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NRD vehicles'])[1]/preceding::button[2]</value>
+      <webElementGuid>115f031b-d438-43c9-a303-7a1e2d287bb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/button</value>
+      <webElementGuid>347b1bfe-ec39-408b-a078-1a052cad9129</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'dropdownMenuButton' and @type = 'button' and (text() = ' Grid view ' or . = ' Grid view ')]</value>
+      <webElementGuid>bbe59aa0-ce20-4641-9ce1-363289a996c6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

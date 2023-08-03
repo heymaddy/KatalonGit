@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Close Grid view</name>
+   <tag></tag>
+   <elementGuidId>39a009c5-7121-4ae1-aa0f-3dcc573b687a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#closeModalDirective3 > span.fa.fa-close</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='closeModalDirective3']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3ba41401-667f-421d-9ec4-54d77ff9e71e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>3fa759f4-8c66-4f3f-912e-bffb9a134629</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-close</value>
+      <webElementGuid>49ef04e2-a749-4348-8cfb-cdb093f8f3b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;closeModalDirective3&quot;)/span[@class=&quot;fa fa-close&quot;]</value>
+      <webElementGuid>06798166-73dd-453f-aa09-12d86e399207</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='closeModalDirective3']/span</value>
+      <webElementGuid>0d7c127d-78bd-4f87-9ea4-8f6ae69bdf0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//modal-container/div/div/div/button/span</value>
+      <webElementGuid>1e8de8eb-b516-45be-afc9-3261e39cc28a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

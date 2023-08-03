@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Stopped Vehicle BOX</name>
+   <tag></tag>
+   <elementGuidId>1a100d7c-3bd2-4626-b4f6-32d2c7ce9603</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#stopped</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='stopped']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cf09e0fc-2d31-4c19-ba22-8dd4a38dd74d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card dash-dial py-3 px-1</value>
+      <webElementGuid>dac4c813-60ea-4a80-a6f4-1f83b3c56a15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>stopped</value>
+      <webElementGuid>107a09d2-a045-4ad4-becb-dc967fbaecd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>23Stopped vehicles Grid view  Map view</value>
+      <webElementGuid>8d9a4a1d-3cbf-4311-8e2e-1271af241ebd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;stopped&quot;)</value>
+      <webElementGuid>78ab0a79-447f-4c82-bcb8-3fa4edfd09c7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='stopped']</value>
+      <webElementGuid>5d27e199-1a67-4d57-92e9-609d9ec30392</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='FMSContainer']/app-dashboard/div/div/div[3]/div</value>
+      <webElementGuid>71f44e84-9b17-44b7-862a-1126eae565a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Map view'])[2]/following::div[2]</value>
+      <webElementGuid>4fc4f622-d77c-4c6d-af05-9d1ffb7a0081</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grid view'])[2]/following::div[2]</value>
+      <webElementGuid>c0c43d27-e940-462c-b5b2-5a9b87d8cd0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]/div</value>
+      <webElementGuid>83c80423-55a7-46af-9555-a24a5d72164b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'stopped' and (text() = '23Stopped vehicles Grid view  Map view' or . = '23Stopped vehicles Grid view  Map view')]</value>
+      <webElementGuid>704130e3-d9a7-419e-b535-674d4787ff85</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

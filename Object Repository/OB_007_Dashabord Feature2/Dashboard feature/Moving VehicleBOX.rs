@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Moving VehicleBOX</name>
+   <tag></tag>
+   <elementGuidId>8af1f3de-d875-4544-bafb-1d771aa56390</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#moving</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='moving']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f777f68f-faff-4cd7-bbd0-c191dec5ef40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card dash-dial py-3 px-1</value>
+      <webElementGuid>afad6285-4e24-4187-8276-7e3fdb830c83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>moving</value>
+      <webElementGuid>665bd3ee-787e-478b-bd5a-eca0ff8d707a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>3Moving vehicles Grid view  Map view</value>
+      <webElementGuid>f8770665-8278-4701-8aae-4f65785bf1eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;moving&quot;)</value>
+      <webElementGuid>fd80e824-5871-4e06-901e-3ac2cbad6b4a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='moving']</value>
+      <webElementGuid>1b8d750d-55b2-435c-af8e-3d3c19428de3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='FMSContainer']/app-dashboard/div/div/div[2]/div</value>
+      <webElementGuid>97d85ac1-061a-4e45-b5b8-49fe0ada0b5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Map view'])[1]/following::div[2]</value>
+      <webElementGuid>1451308f-2cfc-4591-a88a-1d3b15ca9740</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grid view'])[1]/following::div[2]</value>
+      <webElementGuid>904dafc5-083c-47ee-a47c-3737b7fe4e4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/div</value>
+      <webElementGuid>6e50189f-a051-4857-9d09-6b164002ac7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'moving' and (text() = '3Moving vehicles Grid view  Map view' or . = '3Moving vehicles Grid view  Map view')]</value>
+      <webElementGuid>b3c271e4-317a-4b52-b77f-bf257ba46fcc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

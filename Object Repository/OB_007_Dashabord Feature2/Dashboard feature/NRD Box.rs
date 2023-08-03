@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>NRD Box</name>
+   <tag></tag>
+   <elementGuidId>077ef3d1-1a94-4c66-802e-cb7bb40607d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#nrd</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='nrd']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b00ef4ed-2cf9-4ed0-842d-185e3f4978d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card dash-dial py-3 px-1</value>
+      <webElementGuid>1b494fc9-7471-4fd3-8dfb-b34a6e4d47a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>nrd</value>
+      <webElementGuid>01df46e1-81ee-45d0-ac28-0219cd370afa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2NRD vehicles Grid view  Map view</value>
+      <webElementGuid>d2a0f4c8-9a63-49ff-b5a1-befcde2cf0fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;nrd&quot;)</value>
+      <webElementGuid>706a5b1e-ffaa-43c4-8b4c-aa3785dfb229</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='nrd']</value>
+      <webElementGuid>e89a0e9f-a18a-4ed3-9eda-55e80892e8d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='FMSContainer']/app-dashboard/div/div/div[4]/div</value>
+      <webElementGuid>8003cecb-caac-48b8-924d-82dfa4a71c7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Map view'])[3]/following::div[2]</value>
+      <webElementGuid>f9e8837d-f227-4b58-b3a7-229ac28f9db4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Grid view'])[3]/following::div[2]</value>
+      <webElementGuid>eda19a7a-da7c-40f6-808a-a0e9cdd15022</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[4]/div</value>
+      <webElementGuid>c616f08b-dba0-481e-9b67-da7af1c7e034</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'nrd' and (text() = '2NRD vehicles Grid view  Map view' or . = '2NRD vehicles Grid view  Map view')]</value>
+      <webElementGuid>1b9788b1-99af-4a00-97eb-1a8187cf0e8c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

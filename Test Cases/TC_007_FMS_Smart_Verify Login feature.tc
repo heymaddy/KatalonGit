@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_007_FMS_Smart_Verify Login feature</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a458b950-33ae-459b-972a-0d570f76865c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c8ecb25b-bdf9-46a2-9394-e542e9f6c849</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8a3c3ab8-d1ad-4c6f-9a34-8a7be71456ff</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>65c6a04e-6a74-4303-965b-432068b925c3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'</defaultValue>
+      <description></description>
+      <id>c8ecb25b-bdf9-46a2-9394-e542e9f6c849</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'11038331'</defaultValue>
+      <description></description>
+      <id>8a3c3ab8-d1ad-4c6f-9a34-8a7be71456ff</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nr@747900'</defaultValue>
+      <description></description>
+      <id>65c6a04e-6a74-4303-965b-432068b925c3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
