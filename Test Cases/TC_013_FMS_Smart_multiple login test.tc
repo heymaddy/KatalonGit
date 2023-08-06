@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_013_FMS_Smart_multiple login test</name>
+   <tag>data driven test</tag>
+   <comment></comment>
+   <testCaseGuid>1338a549-c1a7-455f-9092-d64ddc77b1ec</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8e290ef6-45b5-4b11-9519-2fb856b115b3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ed2b2221-d6c1-4089-a356-2a17648fcf36</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8a044be0-2c2e-4b39-afa3-e43291d38658</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'</defaultValue>
+      <description></description>
+      <id>8e290ef6-45b5-4b11-9519-2fb856b115b3</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('FMS_Smart multiple login details')</defaultValue>
+      <description></description>
+      <id>ed2b2221-d6c1-4089-a356-2a17648fcf36</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('FMS_Smart multiple login details')</defaultValue>
+      <description></description>
+      <id>8a044be0-2c2e-4b39-afa3-e43291d38658</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
