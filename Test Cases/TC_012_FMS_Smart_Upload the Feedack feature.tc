@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_012_FMS_Smart_Upload the Feedack feature</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>216037d0-373c-42f4-a719-136010ee3f8a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>39020375-38ec-4927-b51e-300c4fab63f0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\windows 10\\\\Documents\\\\feedback.doc'</defaultValue>
+      <description></description>
+      <id>39020375-38ec-4927-b51e-300c4fab63f0</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>

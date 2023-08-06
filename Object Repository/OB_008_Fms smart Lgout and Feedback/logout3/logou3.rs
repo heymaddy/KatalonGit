@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>logou3</name>
+   <tag></tag>
+   <elementGuidId>9fad4ff1-8fd5-431a-ac68-91a7df81523c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-sign-out.d-flex.align-items-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='feedback-modal']/div[2]/form/div[7]/div[2]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>7d4c754e-cf52-4879-a56c-145173e69b5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-sign-out d-flex align-items-center</value>
+      <webElementGuid>12499e0c-a7d2-4af5-b0ce-b21386e20b26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;feedback-modal&quot;)/div[2]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;pb-3&quot;]/div[@class=&quot;d-flex ml-5 logout-btn&quot;]/i[@class=&quot;fa fa-sign-out d-flex align-items-center&quot;]</value>
+      <webElementGuid>988540c7-89aa-42c6-95a9-3e0e9e5944ca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='feedback-modal']/div[2]/form/div[7]/div[2]/i</value>
+      <webElementGuid>efb31e64-f566-4352-83aa-386a19bd1241</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/i</value>
+      <webElementGuid>b164a2ae-089c-45da-978a-60f9acef7b4f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

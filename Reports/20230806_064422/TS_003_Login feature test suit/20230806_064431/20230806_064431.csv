@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_003_Login feature test suit,Chrome 115.0.0.0,,,2023-08-06 06:44:36,2023-08-06 06:47:20,2m - 43.974s,FAILED
+,,,,,,,
+Test Cases/TC_001_Verify the Login feature with valid credentials,Chrome 115.0.0.0,,,2023-08-06 06:44:37,2023-08-06 06:45:21,44.587s,FAILED
+"openBrowser(""https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login"")",Chrome 115.0.0.0,,,2023-08-06 06:44:37,2023-08-06 06:44:52,14.455s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-06 06:44:52,2023-08-06 06:44:52,0.135s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-06 06:44:52,2023-08-06 06:44:57,5.020s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Username""))",Chrome 115.0.0.0,,,2023-08-06 06:44:57,2023-08-06 06:44:57,0.446s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Username""), ""BSO-2300"")",Chrome 115.0.0.0,,,2023-08-06 06:44:57,2023-08-06 06:44:58,0.789s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Password""))",Chrome 115.0.0.0,,,2023-08-06 06:44:58,2023-08-06 06:44:58,0.373s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Password""), ""Password@2300"")",Chrome 115.0.0.0,,,2023-08-06 06:44:58,2023-08-06 06:44:59,0.869s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-06 06:44:59,2023-08-06 06:45:00,0.370s,PASSED
+delay(8),Chrome 115.0.0.0,,,2023-08-06 06:45:00,2023-08-06 06:45:08,8.004s,PASSED
+"verifyTextPresent(""VC Smart"", false)",Chrome 115.0.0.0,,,2023-08-06 06:45:08,2023-08-06 06:45:21,13.724s,FAILED
+,,,,,,,
+Test Cases/TC_002_Verify the Login feature with invalid credentials,Chrome 115.0.0.0,,,2023-08-06 06:45:21,2023-08-06 06:46:11,49.341s,FAILED
+openBrowser(url),Chrome 115.0.0.0,,,2023-08-06 06:45:21,2023-08-06 06:46:11,49.145s,FAILED
+,,,,,,,
+Test Cases/TC_006_Verify the Logout feature,Chrome 115.0.0.0,,,2023-08-06 06:46:11,2023-08-06 06:47:20,1m - 9.663s,FAILED
+"callTestCase(findTestCase(""TC_001_Verify the Login feature with valid credentials""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-06 06:46:11,2023-08-06 06:47:20,1m - 9.521s,FAILED

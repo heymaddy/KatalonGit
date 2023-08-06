@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Logout2</name>
+   <tag></tag>
+   <elementGuidId>0028f16a-ab4d-45ce-9467-900405113c98</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.d-flex.ml-5.logout-btn > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='feedback-modal']/div[2]/form/div[7]/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>76532317-260c-4116-bda1-6bdd0cb50964</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Logout</value>
+      <webElementGuid>ccde9233-c8a4-416f-b11a-4c9ec8f81649</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;feedback-modal&quot;)/div[2]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;pb-3&quot;]/div[@class=&quot;d-flex ml-5 logout-btn&quot;]/span[1]</value>
+      <webElementGuid>7d1e05de-fd31-4db4-9dd6-fe09b58997d7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='feedback-modal']/div[2]/form/div[7]/div[2]/span</value>
+      <webElementGuid>9721d9a9-c922-4cda-9fc4-0d3ff2c27828</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Send Feedback'])[1]/following::span[1]</value>
+      <webElementGuid>aba6daa4-623d-4e1a-8f44-f38cb784e523</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::span[1]</value>
+      <webElementGuid>d43687de-1ec8-4988-885b-a19caa33964d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trimble'])[1]/preceding::span[1]</value>
+      <webElementGuid>be06c53c-2e2f-4a94-a417-010ed31341f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div[2]/span</value>
+      <webElementGuid>fc0d4204-a04e-4c25-82a8-f8976bdfa54c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Logout' or . = 'Logout')]</value>
+      <webElementGuid>05282466-95e4-4dd5-abae-4bd8595e7b23</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Send Feedback</name>
+   <tag></tag>
+   <elementGuidId>9a92274a-b1c1-4edd-97a2-e0d64917ddc4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-comments.d-flex.align-items-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='feedback-modal']/div[2]/form/div[7]/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>5bf3bd17-c95a-4e0c-8311-2619e65dd488</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-comments d-flex align-items-center</value>
+      <webElementGuid>8efdb8e8-d2bc-4646-b8a4-6ccab3aa7ea3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;feedback-modal&quot;)/div[2]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;pb-3&quot;]/div[@class=&quot;d-flex&quot;]/i[@class=&quot;fa fa-comments d-flex align-items-center&quot;]</value>
+      <webElementGuid>60efb17d-cc56-479f-bc2d-c8e837225dfa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='feedback-modal']/div[2]/form/div[7]/div/i</value>
+      <webElementGuid>fd50d597-1e15-49ad-a4cc-146865228fcd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[7]/div/i</value>
+      <webElementGuid>ef669d2e-e011-40f6-9a1b-be1d1f1eb103</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

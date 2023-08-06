@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Send Feedback</name>
+   <tag></tag>
+   <elementGuidId>9fc247b6-1a96-457a-95c0-5a2be1f6a07b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.feed-back-btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='feedback-modal']/div[2]/form/div[7]/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c1027a61-6fea-48cb-bda0-c38a11f00c98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>feed-back-btn</value>
+      <webElementGuid>56d61026-33a6-4e2b-bb2b-124c3dfb792b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Send Feedback</value>
+      <webElementGuid>3082dff4-5a21-4444-a47d-eb4c6197e36d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;feedback-modal&quot;)/div[2]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;pb-3&quot;]/div[@class=&quot;d-flex&quot;]/button[@class=&quot;feed-back-btn&quot;]</value>
+      <webElementGuid>3cf7f1a9-6ebe-4696-8e22-c032387ae35f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='feedback-modal']/div[2]/form/div[7]/div/button</value>
+      <webElementGuid>8ea960e9-274b-4e65-af25-d5bf90ccffbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::button[1]</value>
+      <webElementGuid>79fa3b80-e357-427b-a408-43863700624f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload File upto 2MB'])[1]/following::button[1]</value>
+      <webElementGuid>bb21ed44-9549-4a92-aa81-ecd1d728249a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[2]/preceding::button[1]</value>
+      <webElementGuid>b18e8603-5e42-4b1e-b86f-7db2e33f382f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Send Feedback']/parent::*</value>
+      <webElementGuid>a9e763e0-acef-460c-923d-e9ebfdeecd73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/button</value>
+      <webElementGuid>dba40571-dfca-4486-9942-544c1ac3bc23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Send Feedback' or . = 'Send Feedback')]</value>
+      <webElementGuid>62a065a1-5cfb-4610-8001-21e3ed533173</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

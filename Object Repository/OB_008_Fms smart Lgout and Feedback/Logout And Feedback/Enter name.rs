@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Enter name</name>
+   <tag></tag>
+   <elementGuidId>8d5410e8-d9b4-45f3-9e9b-fbc30113c4e1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.ng-pristine.ng-invalid.ng-touched</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='feedback-modal']/div[2]/form/div/div/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>df4574d2-0cf4-42dd-b4b6-de4ecbccc358</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-invalid ng-touched</value>
+      <webElementGuid>d13a861b-d346-441a-a4fa-6689bc4b94b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>name</value>
+      <webElementGuid>c8fa3295-f4df-4389-8bb5-1a2abc80be86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter Name</value>
+      <webElementGuid>88449d04-3977-4486-b058-c131d87b1940</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-name</name>
+      <type>Main</type>
+      <value>name</value>
+      <webElementGuid>942a4087-e769-4b99-8e47-0b70cd37b9ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;feedback-modal&quot;)/div[2]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;d-flex justify-content-between mb-2&quot;]/div[@class=&quot;w-50&quot;]/div[@class=&quot;d-flex align-items-center input-text&quot;]/input[@class=&quot;form-control ng-pristine ng-invalid ng-touched&quot;]</value>
+      <webElementGuid>2d9052fb-f7a6-48e2-aae3-18db2546d4e8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='feedback-modal']/div[2]/form/div/div/div/input</value>
+      <webElementGuid>d4247314-4cd0-452b-ab2f-a807feeb771e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/input</value>
+      <webElementGuid>d4f88967-5dac-4825-a67d-58f5a73eca0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Enter Name']</value>
+      <webElementGuid>7130e51f-ee7e-41a8-8fb2-b58638945eca</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
