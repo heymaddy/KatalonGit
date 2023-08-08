@@ -1,0 +1,111 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_01_FMS_Smart_Web app_Sanity,Chrome 115.0.0.0,,,2023-08-06 15:49:52,2023-08-06 15:55:48,5m - 55.679s,PASSED
+,,,,,,,
+Test Cases/TC_007_FMS_Smart_Verify Login feature,Chrome 115.0.0.0,,,2023-08-06 15:49:53,2023-08-06 15:50:14,21.634s,PASSED
+openBrowser(url),Chrome 115.0.0.0,,,2023-08-06 15:49:54,2023-08-06 15:50:00,6.918s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-06 15:50:00,2023-08-06 15:50:01,0.232s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-06 15:50:01,2023-08-06 15:50:04,3.076s,PASSED
+"click(findTestObject(""OB_005_Login screen_fms smart/login screen/username""))",Chrome 115.0.0.0,,,2023-08-06 15:50:04,2023-08-06 15:50:04,0.612s,PASSED
+"setText(findTestObject(""OB_005_Login screen_fms smart/login screen/username""), username)",Chrome 115.0.0.0,,,2023-08-06 15:50:04,2023-08-06 15:50:05,0.915s,PASSED
+"click(findTestObject(""OB_005_Login screen_fms smart/login screen/Password""))",Chrome 115.0.0.0,,,2023-08-06 15:50:05,2023-08-06 15:50:06,0.506s,PASSED
+"setText(findTestObject(""OB_005_Login screen_fms smart/login screen/Password""), password)",Chrome 115.0.0.0,,,2023-08-06 15:50:06,2023-08-06 15:50:07,0.858s,PASSED
+"click(findTestObject(""OB_005_Login screen_fms smart/login screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-06 15:50:07,2023-08-06 15:50:07,0.496s,PASSED
+delay(6),Chrome 115.0.0.0,,,2023-08-06 15:50:07,2023-08-06 15:50:13,6.008s,PASSED
+"click(findTestObject(""OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE""))",Chrome 115.0.0.0,,,2023-08-06 15:50:13,2023-08-06 15:50:14,0.525s,PASSED
+"verifyTextPresent(""FMS Smart"", false)",Chrome 115.0.0.0,,,2023-08-06 15:50:14,2023-08-06 15:50:14,0.680s,PASSED
+,,,,,,,
+Test Cases/TC_008_FMS_Smart_All Vehicles,Chrome 115.0.0.0,,,2023-08-06 15:50:14,2023-08-06 15:51:21,1m - 6.723s,PASSED
+"callTestCase(findTestCase(""TC_007_FMS_Smart_Verify Login feature""), [""url"":""https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login"", ""username"":""11038331"", ""password"":""Nr@747900""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-06 15:50:15,2023-08-06 15:50:35,19.799s,PASSED
+"click(findTestObject(""OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/All Vehicle BOX""))",Chrome 115.0.0.0,,,2023-08-06 15:50:35,2023-08-06 15:50:36,0.866s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-06 15:50:36,2023-08-06 15:50:39,3.018s,PASSED
+"click(findTestObject(""OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_Grid view""))",Chrome 115.0.0.0,,,2023-08-06 15:50:39,2023-08-06 15:50:39,0.570s,PASSED
+"click(findTestObject(""OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Close Grid view""))",Chrome 115.0.0.0,,,2023-08-06 15:50:39,2023-08-06 15:50:43,3.535s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-06 15:50:43,2023-08-06 15:50:48,5.018s,PASSED
+"click(findTestObject(""OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/All Vehicle BOX""))",Chrome 115.0.0.0,,,2023-08-06 15:50:48,2023-08-06 15:50:48,0.494s,PASSED
+"click(findTestObject(""OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_Map view""))",Chrome 115.0.0.0,,,2023-08-06 15:50:48,2023-08-06 15:50:49,0.548s,PASSED
+delay(4),Chrome 115.0.0.0,,,2023-08-06 15:50:49,2023-08-06 15:50:53,4.007s,PASSED
+"click(findTestObject(""OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-Moving Vehicle""))",Chrome 115.0.0.0,,,2023-08-06 15:50:53,2023-08-06 15:50:54,1.301s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-06 15:50:54,2023-08-06 15:50:57,3.019s,PASSED
+"click(findTestObject(""OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map Vew-Untracked vehicles""))",Chrome 115.0.0.0,,,2023-08-06 15:50:57,2023-08-06 15:50:58,0.916s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-06 15:50:58,2023-08-06 15:51:01,3.018s,PASSED
+"click(findTestObject(""OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-NRD""))",Chrome 115.0.0.0,,,2023-08-06 15:51:01,2023-08-06 15:51:02,0.940s,PASSED
+delay(4),Chrome 115.0.0.0,,,2023-08-06 15:51:02,2023-08-06 15:51:06,4.017s,PASSED
+"click(findTestObject(""OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-On trip vehicles""))",Chrome 115.0.0.0,,,2023-08-06 15:51:06,2023-08-06 15:51:07,0.998s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-06 15:51:07,2023-08-06 15:51:10,3.004s,PASSED
+"click(findTestObject(""OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map view-Stopped vehicle""))",Chrome 115.0.0.0,,,2023-08-06 15:51:10,2023-08-06 15:51:11,1.010s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-06 15:51:11,2023-08-06 15:51:13,2.012s,PASSED
+"click(findTestObject(""OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_View grid""))",Chrome 115.0.0.0,,,2023-08-06 15:51:13,2023-08-06 15:51:14,1.226s,PASSED
+delay(6),Chrome 115.0.0.0,,,2023-08-06 15:51:14,2023-08-06 15:51:20,6.014s,PASSED
+"click(findTestObject(""OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Close Grid view""))",Chrome 115.0.0.0,,,2023-08-06 15:51:20,2023-08-06 15:51:21,0.796s,PASSED
+,,,,,,,
+Test Cases/TC_009_FMS_Smart_Dashabord feature 2,Chrome 115.0.0.0,,,2023-08-06 15:51:21,2023-08-06 15:52:35,1m - 14.265s,PASSED
+"callTestCase(findTestCase(""TC_007_FMS_Smart_Verify Login feature""), [""url"":""https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login"", ""username"":""11038331"", ""password"":""Nr@747900""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-06 15:51:22,2023-08-06 15:51:47,25.481s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-06 15:51:47,2023-08-06 15:51:50,3.005s,PASSED
+"click(findTestObject(""OB_007_Dashabord Feature2/Dashboard feature/Moving VehicleBOX""))",Chrome 115.0.0.0,,,2023-08-06 15:51:50,2023-08-06 15:51:51,0.568s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-06 15:51:51,2023-08-06 15:51:53,2.005s,PASSED
+"click(findTestObject(""OB_007_Dashabord Feature2/Dashboard feature/button_Grid view""))",Chrome 115.0.0.0,,,2023-08-06 15:51:53,2023-08-06 15:51:53,0.515s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-06 15:51:53,2023-08-06 15:51:55,2.008s,PASSED
+"verifyTextPresent(""Moving vehicles"", false)",Chrome 115.0.0.0,,,2023-08-06 15:51:55,2023-08-06 15:51:57,1.354s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-06 15:51:57,2023-08-06 15:51:59,2.007s,PASSED
+"click(findTestObject(""OB_007_Dashabord Feature2/Dashboard feature/CLose Grid Button""))",Chrome 115.0.0.0,,,2023-08-06 15:51:59,2023-08-06 15:51:59,0.607s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-06 15:51:59,2023-08-06 15:52:01,2.012s,PASSED
+"click(findTestObject(""OB_007_Dashabord Feature2/Dashboard feature/Stopped Vehicle BOX""))",Chrome 115.0.0.0,,,2023-08-06 15:52:01,2023-08-06 15:52:02,0.535s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-06 15:52:02,2023-08-06 15:52:04,2.013s,PASSED
+"click(findTestObject(""OB_007_Dashabord Feature2/Grid view btn/Grid view-StopVeh""))",Chrome 115.0.0.0,,,2023-08-06 15:52:04,2023-08-06 15:52:04,0.560s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-06 15:52:04,2023-08-06 15:52:06,2.013s,PASSED
+"verifyTextPresent(""Stopped vehicles"", false)",Chrome 115.0.0.0,,,2023-08-06 15:52:06,2023-08-06 15:52:08,1.485s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-06 15:52:08,2023-08-06 15:52:10,2.018s,PASSED
+"click(findTestObject(""OB_007_Dashabord Feature2/Dashboard feature/CLose Grid Button""))",Chrome 115.0.0.0,,,2023-08-06 15:52:10,2023-08-06 15:52:11,0.540s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-06 15:52:11,2023-08-06 15:52:13,2.010s,PASSED
+"click(findTestObject(""OB_007_Dashabord Feature2/Dashboard feature/NRD Box""))",Chrome 115.0.0.0,,,2023-08-06 15:52:13,2023-08-06 15:52:13,0.535s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-06 15:52:13,2023-08-06 15:52:15,2.007s,PASSED
+"click(findTestObject(""OB_007_Dashabord Feature2/Grid view btn/Grid view-NRD""))",Chrome 115.0.0.0,,,2023-08-06 15:52:15,2023-08-06 15:52:16,0.567s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-06 15:52:16,2023-08-06 15:52:18,2.010s,PASSED
+"verifyTextPresent(""NRD vehicles"", false)",Chrome 115.0.0.0,,,2023-08-06 15:52:18,2023-08-06 15:52:20,2.082s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-06 15:52:20,2023-08-06 15:52:22,2.003s,PASSED
+"click(findTestObject(""OB_007_Dashabord Feature2/Dashboard feature/CLose Grid Button""))",Chrome 115.0.0.0,,,2023-08-06 15:52:22,2023-08-06 15:52:22,0.546s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-06 15:52:22,2023-08-06 15:52:24,2.012s,PASSED
+"click(findTestObject(""OB_007_Dashabord Feature2/Dashboard feature/On Trip Box""))",Chrome 115.0.0.0,,,2023-08-06 15:52:24,2023-08-06 15:52:25,0.562s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-06 15:52:25,2023-08-06 15:52:27,2.017s,PASSED
+"click(findTestObject(""OB_007_Dashabord Feature2/Grid view btn/Grid view-OnTrip""))",Chrome 115.0.0.0,,,2023-08-06 15:52:27,2023-08-06 15:52:27,0.490s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-06 15:52:27,2023-08-06 15:52:29,2.005s,PASSED
+"verifyTextPresent(""On trip vehicles"", false)",Chrome 115.0.0.0,,,2023-08-06 15:52:29,2023-08-06 15:52:31,1.340s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-06 15:52:31,2023-08-06 15:52:33,2.013s,PASSED
+"click(findTestObject(""OB_007_Dashabord Feature2/Dashboard feature/CLose Grid Button""))",Chrome 115.0.0.0,,,2023-08-06 15:52:33,2023-08-06 15:52:33,0.640s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-06 15:52:33,2023-08-06 15:52:35,2.016s,PASSED
+,,,,,,,
+Test Cases/TC_010_FMS_Smart_Verify Logout feature,Chrome 115.0.0.0,,,2023-08-06 15:52:35,2023-08-06 15:53:37,1m - 1.597s,PASSED
+"callTestCase(findTestCase(""TC_007_FMS_Smart_Verify Login feature""), [""url"":""https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login"", ""username"":""11038331"", ""password"":""Nr@747900""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-06 15:52:36,2023-08-06 15:52:57,21.097s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout1""))",Chrome 115.0.0.0,,,2023-08-06 15:52:57,2023-08-06 15:52:58,0.996s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-06 15:52:58,2023-08-06 15:53:01,3.003s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/Page_FMS Smart/Lgout22""))",Chrome 115.0.0.0,,,2023-08-06 15:53:01,2023-08-06 15:53:33,31.832s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-06 15:53:33,2023-08-06 15:53:36,3.012s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/logout3/logou3""))",Chrome 115.0.0.0,,,2023-08-06 15:53:36,2023-08-06 15:53:36,0.484s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-06 15:53:36,2023-08-06 15:53:37,0.746s,PASSED
+,,,,,,,
+Test Cases/TC_011_FMS_Smart_Verify Feedback feature,Chrome 115.0.0.0,,,2023-08-06 15:53:37,2023-08-06 15:55:14,1m - 37.252s,PASSED
+"callTestCase(findTestCase(""TC_007_FMS_Smart_Verify Login feature""), [""url"":""https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login"", ""username"":""11038331"", ""password"":""Nr@747900""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-06 15:53:37,2023-08-06 15:53:57,19.557s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout1""))",Chrome 115.0.0.0,,,2023-08-06 15:53:57,2023-08-06 15:53:58,0.522s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-06 15:53:58,2023-08-06 15:54:00,2.006s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout2""))",Chrome 115.0.0.0,,,2023-08-06 15:54:00,2023-08-06 15:54:31,31.786s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-06 15:54:31,2023-08-06 15:54:34,3.010s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/Logout And Feedback/5 Star""))",Chrome 115.0.0.0,,,2023-08-06 15:54:34,2023-08-06 15:54:35,0.494s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter name""))",Chrome 115.0.0.0,,,2023-08-06 15:54:35,2023-08-06 15:54:35,0.599s,PASSED
+"setText(findTestObject(""OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter name""), ""Maddy patil"")",Chrome 115.0.0.0,,,2023-08-06 15:54:35,2023-08-06 15:54:36,0.951s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter Email""))",Chrome 115.0.0.0,,,2023-08-06 15:54:36,2023-08-06 15:54:37,0.497s,PASSED
+"setText(findTestObject(""OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter Email""), ""maddy@gmail.com"")",Chrome 115.0.0.0,,,2023-08-06 15:54:37,2023-08-06 15:54:38,0.933s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Others""))",Chrome 115.0.0.0,,,2023-08-06 15:54:38,2023-08-06 15:54:39,0.810s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Description""))",Chrome 115.0.0.0,,,2023-08-06 15:54:39,2023-08-06 15:54:39,0.533s,PASSED
+"setText(findTestObject(""OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Description""), ""Application is very good,it helps lot ,thank you so much for this"")",Chrome 115.0.0.0,,,2023-08-06 15:54:39,2023-08-06 15:54:41,1.463s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Send Feedback""))",Chrome 115.0.0.0,,,2023-08-06 15:54:41,2023-08-06 15:55:13,31.900s,PASSED
+"verifyTextPresent(""Thank You"", false)",Chrome 115.0.0.0,,,2023-08-06 15:55:13,2023-08-06 15:55:14,1.735s,PASSED
+,,,,,,,
+Test Cases/TC_012_FMS_Smart_Upload the Feedack feature,Chrome 115.0.0.0,,,2023-08-06 15:55:14,2023-08-06 15:55:48,33.735s,PASSED
+"callTestCase(findTestCase(""TC_007_FMS_Smart_Verify Login feature""), [""url"":""https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login"", ""username"":""11038331"", ""password"":""Nr@747900""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-06 15:55:15,2023-08-06 15:55:36,20.771s,PASSED
+delay(4),Chrome 115.0.0.0,,,2023-08-06 15:55:36,2023-08-06 15:55:40,4.006s,PASSED
+"click(findTestObject(""OB_09_Upload feedback/Page_FMS Smart/FEEDBACK""))",Chrome 115.0.0.0,,,2023-08-06 15:55:40,2023-08-06 15:55:40,0.519s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-06 15:55:40,2023-08-06 15:55:43,3.008s,PASSED
+"click(findTestObject(""OB_09_Upload feedback/Page_FMS Smart/Send Feedback""))",Chrome 115.0.0.0,,,2023-08-06 15:55:43,2023-08-06 15:55:44,0.479s,PASSED
+"verifyTextPresent(""All fields are mandatory"", false)",Chrome 115.0.0.0,,,2023-08-06 15:55:44,2023-08-06 15:55:44,0.720s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-06 15:55:44,2023-08-06 15:55:47,3.007s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-06 15:55:47,2023-08-06 15:55:48,0.729s,PASSED

@@ -22,11 +22,11 @@ WebUI.callTestCase(findTestCase('TC_007_FMS_Smart_Verify Login feature'), [('url
 
 WebUI.delay(4)
 
-WebUI.click(findTestObject('OB_09_Upload feedback/Page_FMS Smart/FEEDBACK'))
+WebUI.click(findTestObject('OB_009_Upload feedback/Page_FMS Smart/FEEDBACK'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('OB_09_Upload feedback/Page_FMS Smart/Send Feedback'))
+WebUI.click(findTestObject('OB_009_Upload feedback/Page_FMS Smart/Send Feedback'))
 
 WebUI.verifyTextPresent('All fields are mandatory', false)
 

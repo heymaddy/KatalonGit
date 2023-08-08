@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Select Violation Type</name>
+   <tag></tag>
+   <elementGuidId>8816c9a7-6027-4691-92a5-83ef6ecef80a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#violationType > div.dropdown > #tmsiDropdownMenu > span.placeHolder</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@id='tmsiDropdownMenu']/span)[15]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>75f80fdf-1154-4f83-abdd-366b60fdf755</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>placeHolder</value>
+      <webElementGuid>3506e9d3-0474-41e0-8ba4-4ad3c23acf46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Select Violation Type</value>
+      <webElementGuid>33067a2d-ebe8-4190-9429-ee51866ea417</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Violation Type</value>
+      <webElementGuid>cef3be8b-1acb-4241-a36c-d8d2ac5dd1c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;violationType&quot;)/div[@class=&quot;dropdown&quot;]/button[@id=&quot;tmsiDropdownMenu&quot;]/span[@class=&quot;placeHolder&quot;]</value>
+      <webElementGuid>db03dcd4-9811-410e-8bf5-83d34c3b4939</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//button[@id='tmsiDropdownMenu']/span)[15]</value>
+      <webElementGuid>81b2f3a6-a22c-49a6-8bbb-928a5d9532c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Violation type'])[1]/following::span[1]</value>
+      <webElementGuid>f04417c3-fc6f-4617-831d-ffd2e6cdb59d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BR09R2945'])[2]/following::span[2]</value>
+      <webElementGuid>aa1bd6bb-2a02-4cf3-8cb8-d4df4139445e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cumulative Halt Violation'])[1]/preceding::span[4]</value>
+      <webElementGuid>460bca8c-0120-409c-abdf-b548f782868e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Route Violation'])[1]/preceding::span[6]</value>
+      <webElementGuid>b520477c-32a5-4493-9b7f-68e6bdd3a56c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Select Violation Type']/parent::*</value>
+      <webElementGuid>ff02dfa2-85f9-4d15-8091-413ddf29fe07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/app-tmsi-custom-dropdown/div/button/span</value>
+      <webElementGuid>70e85ae0-eaf1-422c-8db1-6b7be1923e76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@title = 'Select Violation Type' and (text() = 'Select Violation Type' or . = 'Select Violation Type')]</value>
+      <webElementGuid>94399d39-05c5-4e7a-8a0a-f4dbe9507620</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

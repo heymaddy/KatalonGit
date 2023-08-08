@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Reports</name>
+   <tag></tag>
+   <elementGuidId>006f6a4c-fe5b-4f5c-8564-6b95e3a45812</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.nav-link.active > span.textColor</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='main-body']/app-root/div/app-layout/div/div/nav/ul/li[3]/a/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>13cabdba-7c36-4ce7-884b-2d6788fa3d99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>textColor</value>
+      <webElementGuid>ccf365fe-3145-4162-8eef-c2f882e2d8f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reports</value>
+      <webElementGuid>7f919f5a-f347-4c55-ac46-b6757903ab1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-body&quot;)/app-root[1]/div[@class=&quot;full-width&quot;]/app-layout[1]/div[@class=&quot;app-body&quot;]/div[@class=&quot;sidebar&quot;]/nav[@class=&quot;sidebar-nav&quot;]/ul[@class=&quot;nav&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link active&quot;]/span[@class=&quot;textColor&quot;]</value>
+      <webElementGuid>4e255a03-250c-4da6-a18e-31359ffcef28</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='main-body']/app-root/div/app-layout/div/div/nav/ul/li[3]/a/span[2]</value>
+      <webElementGuid>06e61d15-abf5-4f9d-b8a5-1e6c3b92dd82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::span[4]</value>
+      <webElementGuid>ae04a4a4-fee1-4771-bcef-7a17f39c643b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Vehicle'])[1]/preceding::span[1]</value>
+      <webElementGuid>5578a580-cb4e-44d1-8de1-e94b8689c0c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reports'])[2]/preceding::span[2]</value>
+      <webElementGuid>718c5e2e-6b4d-4bef-9105-ad04fc81ff78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Reports']/parent::*</value>
+      <webElementGuid>b0281ba7-977a-4e15-a376-bd951cc4ca40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a/span[2]</value>
+      <webElementGuid>27ee7628-c541-4397-b4e8-a50de4b16bd8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Reports' or . = 'Reports')]</value>
+      <webElementGuid>c87b2dec-0ab0-4b9a-b196-6de9da670a09</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

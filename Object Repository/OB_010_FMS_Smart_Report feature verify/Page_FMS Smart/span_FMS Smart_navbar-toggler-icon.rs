@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_FMS Smart_navbar-toggler-icon</name>
+   <tag></tag>
+   <elementGuidId>12089857-9a6f-4807-a261-07d441613b4c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.navbar-toggler.d-md-down-none > span.navbar-toggler-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='main-body']/app-root/div/app-layout/custom-header/header/button[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e639f1ae-e271-4ab8-8314-d2671603d5f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navbar-toggler-icon</value>
+      <webElementGuid>9e229b1a-6e94-4bb1-af45-7099674995aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-body&quot;)/app-root[1]/div[@class=&quot;full-width&quot;]/app-layout[1]/custom-header[1]/header[@class=&quot;app-header navbar&quot;]/button[@class=&quot;navbar-toggler d-md-down-none&quot;]/span[@class=&quot;navbar-toggler-icon&quot;]</value>
+      <webElementGuid>af57c20f-8712-4085-83d3-f14ef0d18eba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='main-body']/app-root/div/app-layout/custom-header/header/button[2]/span</value>
+      <webElementGuid>878676f6-da7e-46a8-84f1-14d5cd3e90e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span</value>
+      <webElementGuid>39683f12-5d2a-4d5a-9023-0f56e93ec099</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

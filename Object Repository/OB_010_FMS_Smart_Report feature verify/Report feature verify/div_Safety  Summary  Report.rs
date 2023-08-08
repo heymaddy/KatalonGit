@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Safety  Summary  Report</name>
+   <tag></tag>
+   <elementGuidId>dd68814b-5429-48f7-a866-137e96bc6ee1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-.mb-0.mt-2.h5</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='FMSContainer']/app-reports/div/div/div/div/a/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>14cf201a-f90b-44d3-8481-0246b7ac3cbe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text- mb-0 mt-2 h5</value>
+      <webElementGuid>850e0fa6-98e8-4805-be1d-697b3cfb1636</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Safety  Summary  Report</value>
+      <webElementGuid>76c7f617-3b4f-4554-a3be-517849a900ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;FMSContainer&quot;)/app-reports[1]/div[1]/div[@class=&quot;animated fadeIn&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-6 col-lg-3&quot;]/a[1]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body p-3 clearfix&quot;]/div[@class=&quot;text- mb-0 mt-2 h5&quot;]</value>
+      <webElementGuid>22c5e052-1428-495a-a1f6-71183b48aa8d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='FMSContainer']/app-reports/div/div/div/div/a/div/div/div</value>
+      <webElementGuid>f2b42cdd-7280-48ed-83f1-caf601af1906</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reports'])[2]/following::div[9]</value>
+      <webElementGuid>41a614f1-ceb2-4488-aaac-a3a8ce7fc7e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Vehicle'])[1]/following::div[11]</value>
+      <webElementGuid>2f10d417-27ec-4678-a579-51aabcaec9b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/div/div</value>
+      <webElementGuid>13e2bfa3-7e68-45d6-a985-fc69007eb97f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Safety  Summary  Report' or . = ' Safety  Summary  Report')]</value>
+      <webElementGuid>c9cf8214-0e2b-4c9c-8ec3-ef5304a0aada</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

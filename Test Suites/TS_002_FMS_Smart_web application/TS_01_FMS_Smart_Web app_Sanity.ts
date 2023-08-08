@@ -77,4 +77,11 @@
          <variableId>39020375-38ec-4927-b51e-300c4fab63f0</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>36b5cd58-b8af-4f23-9ba4-085bef5d3513</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_014_FMS_Smart_Verify the report feature</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

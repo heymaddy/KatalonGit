@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_02_FMS_Smart_Multiplen user login,Chrome 115.0.0.0,,,2023-08-08 09:01:16,2023-08-08 09:02:35,1m - 18.390s,PASSED
+,,,,,,,
+Test Cases/TC_013_FMS_Smart_multiple login test,Chrome 115.0.0.0,,data driven test,2023-08-08 09:01:17,2023-08-08 09:01:49,32.001s,PASSED
+openBrowser(url),Chrome 115.0.0.0,,,2023-08-08 09:01:18,2023-08-08 09:01:31,13.324s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-08 09:01:31,2023-08-08 09:01:32,0.229s,PASSED
+delay(4),Chrome 115.0.0.0,,,2023-08-08 09:01:32,2023-08-08 09:01:36,4.052s,PASSED
+"click(findTestObject(""OB_005_Login screen_fms smart/login screen/username""))",Chrome 115.0.0.0,,,2023-08-08 09:01:36,2023-08-08 09:01:36,0.688s,PASSED
+"setText(findTestObject(""OB_005_Login screen_fms smart/login screen/username""), username)",Chrome 115.0.0.0,,,2023-08-08 09:01:36,2023-08-08 09:01:37,0.994s,PASSED
+"click(findTestObject(""OB_005_Login screen_fms smart/login screen/Password""))",Chrome 115.0.0.0,,,2023-08-08 09:01:37,2023-08-08 09:01:38,0.555s,PASSED
+"setText(findTestObject(""OB_005_Login screen_fms smart/login screen/Password""), password)",Chrome 115.0.0.0,,,2023-08-08 09:01:38,2023-08-08 09:01:39,0.973s,PASSED
+"click(findTestObject(""OB_005_Login screen_fms smart/login screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-08 09:01:39,2023-08-08 09:01:39,0.549s,PASSED
+delay(7),Chrome 115.0.0.0,,,2023-08-08 09:01:39,2023-08-08 09:01:46,7.017s,PASSED
+"click(findTestObject(""OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE""))",Chrome 115.0.0.0,,,2023-08-08 09:01:46,2023-08-08 09:01:47,0.610s,PASSED
+"verifyTextPresent(""FMS Smart"", false)",Chrome 115.0.0.0,,,2023-08-08 09:01:47,2023-08-08 09:01:48,1.275s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-08 09:01:48,2023-08-08 09:01:49,0.809s,PASSED
+,,,,,,,
+Test Cases/TC_013_FMS_Smart_multiple login test,Chrome 115.0.0.0,,data driven test,2023-08-08 09:01:49,2023-08-08 09:02:12,23.099s,PASSED
+openBrowser(url),Chrome 115.0.0.0,,,2023-08-08 09:01:49,2023-08-08 09:01:56,6.947s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-08 09:01:56,2023-08-08 09:01:56,0.134s,PASSED
+delay(4),Chrome 115.0.0.0,,,2023-08-08 09:01:56,2023-08-08 09:02:00,4.010s,PASSED
+"click(findTestObject(""OB_005_Login screen_fms smart/login screen/username""))",Chrome 115.0.0.0,,,2023-08-08 09:02:00,2023-08-08 09:02:01,0.456s,PASSED
+"setText(findTestObject(""OB_005_Login screen_fms smart/login screen/username""), username)",Chrome 115.0.0.0,,,2023-08-08 09:02:01,2023-08-08 09:02:02,0.780s,PASSED
+"click(findTestObject(""OB_005_Login screen_fms smart/login screen/Password""))",Chrome 115.0.0.0,,,2023-08-08 09:02:02,2023-08-08 09:02:02,0.444s,PASSED
+"setText(findTestObject(""OB_005_Login screen_fms smart/login screen/Password""), password)",Chrome 115.0.0.0,,,2023-08-08 09:02:02,2023-08-08 09:02:03,0.785s,PASSED
+"click(findTestObject(""OB_005_Login screen_fms smart/login screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-08 09:02:03,2023-08-08 09:02:03,0.439s,PASSED
+delay(7),Chrome 115.0.0.0,,,2023-08-08 09:02:03,2023-08-08 09:02:10,7.008s,PASSED
+"click(findTestObject(""OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE""))",Chrome 115.0.0.0,,,2023-08-08 09:02:10,2023-08-08 09:02:11,0.500s,PASSED
+"verifyTextPresent(""FMS Smart"", false)",Chrome 115.0.0.0,,,2023-08-08 09:02:11,2023-08-08 09:02:12,0.881s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-08 09:02:12,2023-08-08 09:02:12,0.672s,PASSED
+,,,,,,,
+Test Cases/TC_013_FMS_Smart_multiple login test,Chrome 115.0.0.0,,data driven test,2023-08-08 09:02:12,2023-08-08 09:02:35,22.477s,PASSED
+openBrowser(url),Chrome 115.0.0.0,,,2023-08-08 09:02:12,2023-08-08 09:02:18,6.092s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-08 09:02:18,2023-08-08 09:02:19,0.134s,PASSED
+delay(4),Chrome 115.0.0.0,,,2023-08-08 09:02:19,2023-08-08 09:02:23,4.013s,PASSED
+"click(findTestObject(""OB_005_Login screen_fms smart/login screen/username""))",Chrome 115.0.0.0,,,2023-08-08 09:02:23,2023-08-08 09:02:23,0.466s,PASSED
+"setText(findTestObject(""OB_005_Login screen_fms smart/login screen/username""), username)",Chrome 115.0.0.0,,,2023-08-08 09:02:23,2023-08-08 09:02:24,0.796s,PASSED
+"click(findTestObject(""OB_005_Login screen_fms smart/login screen/Password""))",Chrome 115.0.0.0,,,2023-08-08 09:02:24,2023-08-08 09:02:24,0.439s,PASSED
+"setText(findTestObject(""OB_005_Login screen_fms smart/login screen/Password""), password)",Chrome 115.0.0.0,,,2023-08-08 09:02:24,2023-08-08 09:02:25,0.775s,PASSED
+"click(findTestObject(""OB_005_Login screen_fms smart/login screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-08 09:02:25,2023-08-08 09:02:26,0.434s,PASSED
+delay(7),Chrome 115.0.0.0,,,2023-08-08 09:02:26,2023-08-08 09:02:33,7.012s,PASSED
+"click(findTestObject(""OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE""))",Chrome 115.0.0.0,,,2023-08-08 09:02:33,2023-08-08 09:02:33,0.485s,PASSED
+"verifyTextPresent(""FMS Smart"", false)",Chrome 115.0.0.0,,,2023-08-08 09:02:33,2023-08-08 09:02:34,1.141s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-08 09:02:34,2023-08-08 09:02:35,0.667s,PASSED
