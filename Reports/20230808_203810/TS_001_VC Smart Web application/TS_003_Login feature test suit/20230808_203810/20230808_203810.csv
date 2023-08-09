@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_003_Login feature test suit,Chrome 115.0.0.0,,,2023-08-08 20:38:14,2023-08-08 20:40:14,2m - 0.107s,PASSED
+,,,,,,,
+Test Cases/TC_001_Verify the Login feature with valid credentials,Chrome 115.0.0.0,,,2023-08-08 20:38:15,2023-08-08 20:38:51,36.899s,PASSED
+"openBrowser(""https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login"")",Chrome 115.0.0.0,,,2023-08-08 20:38:15,2023-08-08 20:38:30,14.763s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-08 20:38:30,2023-08-08 20:38:30,0.193s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-08 20:38:30,2023-08-08 20:38:35,5.069s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Username""))",Chrome 115.0.0.0,,,2023-08-08 20:38:35,2023-08-08 20:38:36,0.671s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Username""), ""BSO-2300"")",Chrome 115.0.0.0,,,2023-08-08 20:38:36,2023-08-08 20:38:37,0.883s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Password""))",Chrome 115.0.0.0,,,2023-08-08 20:38:37,2023-08-08 20:38:37,0.520s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Password""), ""Password@2300"")",Chrome 115.0.0.0,,,2023-08-08 20:38:37,2023-08-08 20:38:38,0.974s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-08 20:38:38,2023-08-08 20:38:39,0.531s,PASSED
+delay(8),Chrome 115.0.0.0,,,2023-08-08 20:38:39,2023-08-08 20:38:47,8.003s,PASSED
+"verifyTextPresent(""VC Smart"", false)",Chrome 115.0.0.0,,,2023-08-08 20:38:47,2023-08-08 20:38:51,4.694s,PASSED
+,,,,,,,
+Test Cases/TC_002_Verify the Login feature with invalid credentials,Chrome 115.0.0.0,,,2023-08-08 20:38:52,2023-08-08 20:39:17,25.691s,PASSED
+openBrowser(url),Chrome 115.0.0.0,,,2023-08-08 20:38:52,2023-08-08 20:39:08,16.215s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Username""))",Chrome 115.0.0.0,,,2023-08-08 20:39:08,2023-08-08 20:39:09,0.524s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Username""), username)",Chrome 115.0.0.0,,,2023-08-08 20:39:09,2023-08-08 20:39:10,0.940s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Password""))",Chrome 115.0.0.0,,,2023-08-08 20:39:10,2023-08-08 20:39:10,0.498s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Password""), password)",Chrome 115.0.0.0,,,2023-08-08 20:39:10,2023-08-08 20:39:11,0.920s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-08 20:39:11,2023-08-08 20:39:12,0.489s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-08 20:39:12,2023-08-08 20:39:17,5.013s,PASSED
+"verifyTextPresent(""Username entered is invalid. Please try again."", false)",Chrome 115.0.0.0,,,2023-08-08 20:39:17,2023-08-08 20:39:17,0.400s,PASSED
+,,,,,,,
+Test Cases/TC_006_Verify the Logout feature,Chrome 115.0.0.0,,,2023-08-08 20:39:17,2023-08-08 20:40:14,57.010s,PASSED
+"callTestCase(findTestCase(""TC_001_Verify the Login feature with valid credentials""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-08 20:39:18,2023-08-08 20:39:51,33.635s,PASSED
+delay(8),Chrome 115.0.0.0,,,2023-08-08 20:39:51,2023-08-08 20:39:59,8.010s,PASSED
+"click(findTestObject(""OB_004_Logout Feature/logout feature/a_IOCL""))",Chrome 115.0.0.0,,,2023-08-08 20:39:59,2023-08-08 20:40:00,0.548s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-08 20:40:00,2023-08-08 20:40:05,5.010s,PASSED
+"click(findTestObject(""OB_004_Logout Feature/logout feature/button_Logout""))",Chrome 115.0.0.0,,,2023-08-08 20:40:05,2023-08-08 20:40:05,0.541s,PASSED
+delay(8),Chrome 115.0.0.0,,,2023-08-08 20:40:05,2023-08-08 20:40:13,8.018s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-08 20:40:13,2023-08-08 20:40:14,0.818s,PASSED

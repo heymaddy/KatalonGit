@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_019_VC_Smart_Home_Element verification-IOCL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>17762f00-21c4-4ba7-acab-1f26be5f8ad7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7b370f9f-6e22-4fd6-a5ae-173ee0a8f55d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5b544b04-7d7e-4e60-9a3d-d090cd172e95</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bd017cde-4eff-4ebf-9797-365516ad9a38</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.URL</defaultValue>
+      <description></description>
+      <id>7b370f9f-6e22-4fd6-a5ae-173ee0a8f55d</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.USERNAME</defaultValue>
+      <description></description>
+      <id>5b544b04-7d7e-4e60-9a3d-d090cd172e95</id>
+      <masked>false</masked>
+      <name>USERNAME</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PASSWORD</defaultValue>
+      <description></description>
+      <id>bd017cde-4eff-4ebf-9797-365516ad9a38</id>
+      <masked>false</masked>
+      <name>PASSWORD</name>
+   </variable>
+</TestCaseEntity>

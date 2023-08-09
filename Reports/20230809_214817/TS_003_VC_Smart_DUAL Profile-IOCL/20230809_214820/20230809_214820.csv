@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_003_VC_Smart_DUAL Profile-IOCL,Chrome 115.0.0.0,,,2023-08-09 21:49:03,2023-08-09 21:49:52,48.688s,PASSED
+,,,,,,,
+Test Cases/TC_018_VC_Smart_Verify Profile login-IOCL,Chrome 115.0.0.0,,,2023-08-09 21:49:03,2023-08-09 21:49:52,48.249s,PASSED
+openBrowser(URL),Chrome 115.0.0.0,,,2023-08-09 21:49:04,2023-08-09 21:49:20,15.473s,PASSED
+delay(4),Chrome 115.0.0.0,,,2023-08-09 21:49:20,2023-08-09 21:49:24,4.061s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-09 21:49:24,2023-08-09 21:49:24,0.175s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Username""))",Chrome 115.0.0.0,,,2023-08-09 21:49:24,2023-08-09 21:49:25,0.600s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Username""), USERNAME)",Chrome 115.0.0.0,,,2023-08-09 21:49:25,2023-08-09 21:49:26,0.971s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Password""))",Chrome 115.0.0.0,,,2023-08-09 21:49:26,2023-08-09 21:49:26,0.488s,PASSED
+"setEncryptedText(findTestObject(""OB_001_Login screen/Login Screen/Password""), PASSWORD)",Chrome 115.0.0.0,,,2023-08-09 21:49:26,2023-08-09 21:49:27,0.681s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-09 21:49:27,2023-08-09 21:49:27,0.494s,PASSED
+delay(15),Chrome 115.0.0.0,,,2023-08-09 21:49:27,2023-08-09 21:49:42,15.011s,PASSED
+"verifyElementPresent(findTestObject(""OB_002_Feature1/Feature/a_Track By Criteria""), 0)",Chrome 115.0.0.0,,,2023-08-09 21:49:42,2023-08-09 21:49:43,0.429s,PASSED
+delay(8),Chrome 115.0.0.0,,,2023-08-09 21:49:43,2023-08-09 21:49:51,8.015s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-09 21:49:51,2023-08-09 21:49:52,0.731s,PASSED

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>VC-SMART-PROD-ITL</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Madhav'</initValue>
-      <name>Name</name>
+      <initValue>'ITL'</initValue>
+      <name>Stack</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login'</initValue>
+      <initValue>'https://vcsmart.tmsitrimble.in/VCSmartApp/#/login'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'BSO-2300'</initValue>
+      <initValue>'hqlogpack'</initValue>
       <name>USERNAME</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'p4y+y39Ir5P1yvmXUU5HDg=='</initValue>
+      <initValue>'p4y+y39Ir5Pc2g9xt3QkeQ=='</initValue>
       <name>PASSWORD</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

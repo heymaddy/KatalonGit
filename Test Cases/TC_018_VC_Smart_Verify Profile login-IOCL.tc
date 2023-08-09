@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_018_VC_Smart_Verify Profile login-IOCL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc6347fc-38fb-47ca-9dff-d454bdd46495</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ca8e0b46-f804-40c9-85a7-f133860110c9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>50939fb8-7c93-4518-bbf8-cca11fea9d5a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>33775378-2cb3-46de-8bf7-633c1f0c49ec</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.URL</defaultValue>
+      <description></description>
+      <id>ca8e0b46-f804-40c9-85a7-f133860110c9</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.USERNAME</defaultValue>
+      <description></description>
+      <id>50939fb8-7c93-4518-bbf8-cca11fea9d5a</id>
+      <masked>false</masked>
+      <name>USERNAME</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PASSWORD</defaultValue>
+      <description></description>
+      <id>33775378-2cb3-46de-8bf7-633c1f0c49ec</id>
+      <masked>false</masked>
+      <name>PASSWORD</name>
+   </variable>
+</TestCaseEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>VC-SMART-PROD-IOCL</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Madhav'</initValue>
-      <name>Name</name>
+      <initValue>'IOCL'</initValue>
+      <name>Stack</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -16,12 +16,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'BSO-2300'</initValue>
+      <initValue>'MPSO-3300'</initValue>
       <name>USERNAME</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'p4y+y39Ir5P1yvmXUU5HDg=='</initValue>
+      <initValue>'p4y+y39Ir5OTdtOb306gDg=='</initValue>
       <name>PASSWORD</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

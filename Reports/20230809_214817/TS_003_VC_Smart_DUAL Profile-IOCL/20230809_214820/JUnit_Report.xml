@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_003_VC_Smart_DUAL Profile-IOCL" time="48.688" tests="1" failures="0" errors="0">
+   <testsuite name="TS_003_VC_Smart_DUAL Profile-IOCL" tests="1" failures="0" errors="0" time="48.688" skipped="0" timestamp="2023-08-09 21:49:03" hostname="windows 10 - DESKTOP-21ATSCV" id="Test Suites/TS_003_VC_Smart_DUAL Profile-IOCL">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230809_214817\\TS_003_VC_Smart_DUAL Profile-IOCL\\20230809_214820"/>
+         <property name="logFiles" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230809_214817\\TS_003_VC_Smart_DUAL Profile-IOCL\\20230809_214820\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="windows 10 - DESKTOP-21ATSCV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.102"/>
+         <property name="sessionId" value="311926f86ad73674b64569279fda5058"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_018_VC_Smart_Verify Profile login-IOCL" time="48.249" classname="Test Cases/TC_018_VC_Smart_Verify Profile login-IOCL" status="PASSED">
+         <system-out><![CDATA[2023-08-09 21:49:03 - [TEST_CASE][PASSED] - Test Cases/TC_018_VC_Smart_Verify Profile login-IOCL: Test Cases/TC_018_VC_Smart_Verify Profile login-IOCL
+
+2023-08-09 21:49:04 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login'
+
+2023-08-09 21:49:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-09 21:49:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-09 21:49:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login'
+
+2023-08-09 21:49:20 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-08-09 21:49:24 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-08-09 21:49:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-09 21:49:24 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-09 21:49:24 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/Username")): Object: 'Object Repository/OB_001_Login screen/Login Screen/Username' is clicked on
+
+2023-08-09 21:49:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/Username' is clicked on
+
+2023-08-09 21:49:25 - [TEST_STEP][PASSED] - setText(findTestObject("OB_001_Login screen/Login Screen/Username"), USERNAME): Text 'MPSO-3300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Username'
+
+2023-08-09 21:49:26 - [MESSAGE][PASSED] - Text 'MPSO-3300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Username'
+
+2023-08-09 21:49:26 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/Password")): Object: 'Object Repository/OB_001_Login screen/Login Screen/Password' is clicked on
+
+2023-08-09 21:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/Password' is clicked on
+
+2023-08-09 21:49:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("OB_001_Login screen/Login Screen/Password"), PASSWORD): Text ****** has been set on object 'Object Repository/OB_001_Login screen/Login Screen/Password'
+
+2023-08-09 21:49:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OB_001_Login screen/Login Screen/Password'
+
+2023-08-09 21:49:27 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/button_Sign in")): Object: 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clicked on
+
+2023-08-09 21:49:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clicked on
+
+2023-08-09 21:49:27 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2023-08-09 21:49:42 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2023-08-09 21:49:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OB_002_Feature1/Feature/a_Track By Criteria"), 0): Object 'Object Repository/OB_002_Feature1/Feature/a_Track By Criteria' is present
+
+2023-08-09 21:49:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-09 21:49:43 - [MESSAGE][PASSED] - Object 'Object Repository/OB_002_Feature1/Feature/a_Track By Criteria' is present
+
+2023-08-09 21:49:43 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2023-08-09 21:49:51 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2023-08-09 21:49:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-09 21:49:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-09 21:49:03 - [TEST_SUITE][PASSED] - TS_003_VC_Smart_DUAL Profile-IOCL: Test Cases/TC_018_VC_Smart_Verify Profile login-IOCL]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_020_VC_Smart_Login profile-ITL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6e4b91f-5f38-4067-80eb-6a7dd89195fe</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1d1ac728-9397-4ca8-99d8-77c2636ccdbd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9f266cdb-3242-4e89-8b8c-a5b136a22f6f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>92a144ba-ef73-43ee-8618-1c8461520def</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.URL</defaultValue>
+      <description></description>
+      <id>1d1ac728-9397-4ca8-99d8-77c2636ccdbd</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.USERNAME</defaultValue>
+      <description></description>
+      <id>9f266cdb-3242-4e89-8b8c-a5b136a22f6f</id>
+      <masked>false</masked>
+      <name>USERNAME</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PASSWORD</defaultValue>
+      <description></description>
+      <id>92a144ba-ef73-43ee-8618-1c8461520def</id>
+      <masked>false</masked>
+      <name>PASSWORD</name>
+   </variable>
+</TestCaseEntity>
