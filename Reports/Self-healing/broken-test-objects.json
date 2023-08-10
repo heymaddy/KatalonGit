@@ -77,6 +77,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/button_Apply_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RC_01_FEEDBACK/Page_FMS Smart/button_Send Feedback",
+      "brokenLocator": "//div[@id\u003d\u0027feedback-modal\u0027]/div[2]/form/div[7]/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Trimble\u0027])[1]/preceding::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RC_01_FEEDBACK/Page_FMS Smart/button_Send Feedback_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RC_01_FEEDBACK/Page_FMS Smart/button_ACCEPT AND CLOSE",
+      "brokenLocator": "//body[@id\u003d\u0027main-body\u0027]/app-root/div/app-layout/footer/div/div[2]/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027FEEDBACK\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RC_01_FEEDBACK/Page_FMS Smart/button_ACCEPT AND CLOSE_neighbor.png"
     }
   ]
 }

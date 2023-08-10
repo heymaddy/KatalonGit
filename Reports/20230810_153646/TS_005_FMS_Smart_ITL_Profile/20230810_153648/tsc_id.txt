@@ -1,0 +1,1 @@
+Test Suites/TSC_002_DUAL Profile_FMS_Smart
