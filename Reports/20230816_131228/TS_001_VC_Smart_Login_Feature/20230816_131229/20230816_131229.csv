@@ -1,0 +1,112 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_001_VC_Smart_Login_Feature,Chrome 115.0.0.0,,,2023-08-16 13:12:32,2023-08-16 13:19:52,7m - 20.346s,PASSED
+,,,,,,,
+Test Cases/TC_001_Verify the Login feature with valid credentials,Chrome 115.0.0.0,,,2023-08-16 13:12:32,2023-08-16 13:13:29,56.484s,PASSED
+"openBrowser(""https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login"")",Chrome 115.0.0.0,,,2023-08-16 13:12:33,2023-08-16 13:12:42,9.879s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 13:12:42,2023-08-16 13:12:43,0.157s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 13:12:43,2023-08-16 13:12:48,5.044s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Username""))",Chrome 115.0.0.0,,,2023-08-16 13:12:48,2023-08-16 13:12:48,0.437s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Username""), ""BSO-2300"")",Chrome 115.0.0.0,,,2023-08-16 13:12:48,2023-08-16 13:12:49,0.797s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Password""))",Chrome 115.0.0.0,,,2023-08-16 13:12:49,2023-08-16 13:12:49,0.362s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Password""), ""Password@2300"")",Chrome 115.0.0.0,,,2023-08-16 13:12:49,2023-08-16 13:12:50,0.768s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-16 13:12:50,2023-08-16 13:12:50,0.363s,PASSED
+delay(8),Chrome 115.0.0.0,,,2023-08-16 13:12:50,2023-08-16 13:12:58,8.000s,PASSED
+"verifyTextPresent(""VC Smart"", false)",Chrome 115.0.0.0,,,2023-08-16 13:12:58,2023-08-16 13:13:29,30.301s,PASSED
+,,,,,,,
+Test Cases/TC_002_Verify the Login feature with invalid credentials,Chrome 115.0.0.0,,,2023-08-16 13:13:29,2023-08-16 13:13:47,17.883s,PASSED
+openBrowser(url),Chrome 115.0.0.0,,,2023-08-16 13:13:29,2023-08-16 13:13:39,9.516s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Username""))",Chrome 115.0.0.0,,,2023-08-16 13:13:39,2023-08-16 13:13:39,0.379s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Username""), username)",Chrome 115.0.0.0,,,2023-08-16 13:13:39,2023-08-16 13:13:40,0.775s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Password""))",Chrome 115.0.0.0,,,2023-08-16 13:13:40,2023-08-16 13:13:40,0.363s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Password""), password)",Chrome 115.0.0.0,,,2023-08-16 13:13:40,2023-08-16 13:13:41,0.775s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-16 13:13:41,2023-08-16 13:13:41,0.362s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 13:13:41,2023-08-16 13:13:46,5.003s,PASSED
+"verifyTextPresent(""Username entered is invalid. Please try again."", false)",Chrome 115.0.0.0,,,2023-08-16 13:13:46,2023-08-16 13:13:47,0.312s,PASSED
+,,,,,,,
+Test Cases/TC_003_Verify login with multiple user,Chrome 115.0.0.0,,,2023-08-16 13:13:47,2023-08-16 13:14:34,47.427s,PASSED
+openBrowser(url),Chrome 115.0.0.0,,,2023-08-16 13:13:47,2023-08-16 13:13:56,9.067s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 13:13:56,2023-08-16 13:13:56,0.131s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Username""))",Chrome 115.0.0.0,,,2023-08-16 13:13:56,2023-08-16 13:13:56,0.383s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Username""), username)",Chrome 115.0.0.0,,,2023-08-16 13:13:56,2023-08-16 13:13:57,0.777s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Password""))",Chrome 115.0.0.0,,,2023-08-16 13:13:57,2023-08-16 13:13:58,0.364s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Password""), password)",Chrome 115.0.0.0,,,2023-08-16 13:13:58,2023-08-16 13:13:58,0.770s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-16 13:13:58,2023-08-16 13:13:59,0.359s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 13:13:59,2023-08-16 13:14:04,5.007s,PASSED
+"verifyTextPresent(""VC Smart"", false)",Chrome 115.0.0.0,,,2023-08-16 13:14:04,2023-08-16 13:14:34,30.279s,PASSED
+,,,,,,,
+Test Cases/TC_003_Verify login with multiple user,Chrome 115.0.0.0,,,2023-08-16 13:14:34,2023-08-16 13:15:22,47.678s,PASSED
+openBrowser(url),Chrome 115.0.0.0,,,2023-08-16 13:14:34,2023-08-16 13:14:44,9.593s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 13:14:44,2023-08-16 13:14:44,0.135s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Username""))",Chrome 115.0.0.0,,,2023-08-16 13:14:44,2023-08-16 13:14:44,0.369s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Username""), username)",Chrome 115.0.0.0,,,2023-08-16 13:14:44,2023-08-16 13:14:45,0.772s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Password""))",Chrome 115.0.0.0,,,2023-08-16 13:14:45,2023-08-16 13:14:45,0.366s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Password""), password)",Chrome 115.0.0.0,,,2023-08-16 13:14:45,2023-08-16 13:14:46,0.757s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-16 13:14:46,2023-08-16 13:14:46,0.368s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 13:14:46,2023-08-16 13:14:51,5.006s,PASSED
+"verifyTextPresent(""VC Smart"", false)",Chrome 115.0.0.0,,,2023-08-16 13:14:51,2023-08-16 13:15:22,30.291s,PASSED
+,,,,,,,
+Test Cases/TC_003_Verify login with multiple user,Chrome 115.0.0.0,,,2023-08-16 13:15:22,2023-08-16 13:16:09,47.465s,PASSED
+openBrowser(url),Chrome 115.0.0.0,,,2023-08-16 13:15:22,2023-08-16 13:15:31,9.331s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 13:15:31,2023-08-16 13:15:31,0.133s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Username""))",Chrome 115.0.0.0,,,2023-08-16 13:15:31,2023-08-16 13:15:32,0.408s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Username""), username)",Chrome 115.0.0.0,,,2023-08-16 13:15:32,2023-08-16 13:15:32,0.769s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Password""))",Chrome 115.0.0.0,,,2023-08-16 13:15:32,2023-08-16 13:15:33,0.361s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Password""), password)",Chrome 115.0.0.0,,,2023-08-16 13:15:33,2023-08-16 13:15:33,0.763s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-16 13:15:33,2023-08-16 13:15:34,0.367s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 13:15:34,2023-08-16 13:15:39,5.017s,PASSED
+"verifyTextPresent(""VC Smart"", false)",Chrome 115.0.0.0,,,2023-08-16 13:15:39,2023-08-16 13:16:09,30.298s,PASSED
+,,,,,,,
+Test Cases/TC_003_Verify login with multiple user,Chrome 115.0.0.0,,,2023-08-16 13:17:21,2023-08-16 13:18:06,44.834s,PASSED
+openBrowser(url),Chrome 115.0.0.0,,,2023-08-16 13:17:21,2023-08-16 13:17:37,15.559s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 13:17:37,2023-08-16 13:17:37,0.123s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Username""))",Chrome 115.0.0.0,,,2023-08-16 13:17:37,2023-08-16 13:17:37,0.394s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Username""), username)",Chrome 115.0.0.0,,,2023-08-16 13:17:37,2023-08-16 13:17:38,0.775s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Password""))",Chrome 115.0.0.0,,,2023-08-16 13:17:38,2023-08-16 13:17:38,0.373s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Password""), password)",Chrome 115.0.0.0,,,2023-08-16 13:17:38,2023-08-16 13:17:39,0.757s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-16 13:17:39,2023-08-16 13:17:39,0.370s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 13:17:39,2023-08-16 13:17:44,5.012s,PASSED
+"verifyTextPresent(""VC Smart"", false)",Chrome 115.0.0.0,,,2023-08-16 13:17:44,2023-08-16 13:18:06,21.440s,PASSED
+,,,,,,,
+Test Cases/TC_003_Verify login with multiple user,Chrome 115.0.0.0,,,2023-08-16 13:18:06,2023-08-16 13:18:32,25.743s,PASSED
+openBrowser(url),Chrome 115.0.0.0,,,2023-08-16 13:18:06,2023-08-16 13:18:16,9.767s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 13:18:16,2023-08-16 13:18:16,0.122s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Username""))",Chrome 115.0.0.0,,,2023-08-16 13:18:16,2023-08-16 13:18:16,0.374s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Username""), username)",Chrome 115.0.0.0,,,2023-08-16 13:18:16,2023-08-16 13:18:17,0.774s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Password""))",Chrome 115.0.0.0,,,2023-08-16 13:18:17,2023-08-16 13:18:17,0.359s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Password""), password)",Chrome 115.0.0.0,,,2023-08-16 13:18:17,2023-08-16 13:18:18,0.767s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-16 13:18:18,2023-08-16 13:18:18,0.367s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 13:18:18,2023-08-16 13:18:24,5.015s,PASSED
+"verifyTextPresent(""VC Smart"", false)",Chrome 115.0.0.0,,,2023-08-16 13:18:24,2023-08-16 13:18:32,8.178s,PASSED
+,,,,,,,
+Test Cases/TC_003_Verify login with multiple user,Chrome 115.0.0.0,,,2023-08-16 13:18:32,2023-08-16 13:19:01,29.521s,PASSED
+openBrowser(url),Chrome 115.0.0.0,,,2023-08-16 13:18:32,2023-08-16 13:18:41,9.384s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 13:18:41,2023-08-16 13:18:41,0.122s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Username""))",Chrome 115.0.0.0,,,2023-08-16 13:18:41,2023-08-16 13:18:42,0.395s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Username""), username)",Chrome 115.0.0.0,,,2023-08-16 13:18:42,2023-08-16 13:18:43,0.872s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Password""))",Chrome 115.0.0.0,,,2023-08-16 13:18:43,2023-08-16 13:18:43,0.361s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Password""), password)",Chrome 115.0.0.0,,,2023-08-16 13:18:43,2023-08-16 13:18:44,0.762s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-16 13:18:44,2023-08-16 13:18:44,0.368s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 13:18:44,2023-08-16 13:18:49,5.008s,PASSED
+"verifyTextPresent(""VC Smart"", false)",Chrome 115.0.0.0,,,2023-08-16 13:18:49,2023-08-16 13:19:01,12.230s,PASSED
+,,,,,,,
+Test Cases/TC_003_Verify login with multiple user,Chrome 115.0.0.0,,,2023-08-16 13:19:01,2023-08-16 13:19:26,24.680s,PASSED
+openBrowser(url),Chrome 115.0.0.0,,,2023-08-16 13:19:01,2023-08-16 13:19:12,11.088s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 13:19:12,2023-08-16 13:19:12,0.125s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Username""))",Chrome 115.0.0.0,,,2023-08-16 13:19:12,2023-08-16 13:19:13,0.394s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Username""), username)",Chrome 115.0.0.0,,,2023-08-16 13:19:13,2023-08-16 13:19:14,0.781s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Password""))",Chrome 115.0.0.0,,,2023-08-16 13:19:14,2023-08-16 13:19:14,0.366s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Password""), password)",Chrome 115.0.0.0,,,2023-08-16 13:19:14,2023-08-16 13:19:15,0.772s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-16 13:19:15,2023-08-16 13:19:15,0.364s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 13:19:15,2023-08-16 13:19:20,5.013s,PASSED
+"verifyTextPresent(""VC Smart"", false)",Chrome 115.0.0.0,,,2023-08-16 13:19:20,2023-08-16 13:19:26,5.757s,PASSED
+,,,,,,,
+Test Cases/TC_003_Verify login with multiple user,Chrome 115.0.0.0,,,2023-08-16 13:19:26,2023-08-16 13:19:52,26.268s,PASSED
+openBrowser(url),Chrome 115.0.0.0,,,2023-08-16 13:19:26,2023-08-16 13:19:36,9.784s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 13:19:36,2023-08-16 13:19:36,0.117s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Username""))",Chrome 115.0.0.0,,,2023-08-16 13:19:36,2023-08-16 13:19:36,0.375s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Username""), username)",Chrome 115.0.0.0,,,2023-08-16 13:19:36,2023-08-16 13:19:37,0.836s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Password""))",Chrome 115.0.0.0,,,2023-08-16 13:19:37,2023-08-16 13:19:37,0.364s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Password""), password)",Chrome 115.0.0.0,,,2023-08-16 13:19:37,2023-08-16 13:19:38,0.788s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-16 13:19:38,2023-08-16 13:19:39,0.368s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 13:19:39,2023-08-16 13:19:44,5.016s,PASSED
+"verifyTextPresent(""VC Smart"", false)",Chrome 115.0.0.0,,,2023-08-16 13:19:44,2023-08-16 13:19:52,8.602s,PASSED

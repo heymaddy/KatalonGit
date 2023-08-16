@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_010_PROFILE_VC_SMART_ITL,Chrome 115.0.0.0,,,2023-08-16 12:53:12,2023-08-16 12:53:53,41.448s,PASSED
+,,,,,,,
+Test Cases/TC_020_VC_Smart_Login profile-ITL,Chrome 115.0.0.0,,,2023-08-16 12:53:12,2023-08-16 12:53:53,41.191s,PASSED
+openBrowser(URL),Chrome 115.0.0.0,,,2023-08-16 12:53:13,2023-08-16 12:53:19,6.082s,PASSED
+waitForPageLoad(15),Chrome 115.0.0.0,,,2023-08-16 12:53:19,2023-08-16 12:53:19,0.131s,PASSED
+"verifyElementPresent(findTestObject(""OB_001_Login screen/Login Screen/Username""), 0)",Chrome 115.0.0.0,,,2023-08-16 12:53:19,2023-08-16 12:53:19,0.373s,PASSED
+"verifyElementPresent(findTestObject(""OB_001_Login screen/Login Screen/Password""), 0)",Chrome 115.0.0.0,,,2023-08-16 12:53:19,2023-08-16 12:53:20,0.333s,PASSED
+"verifyElementPresent(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""), 0)",Chrome 115.0.0.0,,,2023-08-16 12:53:20,2023-08-16 12:53:20,0.327s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Username""), STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 12:53:20,2023-08-16 12:53:20,0.414s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Username""), USERNAME)",Chrome 115.0.0.0,,,2023-08-16 12:53:20,2023-08-16 12:53:21,0.782s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Password""))",Chrome 115.0.0.0,,,2023-08-16 12:53:21,2023-08-16 12:53:22,0.472s,PASSED
+"setEncryptedText(findTestObject(""OB_001_Login screen/Login Screen/Password""), PASSWORD)",Chrome 115.0.0.0,,,2023-08-16 12:53:22,2023-08-16 12:53:22,0.528s,PASSED
+"waitForElementClickable(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""), 3)",Chrome 115.0.0.0,,,2023-08-16 12:53:22,2023-08-16 12:53:23,0.373s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-16 12:53:23,2023-08-16 12:53:23,0.364s,PASSED
+waitForPageLoad(14),Chrome 115.0.0.0,,,2023-08-16 12:53:23,2023-08-16 12:53:23,0.016s,PASSED
+"verifyTextPresent(""VC Smart"", false)",Chrome 115.0.0.0,,,2023-08-16 12:53:23,2023-08-16 12:53:53,30.336s,PASSED

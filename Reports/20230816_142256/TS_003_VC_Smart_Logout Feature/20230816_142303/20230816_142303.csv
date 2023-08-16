@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_003_VC_Smart_Logout Feature,Chrome 115.0.0.0,,,2023-08-16 14:23:06,2023-08-16 14:24:16,1m - 10.071s,PASSED
+,,,,,,,
+Test Cases/TC_006_Verify the Logout feature,Chrome 115.0.0.0,,,2023-08-16 14:23:06,2023-08-16 14:24:16,1m - 9.689s,PASSED
+"callTestCase(findTestCase(""TC_001_Verify the Login feature with valid credentials""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 14:23:07,2023-08-16 14:23:54,46.734s,PASSED
+delay(8),Chrome 115.0.0.0,,,2023-08-16 14:23:54,2023-08-16 14:24:02,8.011s,PASSED
+"click(findTestObject(""OB_004_Logout Feature/logout feature/a_IOCL""))",Chrome 115.0.0.0,,,2023-08-16 14:24:02,2023-08-16 14:24:02,0.396s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 14:24:02,2023-08-16 14:24:07,5.016s,PASSED
+"click(findTestObject(""OB_004_Logout Feature/logout feature/button_Logout""))",Chrome 115.0.0.0,,,2023-08-16 14:24:07,2023-08-16 14:24:08,0.389s,PASSED
+delay(8),Chrome 115.0.0.0,,,2023-08-16 14:24:08,2023-08-16 14:24:16,8.010s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-16 14:24:16,2023-08-16 14:24:16,0.626s,PASSED

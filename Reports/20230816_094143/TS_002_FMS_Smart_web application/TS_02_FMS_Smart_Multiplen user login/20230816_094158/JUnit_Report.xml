@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_02_FMS_Smart_Multiplen user login" time="87.644" tests="3" failures="0" errors="0">
+   <testsuite name="TS_02_FMS_Smart_Multiplen user login" tests="3" failures="0" errors="0" time="87.644" skipped="0" timestamp="2023-08-16 09:42:06" hostname="DESKTOP-21ATSCV$ - DESKTOP-21ATSCV" id="Test Suites/TS_002_FMS_Smart_web application/TS_02_FMS_Smart_Multiplen user login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_094143\\TS_002_FMS_Smart_web application\\TS_02_FMS_Smart_Multiplen user login\\20230816_094158"/>
+         <property name="logFiles" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_094143\\TS_002_FMS_Smart_web application\\TS_02_FMS_Smart_Multiplen user login\\20230816_094158\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DESKTOP-21ATSCV$ - DESKTOP-21ATSCV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="a7da5d54392be6db358a58787922fe34"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_013_FMS_Smart_multiple login test" time="36.33" classname="Test Cases/TC_013_FMS_Smart_multiple login test" status="PASSED">
+         <system-out><![CDATA[2023-08-16 09:42:07 - [TEST_CASE][PASSED] - Test Cases/TC_013_FMS_Smart_multiple login test: Test Cases/TC_013_FMS_Smart_multiple login test
+
+2023-08-16 09:42:08 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 09:42:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 09:42:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 09:42:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 09:42:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-16 09:42:27 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-16 09:42:27 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-08-16 09:42:31 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-08-16 09:42:31 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/username")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 09:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 09:42:31 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/username"), username): Text '11047105' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 09:42:32 - [MESSAGE][PASSED] - Text '11047105' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 09:42:32 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/Password")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 09:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 09:42:33 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/Password"), password): Text 'Password@1234' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 09:42:34 - [MESSAGE][PASSED] - Text 'Password@1234' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 09:42:34 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 09:42:34 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 09:42:34 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2023-08-16 09:42:41 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2023-08-16 09:42:41 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 09:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 09:42:42 - [TEST_STEP][PASSED] - verifyTextPresent("FMS Smart", false): Text 'FMS Smart' is present on page 
+
+2023-08-16 09:42:43 - [MESSAGE][PASSED] - Text 'FMS Smart' is present on page 
+
+2023-08-16 09:42:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-16 09:42:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_013_FMS_Smart_multiple login test" time="24.805" classname="Test Cases/TC_013_FMS_Smart_multiple login test" status="PASSED">
+         <system-out><![CDATA[2023-08-16 09:42:43 - [TEST_CASE][PASSED] - Test Cases/TC_013_FMS_Smart_multiple login test: Test Cases/TC_013_FMS_Smart_multiple login test
+
+2023-08-16 09:42:43 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 09:42:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 09:42:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 09:42:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 09:42:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-16 09:42:52 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-16 09:42:52 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-08-16 09:42:56 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-08-16 09:42:56 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/username")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 09:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 09:42:56 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/username"), username): Text '11048462' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 09:42:57 - [MESSAGE][PASSED] - Text '11048462' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 09:42:57 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/Password")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 09:42:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 09:42:58 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/Password"), password): Text 'Password@1' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 09:42:59 - [MESSAGE][PASSED] - Text 'Password@1' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 09:42:59 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 09:42:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 09:42:59 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2023-08-16 09:43:06 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2023-08-16 09:43:06 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 09:43:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 09:43:07 - [TEST_STEP][PASSED] - verifyTextPresent("FMS Smart", false): Text 'FMS Smart' is present on page 
+
+2023-08-16 09:43:07 - [MESSAGE][PASSED] - Text 'FMS Smart' is present on page 
+
+2023-08-16 09:43:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-16 09:43:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_013_FMS_Smart_multiple login test" time="25.525" classname="Test Cases/TC_013_FMS_Smart_multiple login test" status="PASSED">
+         <system-out><![CDATA[2023-08-16 09:43:08 - [TEST_CASE][PASSED] - Test Cases/TC_013_FMS_Smart_multiple login test: Test Cases/TC_013_FMS_Smart_multiple login test
+
+2023-08-16 09:43:08 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 09:43:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 09:43:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 09:43:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 09:43:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-16 09:43:17 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-16 09:43:17 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-08-16 09:43:21 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-08-16 09:43:21 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/username")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 09:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 09:43:22 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/username"), username): Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 09:43:23 - [MESSAGE][PASSED] - Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 09:43:23 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/Password")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 09:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 09:43:23 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/Password"), password): Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 09:43:24 - [MESSAGE][PASSED] - Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 09:43:24 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 09:43:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 09:43:24 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2023-08-16 09:43:31 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2023-08-16 09:43:31 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 09:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 09:43:32 - [TEST_STEP][PASSED] - verifyTextPresent("FMS Smart", false): Text 'FMS Smart' is present on page 
+
+2023-08-16 09:43:33 - [MESSAGE][PASSED] - Text 'FMS Smart' is present on page 
+
+2023-08-16 09:43:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-16 09:43:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-16 09:42:06 - [TEST_SUITE][PASSED] - TS_02_FMS_Smart_Multiplen user login: Test Cases/TC_013_FMS_Smart_multiple login test]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSC_DUAL PROFILE" time="195.022" tests="4" failures="0" errors="0">
+   <testsuite name="TS_008_PROFILE_VC_SMART_FEATURE_IOCL" tests="1" failures="0" errors="0" time="60.611" skipped="0" timestamp="2023-08-16 12:51:27" hostname="windows 10 - DESKTOP-21ATSCV" id="Test Suites/TS_008_PROFILE_VC_SMART_FEATURE_IOCL">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_125115\\TS_008_PROFILE_VC_SMART_FEATURE_IOCL\\20230816_125117"/>
+         <property name="logFiles" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_125115\\TS_008_PROFILE_VC_SMART_FEATURE_IOCL\\20230816_125117\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="windows 10 - DESKTOP-21ATSCV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="c9944b144d0497e55f2c1e3de93f4adc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_018_VC_Smart_Verify Profile login-IOCL" time="60.291" classname="Test Cases/TC_018_VC_Smart_Verify Profile login-IOCL" status="PASSED">
+         <system-out><![CDATA[2023-08-16 12:51:27 - [TEST_CASE][PASSED] - Test Cases/TC_018_VC_Smart_Verify Profile login-IOCL: Test Cases/TC_018_VC_Smart_Verify Profile login-IOCL
+
+2023-08-16 12:51:28 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login'
+
+2023-08-16 12:51:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 12:51:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 12:51:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login'
+
+2023-08-16 12:51:38 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-08-16 12:51:42 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-08-16 12:51:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-16 12:51:42 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-16 12:51:42 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/Username")): Object: 'Object Repository/OB_001_Login screen/Login Screen/Username' is clicked on
+
+2023-08-16 12:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/Username' is clicked on
+
+2023-08-16 12:51:43 - [TEST_STEP][PASSED] - setText(findTestObject("OB_001_Login screen/Login Screen/Username"), USERNAME): Text 'MPSO-3300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Username'
+
+2023-08-16 12:51:44 - [MESSAGE][PASSED] - Text 'MPSO-3300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Username'
+
+2023-08-16 12:51:44 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/Password")): Object: 'Object Repository/OB_001_Login screen/Login Screen/Password' is clicked on
+
+2023-08-16 12:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/Password' is clicked on
+
+2023-08-16 12:51:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("OB_001_Login screen/Login Screen/Password"), PASSWORD): Text ****** has been set on object 'Object Repository/OB_001_Login screen/Login Screen/Password'
+
+2023-08-16 12:51:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OB_001_Login screen/Login Screen/Password'
+
+2023-08-16 12:51:44 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/button_Sign in")): Object: 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clicked on
+
+2023-08-16 12:51:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clicked on
+
+2023-08-16 12:51:45 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2023-08-16 12:52:00 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2023-08-16 12:52:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OB_002_Feature1/Feature/a_Track By Criteria"), 0): Object 'Object Repository/OB_002_Feature1/Feature/a_Track By Criteria' is present
+
+2023-08-16 12:52:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-16 12:52:19 - [MESSAGE][PASSED] - Object 'Object Repository/OB_002_Feature1/Feature/a_Track By Criteria' is present
+
+2023-08-16 12:52:19 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2023-08-16 12:52:27 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2023-08-16 12:52:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-16 12:52:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-16 12:51:27 - [TEST_SUITE][PASSED] - TS_008_PROFILE_VC_SMART_FEATURE_IOCL: Test Cases/TC_018_VC_Smart_Verify Profile login-IOCL]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_009_PROFILE_FMS_SMART_ITL" tests="1" failures="0" errors="0" time="17.045" skipped="0" timestamp="2023-08-16 12:52:42" hostname="windows 10 - DESKTOP-21ATSCV" id="Test Suites/TS_009_PROFILE_FMS_SMART_ITL">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_125115\\TS_009_PROFILE_FMS_SMART_ITL\\20230816_125119"/>
+         <property name="logFiles" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_125115\\TS_009_PROFILE_FMS_SMART_ITL\\20230816_125119\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="windows 10 - DESKTOP-21ATSCV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="acee4385deb75261f007a7bf116c67e6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_021_FMS_Smart_ITL_Profile" time="16.802" classname="Test Cases/TC_021_FMS_Smart_ITL_Profile" status="PASSED">
+         <system-out><![CDATA[2023-08-16 12:52:42 - [TEST_CASE][PASSED] - Test Cases/TC_021_FMS_Smart_ITL_Profile: Test Cases/TC_021_FMS_Smart_ITL_Profile
+
+2023-08-16 12:52:42 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://fmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 12:52:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 12:52:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 12:52:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://fmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 12:52:48 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-08-16 12:52:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-16 12:52:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-16 12:52:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-16 12:52:48 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-16 12:52:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OB_005_Login screen_fms smart/login screen/username"), 0): Object 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is present
+
+2023-08-16 12:52:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-16 12:52:49 - [MESSAGE][PASSED] - Object 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is present
+
+2023-08-16 12:52:49 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("OB_005_Login screen_fms smart/login screen/username")): Object 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clickable
+
+2023-08-16 12:52:49 - [MESSAGE][PASSED] - Object 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clickable
+
+2023-08-16 12:52:49 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/username"), STOP_ON_FAILURE): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 12:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 12:52:50 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/username"), USERNAME): Text 'maddy' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 12:52:50 - [MESSAGE][PASSED] - Text 'maddy' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 12:52:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OB_005_Login screen_fms smart/login screen/Password"), 0): Object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is present
+
+2023-08-16 12:52:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-16 12:52:51 - [MESSAGE][PASSED] - Object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is present
+
+2023-08-16 12:52:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("OB_005_Login screen_fms smart/login screen/Password")): Object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clickable
+
+2023-08-16 12:52:51 - [MESSAGE][PASSED] - Object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clickable
+
+2023-08-16 12:52:51 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/Password")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 12:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 12:52:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("OB_005_Login screen_fms smart/login screen/Password"), PASSWORD): Text ****** has been set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 12:52:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 12:52:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in"), 0): Object 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is present
+
+2023-08-16 12:52:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-16 12:52:52 - [MESSAGE][PASSED] - Object 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is present
+
+2023-08-16 12:52:52 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in")): Object 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clickable
+
+2023-08-16 12:52:52 - [MESSAGE][PASSED] - Object 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clickable
+
+2023-08-16 12:52:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in"), "Sign in"): Actual text and expected text of test object 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' are matched.
+
+2023-08-16 12:52:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' are matched.
+
+2023-08-16 12:52:53 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 12:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 12:52:53 - [TEST_STEP][PASSED] - waitForPageLoad(14): Wait for page load successfully
+
+2023-08-16 12:52:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-16 12:52:53 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 12:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 12:52:58 - [TEST_STEP][PASSED] - verifyTextPresent("FMS Smart", false): Text 'FMS Smart' is present on page 
+
+2023-08-16 12:52:59 - [MESSAGE][PASSED] - Text 'FMS Smart' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-16 12:52:42 - [TEST_SUITE][PASSED] - TS_009_PROFILE_FMS_SMART_ITL: Test Cases/TC_021_FMS_Smart_ITL_Profile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_010_PROFILE_VC_SMART_ITL" tests="1" failures="0" errors="0" time="41.448" skipped="0" timestamp="2023-08-16 12:53:12" hostname="windows 10 - DESKTOP-21ATSCV" id="Test Suites/TS_010_PROFILE_VC_SMART_ITL">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_125115\\TS_010_PROFILE_VC_SMART_ITL\\20230816_125121"/>
+         <property name="logFiles" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_125115\\TS_010_PROFILE_VC_SMART_ITL\\20230816_125121\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="windows 10 - DESKTOP-21ATSCV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="abb6bf78fdd673ae4942c0799b4f7aa8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_020_VC_Smart_Login profile-ITL" time="41.191" classname="Test Cases/TC_020_VC_Smart_Login profile-ITL" status="PASSED">
+         <system-out><![CDATA[2023-08-16 12:53:12 - [TEST_CASE][PASSED] - Test Cases/TC_020_VC_Smart_Login profile-ITL: Test Cases/TC_020_VC_Smart_Login profile-ITL
+
+2023-08-16 12:53:13 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://vcsmart.tmsitrimble.in/VCSmartApp/#/login'
+
+2023-08-16 12:53:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 12:53:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 12:53:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vcsmart.tmsitrimble.in/VCSmartApp/#/login'
+
+2023-08-16 12:53:19 - [TEST_STEP][PASSED] - waitForPageLoad(15): Wait for page load successfully
+
+2023-08-16 12:53:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-16 12:53:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OB_001_Login screen/Login Screen/Username"), 0): Object 'Object Repository/OB_001_Login screen/Login Screen/Username' is present
+
+2023-08-16 12:53:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-16 12:53:19 - [MESSAGE][PASSED] - Object 'Object Repository/OB_001_Login screen/Login Screen/Username' is present
+
+2023-08-16 12:53:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OB_001_Login screen/Login Screen/Password"), 0): Object 'Object Repository/OB_001_Login screen/Login Screen/Password' is present
+
+2023-08-16 12:53:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-16 12:53:20 - [MESSAGE][PASSED] - Object 'Object Repository/OB_001_Login screen/Login Screen/Password' is present
+
+2023-08-16 12:53:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OB_001_Login screen/Login Screen/button_Sign in"), 0): Object 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is present
+
+2023-08-16 12:53:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-16 12:53:20 - [MESSAGE][PASSED] - Object 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is present
+
+2023-08-16 12:53:20 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/Username"), STOP_ON_FAILURE): Object: 'Object Repository/OB_001_Login screen/Login Screen/Username' is clicked on
+
+2023-08-16 12:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/Username' is clicked on
+
+2023-08-16 12:53:20 - [TEST_STEP][PASSED] - setText(findTestObject("OB_001_Login screen/Login Screen/Username"), USERNAME): Text 'hqlogpack' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Username'
+
+2023-08-16 12:53:21 - [MESSAGE][PASSED] - Text 'hqlogpack' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Username'
+
+2023-08-16 12:53:21 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/Password")): Object: 'Object Repository/OB_001_Login screen/Login Screen/Password' is clicked on
+
+2023-08-16 12:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/Password' is clicked on
+
+2023-08-16 12:53:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("OB_001_Login screen/Login Screen/Password"), PASSWORD): Text ****** has been set on object 'Object Repository/OB_001_Login screen/Login Screen/Password'
+
+2023-08-16 12:53:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OB_001_Login screen/Login Screen/Password'
+
+2023-08-16 12:53:22 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("OB_001_Login screen/Login Screen/button_Sign in"), 3): Object 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clickable
+
+2023-08-16 12:53:23 - [MESSAGE][PASSED] - Object 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clickable
+
+2023-08-16 12:53:23 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/button_Sign in")): Object: 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clicked on
+
+2023-08-16 12:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clicked on
+
+2023-08-16 12:53:23 - [TEST_STEP][PASSED] - waitForPageLoad(14): Wait for page load successfully
+
+2023-08-16 12:53:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-16 12:53:23 - [TEST_STEP][PASSED] - verifyTextPresent("VC Smart", false): Text 'VC Smart' is present on page 
+
+2023-08-16 12:53:53 - [MESSAGE][PASSED] - Text 'VC Smart' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-16 12:53:12 - [TEST_SUITE][PASSED] - TS_010_PROFILE_VC_SMART_ITL: Test Cases/TC_020_VC_Smart_Login profile-ITL]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_011_PROFILE_FEATURE_FMS_SMART_IOCL" tests="1" failures="0" errors="0" time="23.926" skipped="0" timestamp="2023-08-16 12:54:06" hostname="windows 10 - DESKTOP-21ATSCV" id="Test Suites/TS_011_PROFILE_FEATURE_FMS_SMART_IOCL">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_125115\\TS_011_PROFILE_FEATURE_FMS_SMART_IOCL\\20230816_125123"/>
+         <property name="logFiles" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_125115\\TS_011_PROFILE_FEATURE_FMS_SMART_IOCL\\20230816_125123\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="windows 10 - DESKTOP-21ATSCV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="b8c95139c80800cc8d1ec2f6a6f94121"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_022_FMS_Smart_Login_IOCL_Profile" time="23.677" classname="Test Cases/TC_022_FMS_Smart_Login_IOCL_Profile" status="PASSED">
+         <system-out><![CDATA[2023-08-16 12:54:06 - [TEST_CASE][PASSED] - Test Cases/TC_022_FMS_Smart_Login_IOCL_Profile: Test Cases/TC_022_FMS_Smart_Login_IOCL_Profile
+
+2023-08-16 12:54:07 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 12:54:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 12:54:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 12:54:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 12:54:17 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2023-08-16 12:54:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-16 12:54:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-16 12:54:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-16 12:54:17 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-16 12:54:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OB_005_Login screen_fms smart/login screen/username"), 0): Object 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is present
+
+2023-08-16 12:54:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-16 12:54:18 - [MESSAGE][PASSED] - Object 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is present
+
+2023-08-16 12:54:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("OB_005_Login screen_fms smart/login screen/username")): Object 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clickable
+
+2023-08-16 12:54:18 - [MESSAGE][PASSED] - Object 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clickable
+
+2023-08-16 12:54:18 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/username"), STOP_ON_FAILURE): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 12:54:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 12:54:18 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/username"), USERNAME): Text '11047105' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 12:54:19 - [MESSAGE][PASSED] - Text '11047105' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 12:54:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OB_005_Login screen_fms smart/login screen/Password"), 0): Object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is present
+
+2023-08-16 12:54:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-16 12:54:20 - [MESSAGE][PASSED] - Object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is present
+
+2023-08-16 12:54:20 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("OB_005_Login screen_fms smart/login screen/Password")): Object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clickable
+
+2023-08-16 12:54:20 - [MESSAGE][PASSED] - Object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clickable
+
+2023-08-16 12:54:20 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/Password")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 12:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 12:54:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("OB_005_Login screen_fms smart/login screen/Password"), PASSWORD): Text ****** has been set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 12:54:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 12:54:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in"), 0): Object 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is present
+
+2023-08-16 12:54:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-16 12:54:21 - [MESSAGE][PASSED] - Object 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is present
+
+2023-08-16 12:54:21 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in")): Object 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clickable
+
+2023-08-16 12:54:21 - [MESSAGE][PASSED] - Object 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clickable
+
+2023-08-16 12:54:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in"), "Sign in"): Actual text and expected text of test object 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' are matched.
+
+2023-08-16 12:54:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' are matched.
+
+2023-08-16 12:54:22 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 12:54:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 12:54:22 - [TEST_STEP][PASSED] - waitForPageLoad(14): Wait for page load successfully
+
+2023-08-16 12:54:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-08-16 12:54:22 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 12:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 12:54:29 - [TEST_STEP][PASSED] - verifyTextPresent("FMS Smart", false): Text 'FMS Smart' is present on page 
+
+2023-08-16 12:54:29 - [MESSAGE][PASSED] - Text 'FMS Smart' is present on page 
+
+2023-08-16 12:54:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-16 12:54:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-16 12:54:06 - [TEST_SUITE][PASSED] - TS_011_PROFILE_FEATURE_FMS_SMART_IOCL: Test Cases/TC_022_FMS_Smart_Login_IOCL_Profile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_02_FMS_Smart_Multiplen user login,,,,2023-08-15 14:09:03,2023-08-15 14:09:10,7.098s,FAILED
+,,,,,,,
+Test Cases/TC_013_FMS_Smart_multiple login test,,,data driven test,2023-08-15 14:09:03,2023-08-15 14:09:07,4.077s,FAILED
+openBrowser(url),,,,2023-08-15 14:09:03,2023-08-15 14:09:07,3.649s,FAILED
+,,,,,,,
+Test Cases/TC_013_FMS_Smart_multiple login test,,,data driven test,2023-08-15 14:09:07,2023-08-15 14:09:08,1.278s,FAILED
+openBrowser(url),,,,2023-08-15 14:09:07,2023-08-15 14:09:08,1.243s,FAILED
+,,,,,,,
+Test Cases/TC_013_FMS_Smart_multiple login test,,,data driven test,2023-08-15 14:09:08,2023-08-15 14:09:10,1.301s,FAILED
+openBrowser(url),,,,2023-08-15 14:09:08,2023-08-15 14:09:10,1.274s,FAILED

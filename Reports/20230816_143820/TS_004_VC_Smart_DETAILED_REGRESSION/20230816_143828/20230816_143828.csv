@@ -1,0 +1,82 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_004_VC_Smart_DETAILED_REGRESSION,Chrome 115.0.0.0,,,2023-08-16 14:38:31,2023-08-16 14:46:51,8m - 20.513s,FAILED
+,,,,,,,
+Test Cases/TC_015_VC_Smart_Verify scroll down on home screen,Chrome 115.0.0.0,,,2023-08-16 14:38:31,2023-08-16 14:39:43,1m - 12.024s,PASSED
+"callTestCase(findTestCase(""TC_001_Verify the Login feature with valid credentials""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 14:38:32,2023-08-16 14:39:07,35.428s,PASSED
+"scrollToElement(findTestObject(""OB_011_VC_Smart_Scroll down/Page_VCSmart  Trimble/div_On Trip Safety Violation (830 Vehicles)""), 5)",Chrome 115.0.0.0,,,2023-08-16 14:39:07,2023-08-16 14:39:39,31.578s,PASSED
+delay(4),Chrome 115.0.0.0,,,2023-08-16 14:39:39,2023-08-16 14:39:43,4.009s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-16 14:39:43,2023-08-16 14:39:43,0.610s,PASSED
+,,,,,,,
+Test Cases/TC_016_VC_Smart_Verify_Admin feature,Chrome 115.0.0.0,,,2023-08-16 14:39:43,2023-08-16 14:40:38,55.073s,FAILED
+"callTestCase(findTestCase(""TC_001_Verify the Login feature with valid credentials""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 14:39:43,2023-08-16 14:40:38,54.934s,FAILED
+,,,,,,,
+Test Cases/TC_017_VC_Smart_REPORT feature,Chrome 115.0.0.0,,,2023-08-16 14:40:38,2023-08-16 14:46:05,5m - 26.699s,PASSED
+"callTestCase(findTestCase(""TC_001_Verify the Login feature with valid credentials""), [:], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-16 14:40:39,2023-08-16 14:41:34,55.602s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/a_Reports""))",Chrome 115.0.0.0,,,2023-08-16 14:41:34,2023-08-16 14:42:04,30.274s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/div_Safety Index Report""))",Chrome 115.0.0.0,,,2023-08-16 14:42:04,2023-08-16 14:42:05,0.613s,PASSED
+delay(4),Chrome 115.0.0.0,,,2023-08-16 14:42:05,2023-08-16 14:42:09,4.018s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/button_Submit""))",Chrome 115.0.0.0,,,2023-08-16 14:42:09,2023-08-16 14:42:41,31.523s,PASSED
+delay(11),Chrome 115.0.0.0,,,2023-08-16 14:42:41,2023-08-16 14:42:52,11.013s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/a_Reports""))",Chrome 115.0.0.0,,,2023-08-16 14:42:52,2023-08-16 14:42:52,0.466s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/div_Exception Report""))",Chrome 115.0.0.0,,,2023-08-16 14:42:52,2023-08-16 14:42:53,0.595s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-16 14:42:53,2023-08-16 14:42:56,3.005s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/button_Select Date Range""))",Chrome 115.0.0.0,,,2023-08-16 14:42:56,2023-08-16 14:43:00,4.122s,PASSED
+delay(4),Chrome 115.0.0.0,,,2023-08-16 14:43:00,2023-08-16 14:43:04,4.008s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/button_Apply""))",Chrome 115.0.0.0,,,2023-08-16 14:43:04,2023-08-16 14:43:39,34.792s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-16 14:43:39,2023-08-16 14:43:41,2.015s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/button_Submit""))",Chrome 115.0.0.0,,,2023-08-16 14:43:41,2023-08-16 14:43:41,0.370s,PASSED
+delay(21),Chrome 115.0.0.0,,,2023-08-16 14:43:41,2023-08-16 14:44:02,21.007s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/a_Reports""))",Chrome 115.0.0.0,,,2023-08-16 14:44:02,2023-08-16 14:44:32,30.204s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/div_External Consignment Log""))",Chrome 115.0.0.0,,,2023-08-16 14:44:32,2023-08-16 14:44:34,1.391s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-16 14:44:34,2023-08-16 14:44:37,3.013s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/report submit btn/Ext con log-button_Submit""))",Chrome 115.0.0.0,,,2023-08-16 14:44:37,2023-08-16 14:44:37,0.506s,PASSED
+delay(8),Chrome 115.0.0.0,,,2023-08-16 14:44:37,2023-08-16 14:44:45,8.017s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/a_Reports""))",Chrome 115.0.0.0,,,2023-08-16 14:44:45,2023-08-16 14:44:46,0.417s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/div_Login History Report""))",Chrome 115.0.0.0,,,2023-08-16 14:44:46,2023-08-16 14:44:46,0.597s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-16 14:44:46,2023-08-16 14:44:49,3.006s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/report submit btn/login history button_Submit""))",Chrome 115.0.0.0,,,2023-08-16 14:44:49,2023-08-16 14:44:49,0.336s,PASSED
+delay(11),Chrome 115.0.0.0,,,2023-08-16 14:44:49,2023-08-16 14:45:00,11.006s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/a_Reports""))",Chrome 115.0.0.0,,,2023-08-16 14:45:00,2023-08-16 14:45:01,0.341s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-16 14:45:01,2023-08-16 14:45:03,2.005s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/div_User Access Report""))",Chrome 115.0.0.0,,,2023-08-16 14:45:03,2023-08-16 14:45:03,0.430s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-16 14:45:03,2023-08-16 14:45:06,3.011s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/report submit btn/user-access button_Submit""))",Chrome 115.0.0.0,,,2023-08-16 14:45:06,2023-08-16 14:45:07,0.335s,PASSED
+delay(12),Chrome 115.0.0.0,,,2023-08-16 14:45:07,2023-08-16 14:45:19,12.012s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/a_Reports""))",Chrome 115.0.0.0,,,2023-08-16 14:45:19,2023-08-16 14:45:19,0.349s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/div_New Trip Report""))",Chrome 115.0.0.0,,,2023-08-16 14:45:19,2023-08-16 14:45:20,0.722s,PASSED
+delay(4),Chrome 115.0.0.0,,,2023-08-16 14:45:20,2023-08-16 14:45:24,4.003s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/report submit btn/New trip re-button_Submit""))",Chrome 115.0.0.0,,,2023-08-16 14:45:24,2023-08-16 14:45:24,0.362s,PASSED
+delay(21),Chrome 115.0.0.0,,,2023-08-16 14:45:24,2023-08-16 14:45:45,21.011s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/a_Reports""))",Chrome 115.0.0.0,,,2023-08-16 14:45:45,2023-08-16 14:45:46,0.475s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-16 14:45:46,2023-08-16 14:45:49,3.006s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/div_Deviation Summary Report""))",Chrome 115.0.0.0,,,2023-08-16 14:45:49,2023-08-16 14:45:49,0.415s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 14:45:49,2023-08-16 14:45:54,5.010s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/button_Select Date Range""))",Chrome 115.0.0.0,,,2023-08-16 14:45:54,2023-08-16 14:45:54,0.344s,PASSED
+delay(4),Chrome 115.0.0.0,,,2023-08-16 14:45:54,2023-08-16 14:45:58,4.005s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/button_Apply""))",Chrome 115.0.0.0,,,2023-08-16 14:45:58,2023-08-16 14:45:59,0.417s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/span_Select Violation Type""))",Chrome 115.0.0.0,,,2023-08-16 14:45:59,2023-08-16 14:45:59,0.571s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-16 14:45:59,2023-08-16 14:46:02,3.010s,PASSED
+"click(findTestObject(""OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/span_Over Speed 2Min Violation""))",Chrome 115.0.0.0,,,2023-08-16 14:46:02,2023-08-16 14:46:03,0.368s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-16 14:46:03,2023-08-16 14:46:05,2.008s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/report submit btn/deviation report-button_Submit""))",Chrome 115.0.0.0,,,2023-08-16 14:46:05,2023-08-16 14:46:05,0.408s,PASSED
+,,,,,,,
+Test Cases/TC_019_VC_Smart_Home_Element verification-IOCL,Chrome 115.0.0.0,,,2023-08-16 14:46:05,2023-08-16 14:46:51,46.355s,PASSED
+openBrowser(URL),Chrome 115.0.0.0,,,2023-08-16 14:46:05,2023-08-16 14:46:15,9.411s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 14:46:15,2023-08-16 14:46:15,0.121s,PASSED
+delay(5),Chrome 115.0.0.0,,,2023-08-16 14:46:15,2023-08-16 14:46:20,5.013s,PASSED
+"verifyElementPresent(findTestObject(""OB_001_Login screen/Login Screen/Username""), 0)",Chrome 115.0.0.0,,,2023-08-16 14:46:20,2023-08-16 14:46:20,0.369s,PASSED
+"verifyElementPresent(findTestObject(""OB_001_Login screen/Login Screen/Password""), 0)",Chrome 115.0.0.0,,,2023-08-16 14:46:20,2023-08-16 14:46:21,0.298s,PASSED
+"verifyElementPresent(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""), 0)",Chrome 115.0.0.0,,,2023-08-16 14:46:21,2023-08-16 14:46:21,0.298s,PASSED
+"verifyElementClickable(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-16 14:46:21,2023-08-16 14:46:21,0.302s,PASSED
+"verifyElementClickable(findTestObject(""OB_001_Login screen/Login Screen/Password""))",Chrome 115.0.0.0,,,2023-08-16 14:46:21,2023-08-16 14:46:21,0.292s,PASSED
+"verifyElementClickable(findTestObject(""OB_001_Login screen/Login Screen/Username""))",Chrome 115.0.0.0,,,2023-08-16 14:46:21,2023-08-16 14:46:22,0.299s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Username""))",Chrome 115.0.0.0,,,2023-08-16 14:46:22,2023-08-16 14:46:22,0.350s,PASSED
+"setText(findTestObject(""OB_001_Login screen/Login Screen/Username""), USERNAME)",Chrome 115.0.0.0,,,2023-08-16 14:46:22,2023-08-16 14:46:23,0.855s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/Password""))",Chrome 115.0.0.0,,,2023-08-16 14:46:23,2023-08-16 14:46:23,0.332s,PASSED
+"setEncryptedText(findTestObject(""OB_001_Login screen/Login Screen/Password""), PASSWORD)",Chrome 115.0.0.0,,,2023-08-16 14:46:23,2023-08-16 14:46:24,0.494s,PASSED
+"click(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-16 14:46:24,2023-08-16 14:46:24,0.332s,PASSED
+"waitForElementVisible(findTestObject(""OB_004_Logout Feature/logout feature/a_IOCL""), 15)",Chrome 115.0.0.0,,,2023-08-16 14:46:24,2023-08-16 14:46:48,23.815s,PASSED
+"click(findTestObject(""OB_004_Logout Feature/logout feature/a_IOCL""))",Chrome 115.0.0.0,,,2023-08-16 14:46:48,2023-08-16 14:46:49,0.676s,PASSED
+"click(findTestObject(""OB_004_Logout Feature/logout feature/button_Logout""))",Chrome 115.0.0.0,,,2023-08-16 14:46:49,2023-08-16 14:46:49,0.570s,PASSED
+"verifyElementVisible(findTestObject(""OB_001_Login screen/Login Screen/button_Sign in""))",Chrome 115.0.0.0,,,2023-08-16 14:46:49,2023-08-16 14:46:51,1.672s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-16 14:46:51,2023-08-16 14:46:51,0.598s,PASSED
