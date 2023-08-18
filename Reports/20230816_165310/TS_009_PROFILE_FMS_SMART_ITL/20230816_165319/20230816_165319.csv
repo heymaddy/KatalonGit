@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_009_PROFILE_FMS_SMART_ITL,Chrome 115.0.0.0,,,2023-08-16 16:53:22,2023-08-16 16:54:09,47.221s,FAILED
+,,,,,,,
+Test Cases/TC_021_FMS_Smart_ITL_Profile,Chrome 115.0.0.0,,,2023-08-16 16:53:22,2023-08-16 16:54:09,46.872s,FAILED
+openBrowser(URL),Chrome 115.0.0.0,,,2023-08-16 16:53:23,2023-08-16 16:53:37,14.093s,PASSED
+waitForPageLoad(0),Chrome 115.0.0.0,,,2023-08-16 16:53:37,2023-08-16 16:53:37,0.143s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-16 16:53:37,2023-08-16 16:53:38,0.161s,PASSED
+"verifyElementPresent(findTestObject(""OB_005_Login screen_fms smart/login screen/username""), 0)",Chrome 115.0.0.0,,,2023-08-16 16:53:38,2023-08-16 16:54:09,31.740s,FAILED

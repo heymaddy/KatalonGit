@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OB_008_Fms smart Lgout and Feedback/Page_FMS Smart/Lgout22",
+      "brokenLocator": "//div[@id\u003d\u0027feedback-modal\u0027]/div[2]/form/div[7]/div[2]/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027dropdown\u0027]/a[2]/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230817_100801/TS_006_FMS_SMART_Logout feature/20230817_100823/Object Repository/OB_008_Fms smart Lgout and Feedback/Page_FMS Smart/Lgout22_idRelative.png"
+    }
+  ]
+}

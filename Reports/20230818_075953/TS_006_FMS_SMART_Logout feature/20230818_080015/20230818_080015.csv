@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_006_FMS_SMART_Logout feature,Chrome 115.0.0.0,,,2023-08-18 08:01:15,2023-08-18 08:02:21,1m - 6.161s,PASSED
+,,,,,,,
+Test Cases/TC_010_FMS_Smart_Verify Logout feature,Chrome 115.0.0.0,,,2023-08-18 08:01:15,2023-08-18 08:02:21,1m - 5.802s,PASSED
+"callTestCase(findTestCase(""TC_007_FMS_Smart_Verify Login feature""), [""url"":""https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login"", ""username"":""11038331"", ""password"":""Nr@747900""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-18 08:01:16,2023-08-18 08:01:42,25.692s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout1""))",Chrome 115.0.0.0,,,2023-08-18 08:01:42,2023-08-18 08:01:42,0.541s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:01:42,2023-08-18 08:01:45,3.006s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/Page_FMS Smart/Lgout22""))",Chrome 115.0.0.0,,,2023-08-18 08:01:45,2023-08-18 08:02:17,31.787s,PASSED
+delay(3),Chrome 115.0.0.0,,,2023-08-18 08:02:17,2023-08-18 08:02:20,3.016s,PASSED
+"click(findTestObject(""OB_008_Fms smart Lgout and Feedback/logout3/logou3""))",Chrome 115.0.0.0,,,2023-08-18 08:02:20,2023-08-18 08:02:21,0.543s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-18 08:02:21,2023-08-18 08:02:21,0.715s,PASSED

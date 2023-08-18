@@ -97,6 +97,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/RC_01_FEEDBACK/Page_FMS Smart/button_ACCEPT AND CLOSE_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OB_014_Superadmin_1/Page_SuperAdminApp/button_Login",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Invalid Username or Password\u0027])[3]/following::button[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Password\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/OB_014_Superadmin_1/Page_SuperAdminApp/button_Login_neighbor.png"
     }
   ]
 }

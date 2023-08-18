@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_001_VC_Smart_Login_Feature" time="89.147" tests="2" failures="0" errors="0">
+   <testsuite name="TS_001_VC_Smart_Login_Feature" tests="2" failures="0" errors="0" time="89.147" skipped="0" timestamp="2023-08-16 17:05:02" hostname="DESKTOP-21ATSCV$ - DESKTOP-21ATSCV" id="Test Suites/TS_001_VC_Smart_Login_Feature">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_170410\\TS_001_VC_Smart_Login_Feature\\20230816_170422"/>
+         <property name="logFiles" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_170410\\TS_001_VC_Smart_Login_Feature\\20230816_170422\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DESKTOP-21ATSCV$ - DESKTOP-21ATSCV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="f36bf291fe33c3402a7e23c73d94bd20"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_001_Verify the Login feature with valid credentials" time="65.55" classname="Test Cases/TC_001_Verify the Login feature with valid credentials" status="PASSED">
+         <system-out><![CDATA[2023-08-16 17:05:02 - [TEST_CASE][PASSED] - Test Cases/TC_001_Verify the Login feature with valid credentials: Test Cases/TC_001_Verify the Login feature with valid credentials
+
+2023-08-16 17:05:02 - [TEST_STEP][PASSED] - openBrowser("https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login"): Browser is opened with url: 'https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login'
+
+2023-08-16 17:05:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 17:05:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 17:05:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login'
+
+2023-08-16 17:05:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-16 17:05:21 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-16 17:05:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-08-16 17:05:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-16 17:05:26 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/Username")): Object: 'Object Repository/OB_001_Login screen/Login Screen/Username' is clicked on
+
+2023-08-16 17:05:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/Username' is clicked on
+
+2023-08-16 17:05:26 - [TEST_STEP][PASSED] - setText(findTestObject("OB_001_Login screen/Login Screen/Username"), "BSO-2300"): Text 'BSO-2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Username'
+
+2023-08-16 17:05:27 - [MESSAGE][PASSED] - Text 'BSO-2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Username'
+
+2023-08-16 17:05:27 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/Password")): Object: 'Object Repository/OB_001_Login screen/Login Screen/Password' is clicked on
+
+2023-08-16 17:05:28 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/Password' is clicked on
+
+2023-08-16 17:05:28 - [TEST_STEP][PASSED] - setText(findTestObject("OB_001_Login screen/Login Screen/Password"), "Password@2300"): Text 'Password@2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Password'
+
+2023-08-16 17:05:29 - [MESSAGE][PASSED] - Text 'Password@2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Password'
+
+2023-08-16 17:05:29 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/button_Sign in")): Object: 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clicked on
+
+2023-08-16 17:05:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clicked on
+
+2023-08-16 17:05:29 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2023-08-16 17:05:37 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2023-08-16 17:05:37 - [TEST_STEP][PASSED] - verifyTextPresent("VC Smart", false): Text 'VC Smart' is present on page 
+
+2023-08-16 17:06:08 - [MESSAGE][PASSED] - Text 'VC Smart' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_002_Verify the Login feature with invalid credentials" time="23.268" classname="Test Cases/TC_002_Verify the Login feature with invalid credentials" status="PASSED">
+         <system-out><![CDATA[2023-08-16 17:06:08 - [TEST_CASE][PASSED] - Test Cases/TC_002_Verify the Login feature with invalid credentials: Test Cases/TC_002_Verify the Login feature with invalid credentials
+
+2023-08-16 17:06:08 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login'
+
+2023-08-16 17:06:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-16 17:06:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 17:06:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 17:06:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login'
+
+2023-08-16 17:06:22 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/Username")): Object: 'Object Repository/OB_001_Login screen/Login Screen/Username' is clicked on
+
+2023-08-16 17:06:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/Username' is clicked on
+
+2023-08-16 17:06:23 - [TEST_STEP][PASSED] - setText(findTestObject("OB_001_Login screen/Login Screen/Username"), username): Text 'BSO-2300w' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Username'
+
+2023-08-16 17:06:24 - [MESSAGE][PASSED] - Text 'BSO-2300w' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Username'
+
+2023-08-16 17:06:24 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/Password")): Object: 'Object Repository/OB_001_Login screen/Login Screen/Password' is clicked on
+
+2023-08-16 17:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/Password' is clicked on
+
+2023-08-16 17:06:24 - [TEST_STEP][PASSED] - setText(findTestObject("OB_001_Login screen/Login Screen/Password"), password): Text 'Password@2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Password'
+
+2023-08-16 17:06:25 - [MESSAGE][PASSED] - Text 'Password@2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Password'
+
+2023-08-16 17:06:25 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/button_Sign in")): Object: 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clicked on
+
+2023-08-16 17:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clicked on
+
+2023-08-16 17:06:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-08-16 17:06:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-16 17:06:30 - [TEST_STEP][PASSED] - verifyTextPresent("Username entered is invalid. Please try again.", false): Text 'Username entered is invalid. Please try again.' is present on page 
+
+2023-08-16 17:06:31 - [MESSAGE][PASSED] - Text 'Username entered is invalid. Please try again.' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-16 17:05:02 - [TEST_SUITE][PASSED] - TS_001_VC_Smart_Login_Feature: Test Cases/TC_002_Verify the Login feature with invalid credentials]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

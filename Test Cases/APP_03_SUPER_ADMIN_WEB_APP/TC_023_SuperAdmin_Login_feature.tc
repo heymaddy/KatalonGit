@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_023_SuperAdmin_Login_feature</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0ecef1f5-52c3-49ca-86b5-c6dd87703757</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fb5b94af-c815-4d00-8f6f-c18d9ecb9c7f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e8f1def7-9372-4b11-b33c-4af0360850c8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7c220c28-7cda-4b4b-97d7-e1ca5b1c646d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://superadmin.tmsitrimble.in/SuperAdminApp/#/login'</defaultValue>
+      <description></description>
+      <id>fb5b94af-c815-4d00-8f6f-c18d9ecb9c7f</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'superAdmin'</defaultValue>
+      <description></description>
+      <id>e8f1def7-9372-4b11-b33c-4af0360850c8</id>
+      <masked>false</masked>
+      <name>USERNAME</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password@123'</defaultValue>
+      <description></description>
+      <id>7c220c28-7cda-4b4b-97d7-e1ca5b1c646d</id>
+      <masked>false</masked>
+      <name>PASSWORD</name>
+   </variable>
+</TestCaseEntity>

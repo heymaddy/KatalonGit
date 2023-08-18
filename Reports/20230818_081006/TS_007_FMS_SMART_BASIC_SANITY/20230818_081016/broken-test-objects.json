@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout2",
+      "brokenLocator": "//div[@id\u003d\u0027feedback-modal\u0027]/div[2]/form/div[7]/div[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Trimble\u0027])[1]/preceding::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230818_081006/TS_007_FMS_SMART_BASIC_SANITY/20230818_081016/Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout2_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Send Feedback",
+      "brokenLocator": "//div[@id\u003d\u0027feedback-modal\u0027]/div[2]/form/div[7]/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Upload\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230818_081006/TS_007_FMS_SMART_BASIC_SANITY/20230818_081016/Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Send Feedback_neighbor.png"
+    }
+  ]
+}

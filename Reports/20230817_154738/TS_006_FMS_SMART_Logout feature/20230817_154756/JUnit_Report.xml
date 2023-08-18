@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_006_FMS_SMART_Logout feature" time="63.21" tests="1" failures="0" errors="0">
+   <testsuite name="TS_006_FMS_SMART_Logout feature" tests="1" failures="0" errors="0" time="63.21" skipped="0" timestamp="2023-08-17 15:48:52" hostname="DESKTOP-21ATSCV$ - DESKTOP-21ATSCV" id="Test Suites/TS_006_FMS_SMART_Logout feature">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230817_154738\\TS_006_FMS_SMART_Logout feature\\20230817_154756"/>
+         <property name="logFiles" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230817_154738\\TS_006_FMS_SMART_Logout feature\\20230817_154756\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DESKTOP-21ATSCV$ - DESKTOP-21ATSCV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="fb470326f679264ccc1d9f3f17d58146"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_010_FMS_Smart_Verify Logout feature" time="62.824" classname="Test Cases/TC_010_FMS_Smart_Verify Logout feature" status="PASSED">
+         <system-out><![CDATA[2023-08-17 15:48:52 - [TEST_CASE][PASSED] - Test Cases/TC_010_FMS_Smart_Verify Logout feature: Test Cases/TC_010_FMS_Smart_Verify Logout feature
+
+2023-08-17 15:48:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_007_FMS_Smart_Verify Login feature"), ["url":"https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login", "username":"11038331", "password":"Nr@747900"], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_007_FMS_Smart_Verify Login feature' successfully
+
+2023-08-17 15:48:53 - [TEST_CASE][PASSED] - Test Cases/TC_007_FMS_Smart_Verify Login feature: Test Cases/TC_007_FMS_Smart_Verify Login feature
+
+2023-08-17 15:48:53 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-17 15:48:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-17 15:48:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-17 15:49:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-17 15:49:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-17 15:49:00 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-17 15:49:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-17 15:49:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-17 15:49:03 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/username")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-17 15:49:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-17 15:49:04 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/username"), username): Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-17 15:49:05 - [MESSAGE][PASSED] - Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-17 15:49:05 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/Password")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-17 15:49:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-17 15:49:05 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/Password"), password): Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-17 15:49:06 - [MESSAGE][PASSED] - Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-17 15:49:06 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-17 15:49:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-17 15:49:07 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-08-17 15:49:13 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-08-17 15:49:13 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-17 15:49:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-17 15:49:14 - [TEST_STEP][PASSED] - verifyTextPresent("FMS Smart", false): Text 'FMS Smart' is present on page 
+
+2023-08-17 15:49:15 - [MESSAGE][PASSED] - Text 'FMS Smart' is present on page 
+
+2023-08-17 15:49:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_007_FMS_Smart_Verify Login feature' successfully
+
+2023-08-17 15:49:15 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout1")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout1' is clicked on
+
+2023-08-17 15:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout1' is clicked on
+
+2023-08-17 15:49:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-17 15:49:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-17 15:49:19 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/Page_FMS Smart/Lgout22")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Page_FMS Smart/Lgout22' is clicked on
+
+2023-08-17 15:49:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='feedback-modal']/div[2]/form/div[7]/div[2]/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-17 15:49:50 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/OB_008_Fms smart Lgout and Feedback/Page_FMS Smart/Lgout22'. Try using Self-healing.
+
+2023-08-17 15:49:50 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/OB_008_Fms smart Lgout and Feedback/Page_FMS Smart/Lgout22' was broken. Propose an alternative one: '//div[@id='dropdown']/a[2]/i'.
+
+2023-08-17 15:49:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Page_FMS Smart/Lgout22' is clicked on
+
+2023-08-17 15:49:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-17 15:49:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-17 15:49:54 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/logout3/logou3")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/logout3/logou3' is clicked on
+
+2023-08-17 15:49:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/logout3/logou3' is clicked on
+
+2023-08-17 15:49:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-17 15:49:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-17 15:48:52 - [TEST_SUITE][PASSED] - TS_006_FMS_SMART_Logout feature: Test Cases/TC_010_FMS_Smart_Verify Logout feature]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>QRCode</name>
+   <tag></tag>
+   <elementGuidId>830818c4-c141-4385-a9a4-2c2f9c2d599c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2e388e9e-9d01-4a74-aef3-b41c580819fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown</value>
+      <webElementGuid>2a8d70b3-19d4-425f-86c9-cdf87874f8f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>VCSmartFMSSmart</value>
+      <webElementGuid>6a84fab9-f686-468a-8d36-fff9dc630c82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;fixed-header w-100&quot;]/nav[@class=&quot;col-12  inline mr-0 pr-0&quot;]/div[@class=&quot;col-6 inline mr-0 pr-2&quot;]/div[@class=&quot;logo left-icons mr-0 pr-0 float-right&quot;]/div[@class=&quot;dropdown&quot;]</value>
+      <webElementGuid>383fa61b-aba0-4476-84d0-eb53667f22ce</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[1]</value>
+      <webElementGuid>40cfaa36-9257-4b44-a61d-bdb3d0fbcc5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]</value>
+      <webElementGuid>9df78214-6bff-4c5b-b617-b90e4d799e52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'VCSmartFMSSmart' or . = 'VCSmartFMSSmart')]</value>
+      <webElementGuid>392351e0-5bf6-4dac-813d-a78d16a4c7bc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

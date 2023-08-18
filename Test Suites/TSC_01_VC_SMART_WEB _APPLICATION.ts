@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/TS_001_VC_Smart_Login_Feature</testSuiteEntity>
+         <testSuiteEntity>Test Suites/TEST_SUIT_01_VC_SMART_WEB_APP/TS_001_VC_Smart_Login_Feature</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -25,7 +25,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/TS_003_VC_Smart_Logout Feature</testSuiteEntity>
+         <testSuiteEntity>Test Suites/TEST_SUIT_01_VC_SMART_WEB_APP/TS_003_VC_Smart_Logout Feature</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -35,7 +35,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/TS_002_VC_Smart_BASIC SANITY</testSuiteEntity>
+         <testSuiteEntity>Test Suites/TEST_SUIT_01_VC_SMART_WEB_APP/TS_002_VC_Smart_BASIC SANITY</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -45,7 +45,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/TS_004_VC_Smart_DETAILED_REGRESSION</testSuiteEntity>
+         <testSuiteEntity>Test Suites/TEST_SUIT_01_VC_SMART_WEB_APP/TS_004_VC_Smart_DETAILED_REGRESSION</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

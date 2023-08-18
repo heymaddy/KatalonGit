@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_007_FMS_SMART_BASIC_SANITY" time="327.206" tests="5" failures="2" errors="0">
+   <testsuite name="TS_007_FMS_SMART_BASIC_SANITY" tests="5" failures="2" errors="0" time="327.206" skipped="0" timestamp="2023-08-16 17:34:49" hostname="DESKTOP-21ATSCV$ - DESKTOP-21ATSCV" id="Test Suites/TS_007_FMS_SMART_BASIC_SANITY">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_173227\\TS_007_FMS_SMART_BASIC_SANITY\\20230816_173252"/>
+         <property name="logFiles" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_173227\\TS_007_FMS_SMART_BASIC_SANITY\\20230816_173252\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_173227\\TS_007_FMS_SMART_BASIC_SANITY\\20230816_173252\\1692187552029.png, C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_173227\\TS_007_FMS_SMART_BASIC_SANITY\\20230816_173252\\1692187816689.png"/>
+         <property name="hostName" value="DESKTOP-21ATSCV$ - DESKTOP-21ATSCV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="80c724944e2bdfa37a39e1331c658a3c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_014_FMS_Smart_Verify the report feature" time="62.259" classname="Test Cases/TC_014_FMS_Smart_Verify the report feature" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_014_FMS_Smart_Verify the report feature FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OB_010_FMS_Smart_Report feature verify/Report feature verify/div_Safety  Summary  Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_014_FMS_Smart_Verify the report feature.run(TC_014_FMS_Smart_Verify the report feature:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692187372578.run(TempTestSuite1692187372578.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;col-6 col-lg-3&quot;>...&lt;/div> is not clickable at point (175, 144). Other element would receive the click: &lt;a _ngcontent-lvn-c20=&quot;&quot; class=&quot;nav-link active&quot; ng-reflect-ng-class=&quot;nav-link active&quot; ng-reflect-router-link=&quot;/reports&quot; href=&quot;#/reports&quot;>...&lt;/a>
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-21ATSCV', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Windows\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:64868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d7e15adf5d11c2f7e09b85c088c229c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-16 17:34:49 - [TEST_CASE][FAILED] - Test Cases/TC_014_FMS_Smart_Verify the report feature: Test Cases/TC_014_FMS_Smart_Verify the report feature FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OB_010_FMS_Smart_Report feature verify/Report feature verify/div_Safety  Summary  Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_014_FMS_Smart_Verify the report feature.run(TC_014_FMS_Smart_Verify the report feature:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692187372578.run(TempTestSuite1692187372578.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="col-6 col-lg-3">...</div> is not clickable at point (175, 144). Other element would receive the click: <a _ngcontent-lvn-c20="" class="nav-link active" ng-reflect-ng-class="nav-link active" ng-reflect-router-link="/reports" href="#/reports">...</a>
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-21ATSCV', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Windows\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:64868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d7e15adf5d11c2f7e09b85c088c229c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-16 17:34:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_007_FMS_Smart_Verify Login feature"), ["url":"https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login", "username":"11038331", "password":"Nr@747900"], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_007_FMS_Smart_Verify Login feature' successfully
+
+2023-08-16 17:34:50 - [TEST_CASE][PASSED] - Test Cases/TC_007_FMS_Smart_Verify Login feature: Test Cases/TC_007_FMS_Smart_Verify Login feature
+
+2023-08-16 17:34:50 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 17:34:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 17:34:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 17:34:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 17:34:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-16 17:34:56 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-16 17:34:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-16 17:34:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-16 17:34:59 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/username")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 17:35:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 17:35:00 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/username"), username): Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 17:35:01 - [MESSAGE][PASSED] - Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 17:35:01 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/Password")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 17:35:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 17:35:01 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/Password"), password): Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 17:35:02 - [MESSAGE][PASSED] - Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 17:35:02 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 17:35:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 17:35:03 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-08-16 17:35:09 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-08-16 17:35:09 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 17:35:09 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 17:35:09 - [TEST_STEP][PASSED] - verifyTextPresent("FMS Smart", false): Text 'FMS Smart' is present on page 
+
+2023-08-16 17:35:10 - [MESSAGE][PASSED] - Text 'FMS Smart' is present on page 
+
+2023-08-16 17:35:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_007_FMS_Smart_Verify Login feature' successfully
+
+2023-08-16 17:35:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-08-16 17:35:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-16 17:35:15 - [TEST_STEP][PASSED] - click(findTestObject("OB_010_FMS_Smart_Report feature verify/Report feature verify/a_Reports")): Object: 'Object Repository/OB_010_FMS_Smart_Report feature verify/Report feature verify/a_Reports' is clicked on
+
+2023-08-16 17:35:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_010_FMS_Smart_Report feature verify/Report feature verify/a_Reports' is clicked on
+
+2023-08-16 17:35:15 - [TEST_STEP][PASSED] - mouseOver(findTestObject("OB_010_FMS_Smart_Report feature verify/Report feature verify/div_Safety  Summary  Report")): Object: 'Object Repository/OB_010_FMS_Smart_Report feature verify/Report feature verify/div_Safety  Summary  Report' is hovered
+
+2023-08-16 17:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_010_FMS_Smart_Report feature verify/Report feature verify/div_Safety  Summary  Report' is hovered
+
+2023-08-16 17:35:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-16 17:35:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-16 17:35:19 - [TEST_STEP][PASSED] - verifyTextPresent("Safety Summary Report", false): Text 'Safety Summary Report' is present on page 
+
+2023-08-16 17:35:20 - [MESSAGE][PASSED] - Text 'Safety Summary Report' is present on page 
+
+2023-08-16 17:35:20 - [TEST_STEP][FAILED] - click(findTestObject("OB_010_FMS_Smart_Report feature verify/Report feature verify/div_Safety  Summary  Report")): Unable to click on object 'Object Repository/OB_010_FMS_Smart_Report feature verify/Report feature verify/div_Safety  Summary  Report' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OB_010_FMS_Smart_Report feature verify/Report feature verify/div_Safety  Summary  Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_014_FMS_Smart_Verify the report feature.run(TC_014_FMS_Smart_Verify the report feature:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692187372578.run(TempTestSuite1692187372578.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="col-6 col-lg-3">...</div> is not clickable at point (175, 144). Other element would receive the click: <a _ngcontent-lvn-c20="" class="nav-link active" ng-reflect-ng-class="nav-link active" ng-reflect-router-link="/reports" href="#/reports">...</a>
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-21ATSCV', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Windows\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:64868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d7e15adf5d11c2f7e09b85c088c229c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1691333094686.run(Script1691333094686.groovy:33)
+	... 13 more
+)
+
+2023-08-16 17:35:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OB_010_FMS_Smart_Report feature verify/Report feature verify/div_Safety  Summary  Report' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OB_010_FMS_Smart_Report feature verify/Report feature verify/div_Safety  Summary  Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_014_FMS_Smart_Verify the report feature.run(TC_014_FMS_Smart_Verify the report feature:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692187372578.run(TempTestSuite1692187372578.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="col-6 col-lg-3">...</div> is not clickable at point (175, 144). Other element would receive the click: <a _ngcontent-lvn-c20="" class="nav-link active" ng-reflect-ng-class="nav-link active" ng-reflect-router-link="/reports" href="#/reports">...</a>
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-21ATSCV', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Windows\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:64868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d7e15adf5d11c2f7e09b85c088c229c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1691333094686.run(Script1691333094686.groovy:33)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_173227\\TS_007_FMS_SMART_BASIC_SANITY\\20230816_173252\\1692187552029.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-16 17:34:49 - [TEST_CASE][FAILED] - Test Cases/TC_014_FMS_Smart_Verify the report feature: Test Cases/TC_014_FMS_Smart_Verify the report feature FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OB_010_FMS_Smart_Report feature verify/Report feature verify/div_Safety  Summary  Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_014_FMS_Smart_Verify the report feature.run(TC_014_FMS_Smart_Verify the report feature:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692187372578.run(TempTestSuite1692187372578.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="col-6 col-lg-3">...</div> is not clickable at point (175, 144). Other element would receive the click: <a _ngcontent-lvn-c20="" class="nav-link active" ng-reflect-ng-class="nav-link active" ng-reflect-router-link="/reports" href="#/reports">...</a>
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-21ATSCV', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Windows\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:64868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d7e15adf5d11c2f7e09b85c088c229c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_012_FMS_Smart_Upload the Feedack feature" time="32.014" classname="Test Cases/TC_012_FMS_Smart_Upload the Feedack feature" status="PASSED">
+         <system-out><![CDATA[2023-08-16 17:35:52 - [TEST_CASE][PASSED] - Test Cases/TC_012_FMS_Smart_Upload the Feedack feature: Test Cases/TC_012_FMS_Smart_Upload the Feedack feature
+
+2023-08-16 17:35:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_007_FMS_Smart_Verify Login feature"), ["url":"https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login", "username":"11038331", "password":"Nr@747900"], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_007_FMS_Smart_Verify Login feature' successfully
+
+2023-08-16 17:35:52 - [TEST_CASE][PASSED] - Test Cases/TC_007_FMS_Smart_Verify Login feature: Test Cases/TC_007_FMS_Smart_Verify Login feature
+
+2023-08-16 17:35:52 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 17:35:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-16 17:35:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 17:35:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 17:35:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 17:35:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-16 17:35:58 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-16 17:35:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-16 17:36:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-16 17:36:01 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/username")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 17:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 17:36:01 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/username"), username): Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 17:36:02 - [MESSAGE][PASSED] - Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 17:36:02 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/Password")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 17:36:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 17:36:03 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/Password"), password): Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 17:36:03 - [MESSAGE][PASSED] - Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 17:36:03 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 17:36:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 17:36:04 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-08-16 17:36:10 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-08-16 17:36:10 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 17:36:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 17:36:10 - [TEST_STEP][PASSED] - verifyTextPresent("FMS Smart", false): Text 'FMS Smart' is present on page 
+
+2023-08-16 17:36:11 - [MESSAGE][PASSED] - Text 'FMS Smart' is present on page 
+
+2023-08-16 17:36:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_007_FMS_Smart_Verify Login feature' successfully
+
+2023-08-16 17:36:11 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-08-16 17:36:15 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-08-16 17:36:15 - [TEST_STEP][PASSED] - click(findTestObject("OB_009_Upload feedback/Page_FMS Smart/FEEDBACK")): Object: 'Object Repository/OB_009_Upload feedback/Page_FMS Smart/FEEDBACK' is clicked on
+
+2023-08-16 17:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_009_Upload feedback/Page_FMS Smart/FEEDBACK' is clicked on
+
+2023-08-16 17:36:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-16 17:36:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-16 17:36:19 - [TEST_STEP][PASSED] - click(findTestObject("OB_009_Upload feedback/Page_FMS Smart/Send Feedback")): Object: 'Object Repository/OB_009_Upload feedback/Page_FMS Smart/Send Feedback' is clicked on
+
+2023-08-16 17:36:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_009_Upload feedback/Page_FMS Smart/Send Feedback' is clicked on
+
+2023-08-16 17:36:19 - [TEST_STEP][PASSED] - verifyTextPresent("All fields are mandatory", false): Text 'All fields are mandatory' is present on page 
+
+2023-08-16 17:36:20 - [MESSAGE][PASSED] - Text 'All fields are mandatory' is present on page 
+
+2023-08-16 17:36:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-16 17:36:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-16 17:36:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-16 17:36:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_011_FMS_Smart_Verify Feedback feature" time="94.952" classname="Test Cases/TC_011_FMS_Smart_Verify Feedback feature" status="PASSED">
+         <system-out><![CDATA[2023-08-16 17:36:24 - [TEST_CASE][PASSED] - Test Cases/TC_011_FMS_Smart_Verify Feedback feature: Test Cases/TC_011_FMS_Smart_Verify Feedback feature
+
+2023-08-16 17:36:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_007_FMS_Smart_Verify Login feature"), ["url":"https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login", "username":"11038331", "password":"Nr@747900"], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_007_FMS_Smart_Verify Login feature' successfully
+
+2023-08-16 17:36:24 - [TEST_CASE][PASSED] - Test Cases/TC_007_FMS_Smart_Verify Login feature: Test Cases/TC_007_FMS_Smart_Verify Login feature
+
+2023-08-16 17:36:24 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 17:36:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 17:36:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 17:36:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 17:36:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-16 17:36:29 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-16 17:36:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-16 17:36:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-16 17:36:32 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/username")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 17:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 17:36:32 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/username"), username): Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 17:36:33 - [MESSAGE][PASSED] - Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 17:36:33 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/Password")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 17:36:34 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 17:36:34 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/Password"), password): Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 17:36:34 - [MESSAGE][PASSED] - Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 17:36:34 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 17:36:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 17:36:35 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-08-16 17:36:41 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-08-16 17:36:41 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 17:36:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 17:36:41 - [TEST_STEP][PASSED] - verifyTextPresent("FMS Smart", false): Text 'FMS Smart' is present on page 
+
+2023-08-16 17:36:42 - [MESSAGE][PASSED] - Text 'FMS Smart' is present on page 
+
+2023-08-16 17:36:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_007_FMS_Smart_Verify Login feature' successfully
+
+2023-08-16 17:36:42 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout1")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout1' is clicked on
+
+2023-08-16 17:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout1' is clicked on
+
+2023-08-16 17:36:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-16 17:36:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-16 17:36:45 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout2")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout2' is clicked on
+
+2023-08-16 17:37:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='feedback-modal']/div[2]/form/div[7]/div[2]/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-16 17:37:16 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout2'. Try using Self-healing.
+
+2023-08-16 17:37:16 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout2' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Trimble'])[1]/preceding::span[1]'.
+
+2023-08-16 17:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout2' is clicked on
+
+2023-08-16 17:37:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-16 17:37:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-16 17:37:19 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/5 Star")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/5 Star' is clicked on
+
+2023-08-16 17:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/5 Star' is clicked on
+
+2023-08-16 17:37:20 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter name")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter name' is clicked on
+
+2023-08-16 17:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter name' is clicked on
+
+2023-08-16 17:37:20 - [TEST_STEP][PASSED] - setText(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter name"), "Maddy patil"): Text 'Maddy patil' is set on object 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter name'
+
+2023-08-16 17:37:21 - [MESSAGE][PASSED] - Text 'Maddy patil' is set on object 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter name'
+
+2023-08-16 17:37:21 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter Email")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter Email' is clicked on
+
+2023-08-16 17:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter Email' is clicked on
+
+2023-08-16 17:37:22 - [TEST_STEP][PASSED] - setText(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter Email"), "maddy@gmail.com"): Text 'maddy@gmail.com' is set on object 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter Email'
+
+2023-08-16 17:37:23 - [MESSAGE][PASSED] - Text 'maddy@gmail.com' is set on object 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter Email'
+
+2023-08-16 17:37:23 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Others")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Others' is clicked on
+
+2023-08-16 17:37:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Others' is clicked on
+
+2023-08-16 17:37:23 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Description")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Description' is clicked on
+
+2023-08-16 17:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Description' is clicked on
+
+2023-08-16 17:37:24 - [TEST_STEP][PASSED] - setText(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Description"), "Application is very good,it helps lot ,thank you so much for this"): Text 'Application is very good,it helps lot ,thank you so much for this' is set on object 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Description'
+
+2023-08-16 17:37:25 - [MESSAGE][PASSED] - Text 'Application is very good,it helps lot ,thank you so much for this' is set on object 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Description'
+
+2023-08-16 17:37:25 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Send Feedback")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Send Feedback' is clicked on
+
+2023-08-16 17:37:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='feedback-modal']/div[2]/form/div[7]/div/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-16 17:37:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Send Feedback'. Try using Self-healing.
+
+2023-08-16 17:37:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Send Feedback' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::button[1]'.
+
+2023-08-16 17:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Send Feedback' is clicked on
+
+2023-08-16 17:37:57 - [TEST_STEP][PASSED] - verifyTextPresent("Thank You", false): Text 'Thank You' is present on page 
+
+2023-08-16 17:37:59 - [MESSAGE][PASSED] - Text 'Thank You' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_008_FMS_Smart_All Vehicles" time="76.769" classname="Test Cases/TC_008_FMS_Smart_All Vehicles" status="PASSED">
+         <system-out><![CDATA[2023-08-16 17:37:59 - [TEST_CASE][PASSED] - Test Cases/TC_008_FMS_Smart_All Vehicles: Test Cases/TC_008_FMS_Smart_All Vehicles
+
+2023-08-16 17:37:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_007_FMS_Smart_Verify Login feature"), ["url":"https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login", "username":"11038331", "password":"Nr@747900"], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_007_FMS_Smart_Verify Login feature' successfully
+
+2023-08-16 17:37:59 - [TEST_CASE][PASSED] - Test Cases/TC_007_FMS_Smart_Verify Login feature: Test Cases/TC_007_FMS_Smart_Verify Login feature
+
+2023-08-16 17:37:59 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 17:37:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-16 17:38:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 17:38:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 17:38:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 17:38:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-16 17:38:05 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-16 17:38:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-16 17:38:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-16 17:38:08 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/username")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 17:38:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 17:38:08 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/username"), username): Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 17:38:09 - [MESSAGE][PASSED] - Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 17:38:09 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/Password")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 17:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 17:38:09 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/Password"), password): Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 17:38:10 - [MESSAGE][PASSED] - Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 17:38:10 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 17:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 17:38:11 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-08-16 17:38:17 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-08-16 17:38:17 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 17:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 17:38:17 - [TEST_STEP][PASSED] - verifyTextPresent("FMS Smart", false): Text 'FMS Smart' is present on page 
+
+2023-08-16 17:38:18 - [MESSAGE][PASSED] - Text 'FMS Smart' is present on page 
+
+2023-08-16 17:38:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_007_FMS_Smart_Verify Login feature' successfully
+
+2023-08-16 17:38:18 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/All Vehicle BOX")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/All Vehicle BOX' is clicked on
+
+2023-08-16 17:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/All Vehicle BOX' is clicked on
+
+2023-08-16 17:38:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-16 17:38:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-16 17:38:21 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_Grid view")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_Grid view' is clicked on
+
+2023-08-16 17:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_Grid view' is clicked on
+
+2023-08-16 17:38:22 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Close Grid view")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Close Grid view' is clicked on
+
+2023-08-16 17:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Close Grid view' is clicked on
+
+2023-08-16 17:38:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-08-16 17:38:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-16 17:38:42 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/All Vehicle BOX")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/All Vehicle BOX' is clicked on
+
+2023-08-16 17:38:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/All Vehicle BOX' is clicked on
+
+2023-08-16 17:38:43 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_Map view")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_Map view' is clicked on
+
+2023-08-16 17:38:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_Map view' is clicked on
+
+2023-08-16 17:38:43 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-08-16 17:38:47 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-08-16 17:38:47 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-Moving Vehicle")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-Moving Vehicle' is clicked on
+
+2023-08-16 17:38:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-Moving Vehicle' is clicked on
+
+2023-08-16 17:38:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-16 17:38:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-16 17:38:51 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map Vew-Untracked vehicles")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map Vew-Untracked vehicles' is clicked on
+
+2023-08-16 17:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map Vew-Untracked vehicles' is clicked on
+
+2023-08-16 17:38:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-16 17:38:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-16 17:38:55 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-NRD")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-NRD' is clicked on
+
+2023-08-16 17:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-NRD' is clicked on
+
+2023-08-16 17:38:56 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-08-16 17:39:00 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-08-16 17:39:00 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-On trip vehicles")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-On trip vehicles' is clicked on
+
+2023-08-16 17:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-On trip vehicles' is clicked on
+
+2023-08-16 17:39:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-16 17:39:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-16 17:39:04 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map view-Stopped vehicle")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map view-Stopped vehicle' is clicked on
+
+2023-08-16 17:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map view-Stopped vehicle' is clicked on
+
+2023-08-16 17:39:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-16 17:39:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-16 17:39:07 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_View grid")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_View grid' is clicked on
+
+2023-08-16 17:39:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_View grid' is clicked on
+
+2023-08-16 17:39:08 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-08-16 17:39:14 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-08-16 17:39:14 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Close Grid view")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Close Grid view' is clicked on
+
+2023-08-16 17:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Close Grid view' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_009_FMS_Smart_Dashabord feature 2" time="60.894" classname="Test Cases/TC_009_FMS_Smart_Dashabord feature 2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_009_FMS_Smart_Dashabord feature 2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OB_007_Dashabord Feature2/Grid view btn/Grid view-OnTrip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_009_FMS_Smart_Dashabord feature 2.run(TC_009_FMS_Smart_Dashabord feature 2:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692187372578.run(TempTestSuite1692187372578.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-21ATSCV', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Windows\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:65332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80c724944e2bdfa37a39e1331c658a3c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-16 17:39:15 - [TEST_CASE][FAILED] - Test Cases/TC_009_FMS_Smart_Dashabord feature 2: Test Cases/TC_009_FMS_Smart_Dashabord feature 2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OB_007_Dashabord Feature2/Grid view btn/Grid view-OnTrip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_009_FMS_Smart_Dashabord feature 2.run(TC_009_FMS_Smart_Dashabord feature 2:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692187372578.run(TempTestSuite1692187372578.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-21ATSCV', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Windows\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:65332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80c724944e2bdfa37a39e1331c658a3c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-16 17:39:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_007_FMS_Smart_Verify Login feature"), ["url":"https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login", "username":"11038331", "password":"Nr@747900"], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_007_FMS_Smart_Verify Login feature' successfully
+
+2023-08-16 17:39:16 - [TEST_CASE][PASSED] - Test Cases/TC_007_FMS_Smart_Verify Login feature: Test Cases/TC_007_FMS_Smart_Verify Login feature
+
+2023-08-16 17:39:16 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 17:39:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-16 17:39:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 17:39:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 17:39:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-16 17:39:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-16 17:39:21 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-16 17:39:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-16 17:39:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-16 17:39:24 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/username")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 17:39:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-16 17:39:25 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/username"), username): Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 17:39:26 - [MESSAGE][PASSED] - Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-16 17:39:26 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/Password")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 17:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-16 17:39:26 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/Password"), password): Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 17:39:27 - [MESSAGE][PASSED] - Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-16 17:39:27 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 17:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-16 17:39:27 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-08-16 17:39:33 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-08-16 17:39:33 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 17:39:34 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-16 17:39:34 - [TEST_STEP][PASSED] - verifyTextPresent("FMS Smart", false): Text 'FMS Smart' is present on page 
+
+2023-08-16 17:39:35 - [MESSAGE][PASSED] - Text 'FMS Smart' is present on page 
+
+2023-08-16 17:39:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_007_FMS_Smart_Verify Login feature' successfully
+
+2023-08-16 17:39:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-16 17:39:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-16 17:39:38 - [TEST_STEP][PASSED] - click(findTestObject("OB_007_Dashabord Feature2/Dashboard feature/Moving VehicleBOX")): Object: 'Object Repository/OB_007_Dashabord Feature2/Dashboard feature/Moving VehicleBOX' is clicked on
+
+2023-08-16 17:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_007_Dashabord Feature2/Dashboard feature/Moving VehicleBOX' is clicked on
+
+2023-08-16 17:39:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-16 17:39:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-16 17:39:40 - [TEST_STEP][PASSED] - click(findTestObject("OB_007_Dashabord Feature2/Dashboard feature/button_Grid view")): Object: 'Object Repository/OB_007_Dashabord Feature2/Dashboard feature/button_Grid view' is clicked on
+
+2023-08-16 17:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_007_Dashabord Feature2/Dashboard feature/button_Grid view' is clicked on
+
+2023-08-16 17:39:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-16 17:39:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-16 17:39:43 - [TEST_STEP][PASSED] - verifyTextPresent("Moving vehicles", false): Text 'Moving vehicles' is present on page 
+
+2023-08-16 17:39:45 - [MESSAGE][PASSED] - Text 'Moving vehicles' is present on page 
+
+2023-08-16 17:39:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-16 17:39:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-16 17:39:47 - [TEST_STEP][PASSED] - click(findTestObject("OB_007_Dashabord Feature2/Dashboard feature/CLose Grid Button")): Object: 'Object Repository/OB_007_Dashabord Feature2/Dashboard feature/CLose Grid Button' is clicked on
+
+2023-08-16 17:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_007_Dashabord Feature2/Dashboard feature/CLose Grid Button' is clicked on
+
+2023-08-16 17:39:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-16 17:39:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-16 17:39:50 - [TEST_STEP][PASSED] - click(findTestObject("OB_007_Dashabord Feature2/Dashboard feature/Stopped Vehicle BOX")): Object: 'Object Repository/OB_007_Dashabord Feature2/Dashboard feature/Stopped Vehicle BOX' is clicked on
+
+2023-08-16 17:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_007_Dashabord Feature2/Dashboard feature/Stopped Vehicle BOX' is clicked on
+
+2023-08-16 17:39:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-16 17:39:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-16 17:39:52 - [TEST_STEP][PASSED] - click(findTestObject("OB_007_Dashabord Feature2/Grid view btn/Grid view-StopVeh")): Object: 'Object Repository/OB_007_Dashabord Feature2/Grid view btn/Grid view-StopVeh' is clicked on
+
+2023-08-16 17:39:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_007_Dashabord Feature2/Grid view btn/Grid view-StopVeh' is clicked on
+
+2023-08-16 17:39:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-16 17:39:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-16 17:39:55 - [TEST_STEP][PASSED] - verifyTextPresent("Stopped vehicles", false): Text 'Stopped vehicles' is present on page 
+
+2023-08-16 17:39:56 - [MESSAGE][PASSED] - Text 'Stopped vehicles' is present on page 
+
+2023-08-16 17:39:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-16 17:39:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-16 17:39:58 - [TEST_STEP][PASSED] - click(findTestObject("OB_007_Dashabord Feature2/Dashboard feature/CLose Grid Button")): Object: 'Object Repository/OB_007_Dashabord Feature2/Dashboard feature/CLose Grid Button' is clicked on
+
+2023-08-16 17:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_007_Dashabord Feature2/Dashboard feature/CLose Grid Button' is clicked on
+
+2023-08-16 17:39:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-16 17:40:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-16 17:40:01 - [TEST_STEP][PASSED] - click(findTestObject("OB_007_Dashabord Feature2/Dashboard feature/NRD Box")): Object: 'Object Repository/OB_007_Dashabord Feature2/Dashboard feature/NRD Box' is clicked on
+
+2023-08-16 17:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_007_Dashabord Feature2/Dashboard feature/NRD Box' is clicked on
+
+2023-08-16 17:40:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-16 17:40:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-16 17:40:03 - [TEST_STEP][PASSED] - click(findTestObject("OB_007_Dashabord Feature2/Grid view btn/Grid view-NRD")): Object: 'Object Repository/OB_007_Dashabord Feature2/Grid view btn/Grid view-NRD' is clicked on
+
+2023-08-16 17:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_007_Dashabord Feature2/Grid view btn/Grid view-NRD' is clicked on
+
+2023-08-16 17:40:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-16 17:40:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-16 17:40:06 - [TEST_STEP][PASSED] - verifyTextPresent("NRD vehicles", false): Text 'NRD vehicles' is present on page 
+
+2023-08-16 17:40:08 - [MESSAGE][PASSED] - Text 'NRD vehicles' is present on page 
+
+2023-08-16 17:40:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-16 17:40:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-16 17:40:10 - [TEST_STEP][PASSED] - click(findTestObject("OB_007_Dashabord Feature2/Dashboard feature/CLose Grid Button")): Object: 'Object Repository/OB_007_Dashabord Feature2/Dashboard feature/CLose Grid Button' is clicked on
+
+2023-08-16 17:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_007_Dashabord Feature2/Dashboard feature/CLose Grid Button' is clicked on
+
+2023-08-16 17:40:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-16 17:40:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-16 17:40:12 - [TEST_STEP][PASSED] - click(findTestObject("OB_007_Dashabord Feature2/Dashboard feature/On Trip Box")): Object: 'Object Repository/OB_007_Dashabord Feature2/Dashboard feature/On Trip Box' is clicked on
+
+2023-08-16 17:40:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_007_Dashabord Feature2/Dashboard feature/On Trip Box' is clicked on
+
+2023-08-16 17:40:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-16 17:40:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-16 17:40:14 - [TEST_STEP][FAILED] - click(findTestObject("OB_007_Dashabord Feature2/Grid view btn/Grid view-OnTrip")): Unable to click on object 'Object Repository/OB_007_Dashabord Feature2/Grid view btn/Grid view-OnTrip' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OB_007_Dashabord Feature2/Grid view btn/Grid view-OnTrip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_009_FMS_Smart_Dashabord feature 2.run(TC_009_FMS_Smart_Dashabord feature 2:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692187372578.run(TempTestSuite1692187372578.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-21ATSCV', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Windows\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:65332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80c724944e2bdfa37a39e1331c658a3c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1691056071476.run(Script1691056071476.groovy:77)
+	... 13 more
+)
+
+2023-08-16 17:40:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OB_007_Dashabord Feature2/Grid view btn/Grid view-OnTrip' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OB_007_Dashabord Feature2/Grid view btn/Grid view-OnTrip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_009_FMS_Smart_Dashabord feature 2.run(TC_009_FMS_Smart_Dashabord feature 2:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692187372578.run(TempTestSuite1692187372578.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-21ATSCV', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Windows\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:65332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80c724944e2bdfa37a39e1331c658a3c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1691056071476.run(Script1691056071476.groovy:77)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_173227\\TS_007_FMS_SMART_BASIC_SANITY\\20230816_173252\\1692187816689.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-16 17:39:15 - [TEST_CASE][FAILED] - Test Cases/TC_009_FMS_Smart_Dashabord feature 2: Test Cases/TC_009_FMS_Smart_Dashabord feature 2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OB_007_Dashabord Feature2/Grid view btn/Grid view-OnTrip'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_009_FMS_Smart_Dashabord feature 2.run(TC_009_FMS_Smart_Dashabord feature 2:77)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692187372578.run(TempTestSuite1692187372578.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-21ATSCV', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Windows\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:65332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 80c724944e2bdfa37a39e1331c658a3c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-16 17:34:49 - [TEST_SUITE][FAILED] - TS_007_FMS_SMART_BASIC_SANITY: Test Cases/TC_014_FMS_Smart_Verify the report feature FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OB_010_FMS_Smart_Report feature verify/Report feature verify/div_Safety  Summary  Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_014_FMS_Smart_Verify the report feature.run(TC_014_FMS_Smart_Verify the report feature:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692187372578.run(TempTestSuite1692187372578.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="col-6 col-lg-3">...</div> is not clickable at point (175, 144). Other element would receive the click: <a _ngcontent-lvn-c20="" class="nav-link active" ng-reflect-ng-class="nav-link active" ng-reflect-router-link="/reports" href="#/reports">...</a>
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-21ATSCV', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Windows\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:64868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d7e15adf5d11c2f7e09b85c088c229c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-08-16 17:34:49 - [TEST_SUITE][FAILED] - TS_007_FMS_SMART_BASIC_SANITY: Test Cases/TC_014_FMS_Smart_Verify the report feature FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OB_010_FMS_Smart_Report feature verify/Report feature verify/div_Safety  Summary  Report'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_014_FMS_Smart_Verify the report feature.run(TC_014_FMS_Smart_Verify the report feature:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692187372578.run(TempTestSuite1692187372578.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="col-6 col-lg-3">...</div> is not clickable at point (175, 144). Other element would receive the click: <a _ngcontent-lvn-c20="" class="nav-link active" ng-reflect-ng-class="nav-link active" ng-reflect-router-link="/reports" href="#/reports">...</a>
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-21ATSCV', ip: '192.168.1.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Windows\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:64868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d7e15adf5d11c2f7e09b85c088c229c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_003_VC_Smart_Logout Feature" time="138.086" tests="1" failures="0" errors="0">
+   <testsuite name="TS_003_VC_Smart_Logout Feature" tests="1" failures="0" errors="0" time="138.086" skipped="0" timestamp="2023-08-16 17:06:49" hostname="DESKTOP-21ATSCV$ - DESKTOP-21ATSCV" id="Test Suites/TS_003_VC_Smart_Logout Feature">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_170410\\TS_003_VC_Smart_Logout Feature\\20230816_170430"/>
+         <property name="logFiles" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230816_170410\\TS_003_VC_Smart_Logout Feature\\20230816_170430\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DESKTOP-21ATSCV$ - DESKTOP-21ATSCV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="86a0557f7913e96d10629f3af1527d2e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_006_Verify the Logout feature" time="137.76" classname="Test Cases/TC_006_Verify the Logout feature" status="PASSED">
+         <system-out><![CDATA[2023-08-16 17:06:49 - [TEST_CASE][PASSED] - Test Cases/TC_006_Verify the Logout feature: Test Cases/TC_006_Verify the Logout feature
+
+2023-08-16 17:06:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_001_Verify the Login feature with valid credentials"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_001_Verify the Login feature with valid credentials' successfully
+
+2023-08-16 17:06:50 - [TEST_CASE][PASSED] - Test Cases/TC_001_Verify the Login feature with valid credentials: Test Cases/TC_001_Verify the Login feature with valid credentials
+
+2023-08-16 17:06:50 - [TEST_STEP][PASSED] - openBrowser("https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login"): Browser is opened with url: 'https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login'
+
+2023-08-16 17:06:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 17:06:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 17:07:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclvcsmart.tmsitrimble.in/VCSmartApp/#/login'
+
+2023-08-16 17:07:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-16 17:07:04 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-16 17:07:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-08-16 17:07:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-16 17:07:09 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/Username")): Object: 'Object Repository/OB_001_Login screen/Login Screen/Username' is clicked on
+
+2023-08-16 17:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/Username' is clicked on
+
+2023-08-16 17:07:10 - [TEST_STEP][PASSED] - setText(findTestObject("OB_001_Login screen/Login Screen/Username"), "BSO-2300"): Text 'BSO-2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Username'
+
+2023-08-16 17:07:11 - [MESSAGE][PASSED] - Text 'BSO-2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Username'
+
+2023-08-16 17:07:11 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/Password")): Object: 'Object Repository/OB_001_Login screen/Login Screen/Password' is clicked on
+
+2023-08-16 17:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/Password' is clicked on
+
+2023-08-16 17:07:11 - [TEST_STEP][PASSED] - setText(findTestObject("OB_001_Login screen/Login Screen/Password"), "Password@2300"): Text 'Password@2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Password'
+
+2023-08-16 17:07:12 - [MESSAGE][PASSED] - Text 'Password@2300' is set on object 'Object Repository/OB_001_Login screen/Login Screen/Password'
+
+2023-08-16 17:07:12 - [TEST_STEP][PASSED] - click(findTestObject("OB_001_Login screen/Login Screen/button_Sign in")): Object: 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clicked on
+
+2023-08-16 17:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_001_Login screen/Login Screen/button_Sign in' is clicked on
+
+2023-08-16 17:07:13 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2023-08-16 17:07:21 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2023-08-16 17:07:21 - [TEST_STEP][PASSED] - verifyTextPresent("VC Smart", false): Text 'VC Smart' is present on page 
+
+2023-08-16 17:07:51 - [MESSAGE][PASSED] - Text 'VC Smart' is present on page 
+
+2023-08-16 17:07:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_001_Verify the Login feature with valid credentials' successfully
+
+2023-08-16 17:07:51 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2023-08-16 17:07:59 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2023-08-16 17:07:59 - [TEST_STEP][PASSED] - click(findTestObject("OB_004_Logout Feature/logout feature/a_IOCL")): Object: 'Object Repository/OB_004_Logout Feature/logout feature/a_IOCL' is clicked on
+
+2023-08-16 17:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_004_Logout Feature/logout feature/a_IOCL' is clicked on
+
+2023-08-16 17:08:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-08-16 17:08:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-16 17:08:35 - [TEST_STEP][PASSED] - click(findTestObject("OB_004_Logout Feature/logout feature/button_Logout")): Object: 'Object Repository/OB_004_Logout Feature/logout feature/button_Logout' is clicked on
+
+2023-08-16 17:08:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_004_Logout Feature/logout feature/button_Logout' is clicked on
+
+2023-08-16 17:08:58 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2023-08-16 17:09:06 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2023-08-16 17:09:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-16 17:09:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-16 17:06:49 - [TEST_SUITE][PASSED] - TS_003_VC_Smart_Logout Feature: Test Cases/TC_006_Verify the Logout feature]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

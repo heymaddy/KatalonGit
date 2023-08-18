@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_007_FMS_SMART_BASIC_SANITY" time="201.313" tests="3" failures="0" errors="0">
+   <testsuite name="TS_007_FMS_SMART_BASIC_SANITY" tests="3" failures="0" errors="0" time="201.313" skipped="0" timestamp="2023-08-18 08:02:38" hostname="DESKTOP-21ATSCV$ - DESKTOP-21ATSCV" id="Test Suites/TS_007_FMS_SMART_BASIC_SANITY">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230818_075953\\TS_007_FMS_SMART_BASIC_SANITY\\20230818_080025"/>
+         <property name="logFiles" value="C:\\Users\\windows 10\\git\\NewRepository\\KatalonGit\\Reports\\20230818_075953\\TS_007_FMS_SMART_BASIC_SANITY\\20230818_080025\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DESKTOP-21ATSCV$ - DESKTOP-21ATSCV"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.101"/>
+         <property name="sessionId" value="a86cfa1e6c9a08d4af6ee6bbac6f15ae"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_012_FMS_Smart_Upload the Feedack feature" time="35.595" classname="Test Cases/TC_012_FMS_Smart_Upload the Feedack feature" status="PASSED">
+         <system-out><![CDATA[2023-08-18 08:02:39 - [TEST_CASE][PASSED] - Test Cases/TC_012_FMS_Smart_Upload the Feedack feature: Test Cases/TC_012_FMS_Smart_Upload the Feedack feature
+
+2023-08-18 08:02:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_007_FMS_Smart_Verify Login feature"), ["url":"https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login", "username":"11038331", "password":"Nr@747900"], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_007_FMS_Smart_Verify Login feature' successfully
+
+2023-08-18 08:02:39 - [TEST_CASE][PASSED] - Test Cases/TC_007_FMS_Smart_Verify Login feature: Test Cases/TC_007_FMS_Smart_Verify Login feature
+
+2023-08-18 08:02:40 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-18 08:02:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-18 08:02:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-18 08:02:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-18 08:02:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-18 08:02:48 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-18 08:02:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:02:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:02:51 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/username")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-18 08:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-18 08:02:51 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/username"), username): Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-18 08:02:52 - [MESSAGE][PASSED] - Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-18 08:02:52 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/Password")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-18 08:02:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-18 08:02:53 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/Password"), password): Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-18 08:02:53 - [MESSAGE][PASSED] - Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-18 08:02:53 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-18 08:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-18 08:02:54 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-08-18 08:03:00 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-08-18 08:03:00 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-18 08:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-18 08:03:00 - [TEST_STEP][PASSED] - verifyTextPresent("FMS Smart", false): Text 'FMS Smart' is present on page 
+
+2023-08-18 08:03:01 - [MESSAGE][PASSED] - Text 'FMS Smart' is present on page 
+
+2023-08-18 08:03:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_007_FMS_Smart_Verify Login feature' successfully
+
+2023-08-18 08:03:01 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-08-18 08:03:05 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-08-18 08:03:05 - [TEST_STEP][PASSED] - click(findTestObject("OB_009_Upload feedback/Page_FMS Smart/FEEDBACK")): Object: 'Object Repository/OB_009_Upload feedback/Page_FMS Smart/FEEDBACK' is clicked on
+
+2023-08-18 08:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_009_Upload feedback/Page_FMS Smart/FEEDBACK' is clicked on
+
+2023-08-18 08:03:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:03:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:03:09 - [TEST_STEP][PASSED] - click(findTestObject("OB_009_Upload feedback/Page_FMS Smart/Send Feedback")): Object: 'Object Repository/OB_009_Upload feedback/Page_FMS Smart/Send Feedback' is clicked on
+
+2023-08-18 08:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_009_Upload feedback/Page_FMS Smart/Send Feedback' is clicked on
+
+2023-08-18 08:03:10 - [TEST_STEP][PASSED] - verifyTextPresent("All fields are mandatory", false): Text 'All fields are mandatory' is present on page 
+
+2023-08-18 08:03:10 - [MESSAGE][PASSED] - Text 'All fields are mandatory' is present on page 
+
+2023-08-18 08:03:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:03:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:03:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-18 08:03:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_011_FMS_Smart_Verify Feedback feature" time="95.813" classname="Test Cases/TC_011_FMS_Smart_Verify Feedback feature" status="PASSED">
+         <system-out><![CDATA[2023-08-18 08:03:14 - [TEST_CASE][PASSED] - Test Cases/TC_011_FMS_Smart_Verify Feedback feature: Test Cases/TC_011_FMS_Smart_Verify Feedback feature
+
+2023-08-18 08:03:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_007_FMS_Smart_Verify Login feature"), ["url":"https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login", "username":"11038331", "password":"Nr@747900"], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_007_FMS_Smart_Verify Login feature' successfully
+
+2023-08-18 08:03:14 - [TEST_CASE][PASSED] - Test Cases/TC_007_FMS_Smart_Verify Login feature: Test Cases/TC_007_FMS_Smart_Verify Login feature
+
+2023-08-18 08:03:14 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-18 08:03:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-18 08:03:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-18 08:03:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-18 08:03:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-18 08:03:20 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-18 08:03:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:03:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:03:23 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/username")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-18 08:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-18 08:03:24 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/username"), username): Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-18 08:03:24 - [MESSAGE][PASSED] - Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-18 08:03:24 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/Password")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-18 08:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-18 08:03:25 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/Password"), password): Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-18 08:03:26 - [MESSAGE][PASSED] - Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-18 08:03:26 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-18 08:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-18 08:03:26 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-08-18 08:03:32 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-08-18 08:03:32 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-18 08:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-18 08:03:33 - [TEST_STEP][PASSED] - verifyTextPresent("FMS Smart", false): Text 'FMS Smart' is present on page 
+
+2023-08-18 08:03:34 - [MESSAGE][PASSED] - Text 'FMS Smart' is present on page 
+
+2023-08-18 08:03:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_007_FMS_Smart_Verify Login feature' successfully
+
+2023-08-18 08:03:34 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout1")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout1' is clicked on
+
+2023-08-18 08:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout1' is clicked on
+
+2023-08-18 08:03:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-18 08:03:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-18 08:03:37 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout2")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout2' is clicked on
+
+2023-08-18 08:04:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='feedback-modal']/div[2]/form/div[7]/div[2]/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-18 08:04:08 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout2'. Try using Self-healing.
+
+2023-08-18 08:04:08 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout2' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Trimble'])[1]/preceding::span[1]'.
+
+2023-08-18 08:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Logout2' is clicked on
+
+2023-08-18 08:04:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:04:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:04:11 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/5 Star")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/5 Star' is clicked on
+
+2023-08-18 08:04:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/5 Star' is clicked on
+
+2023-08-18 08:04:12 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter name")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter name' is clicked on
+
+2023-08-18 08:04:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter name' is clicked on
+
+2023-08-18 08:04:12 - [TEST_STEP][PASSED] - setText(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter name"), "Maddy patil"): Text 'Maddy patil' is set on object 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter name'
+
+2023-08-18 08:04:13 - [MESSAGE][PASSED] - Text 'Maddy patil' is set on object 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter name'
+
+2023-08-18 08:04:13 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter Email")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter Email' is clicked on
+
+2023-08-18 08:04:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter Email' is clicked on
+
+2023-08-18 08:04:14 - [TEST_STEP][PASSED] - setText(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter Email"), "maddy@gmail.com"): Text 'maddy@gmail.com' is set on object 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter Email'
+
+2023-08-18 08:04:15 - [MESSAGE][PASSED] - Text 'maddy@gmail.com' is set on object 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Enter Email'
+
+2023-08-18 08:04:15 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Others")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Others' is clicked on
+
+2023-08-18 08:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Others' is clicked on
+
+2023-08-18 08:04:15 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Description")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Description' is clicked on
+
+2023-08-18 08:04:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Description' is clicked on
+
+2023-08-18 08:04:16 - [TEST_STEP][PASSED] - setText(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Description"), "Application is very good,it helps lot ,thank you so much for this"): Text 'Application is very good,it helps lot ,thank you so much for this' is set on object 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Description'
+
+2023-08-18 08:04:17 - [MESSAGE][PASSED] - Text 'Application is very good,it helps lot ,thank you so much for this' is set on object 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/Description'
+
+2023-08-18 08:04:17 - [TEST_STEP][PASSED] - click(findTestObject("OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Send Feedback")): Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Send Feedback' is clicked on
+
+2023-08-18 08:04:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='feedback-modal']/div[2]/form/div[7]/div/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-18 08:04:48 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Send Feedback'. Try using Self-healing.
+
+2023-08-18 08:04:49 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Send Feedback' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::button[1]'.
+
+2023-08-18 08:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_008_Fms smart Lgout and Feedback/Logout And Feedback/button_Send Feedback' is clicked on
+
+2023-08-18 08:04:49 - [TEST_STEP][PASSED] - verifyTextPresent("Thank You", false): Text 'Thank You' is present on page 
+
+2023-08-18 08:04:50 - [MESSAGE][PASSED] - Text 'Thank You' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_008_FMS_Smart_All Vehicles" time="69.537" classname="Test Cases/TC_008_FMS_Smart_All Vehicles" status="PASSED">
+         <system-out><![CDATA[2023-08-18 08:04:50 - [TEST_CASE][PASSED] - Test Cases/TC_008_FMS_Smart_All Vehicles: Test Cases/TC_008_FMS_Smart_All Vehicles
+
+2023-08-18 08:04:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_007_FMS_Smart_Verify Login feature"), ["url":"https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login", "username":"11038331", "password":"Nr@747900"], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC_007_FMS_Smart_Verify Login feature' successfully
+
+2023-08-18 08:04:50 - [TEST_CASE][PASSED] - Test Cases/TC_007_FMS_Smart_Verify Login feature: Test Cases/TC_007_FMS_Smart_Verify Login feature
+
+2023-08-18 08:04:50 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-18 08:04:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-18 08:04:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-18 08:04:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-18 08:04:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ioclfmssmart.tmsitrimble.in/FMSSmartApp/#/login'
+
+2023-08-18 08:04:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-08-18 08:04:57 - [MESSAGE][PASSED] - Current window maximized
+
+2023-08-18 08:04:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:05:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:05:00 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/username")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-18 08:05:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/username' is clicked on
+
+2023-08-18 08:05:00 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/username"), username): Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-18 08:05:01 - [MESSAGE][PASSED] - Text '11038331' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/username'
+
+2023-08-18 08:05:01 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/Password")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-18 08:05:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/Password' is clicked on
+
+2023-08-18 08:05:01 - [TEST_STEP][PASSED] - setText(findTestObject("OB_005_Login screen_fms smart/login screen/Password"), password): Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-18 08:05:02 - [MESSAGE][PASSED] - Text 'Nr@747900' is set on object 'Object Repository/OB_005_Login screen_fms smart/login screen/Password'
+
+2023-08-18 08:05:02 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_Sign in")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-18 08:05:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_Sign in' is clicked on
+
+2023-08-18 08:05:03 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-08-18 08:05:09 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-08-18 08:05:09 - [TEST_STEP][PASSED] - click(findTestObject("OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE")): Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-18 08:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_005_Login screen_fms smart/login screen/button_ACCEPT AND CLOSE' is clicked on
+
+2023-08-18 08:05:11 - [TEST_STEP][PASSED] - verifyTextPresent("FMS Smart", false): Text 'FMS Smart' is present on page 
+
+2023-08-18 08:05:12 - [MESSAGE][PASSED] - Text 'FMS Smart' is present on page 
+
+2023-08-18 08:05:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_007_FMS_Smart_Verify Login feature' successfully
+
+2023-08-18 08:05:12 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/All Vehicle BOX")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/All Vehicle BOX' is clicked on
+
+2023-08-18 08:05:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/All Vehicle BOX' is clicked on
+
+2023-08-18 08:05:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:05:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:05:15 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_Grid view")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_Grid view' is clicked on
+
+2023-08-18 08:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_Grid view' is clicked on
+
+2023-08-18 08:05:16 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Close Grid view")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Close Grid view' is clicked on
+
+2023-08-18 08:05:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Close Grid view' is clicked on
+
+2023-08-18 08:05:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-08-18 08:05:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-08-18 08:05:26 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/All Vehicle BOX")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/All Vehicle BOX' is clicked on
+
+2023-08-18 08:05:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/All Vehicle BOX' is clicked on
+
+2023-08-18 08:05:27 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_Map view")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_Map view' is clicked on
+
+2023-08-18 08:05:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_Map view' is clicked on
+
+2023-08-18 08:05:27 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-08-18 08:05:31 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-08-18 08:05:31 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-Moving Vehicle")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-Moving Vehicle' is clicked on
+
+2023-08-18 08:05:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-Moving Vehicle' is clicked on
+
+2023-08-18 08:05:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:05:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:05:35 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map Vew-Untracked vehicles")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map Vew-Untracked vehicles' is clicked on
+
+2023-08-18 08:05:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map Vew-Untracked vehicles' is clicked on
+
+2023-08-18 08:05:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:05:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:05:39 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-NRD")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-NRD' is clicked on
+
+2023-08-18 08:05:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-NRD' is clicked on
+
+2023-08-18 08:05:41 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2023-08-18 08:05:45 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2023-08-18 08:05:45 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-On trip vehicles")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-On trip vehicles' is clicked on
+
+2023-08-18 08:05:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map View-On trip vehicles' is clicked on
+
+2023-08-18 08:05:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-08-18 08:05:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-08-18 08:05:49 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map view-Stopped vehicle")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map view-Stopped vehicle' is clicked on
+
+2023-08-18 08:05:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Map view-Stopped vehicle' is clicked on
+
+2023-08-18 08:05:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-18 08:05:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-18 08:05:52 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_View grid")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_View grid' is clicked on
+
+2023-08-18 08:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/button_View grid' is clicked on
+
+2023-08-18 08:05:53 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2023-08-18 08:05:59 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2023-08-18 08:05:59 - [TEST_STEP][PASSED] - click(findTestObject("OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Close Grid view")): Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Close Grid view' is clicked on
+
+2023-08-18 08:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OB_006_Dashbaord_Grid view feature 1/Page_FMS Smart/Close Grid view' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-18 08:02:38 - [TEST_SUITE][PASSED] - TS_007_FMS_SMART_BASIC_SANITY: Test Cases/TC_008_FMS_Smart_All Vehicles]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

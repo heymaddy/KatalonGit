@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/TS_005_FMS_SMART_Login feature</testSuiteEntity>
+         <testSuiteEntity>Test Suites/TEST_SUIT_02_FMS_SMART_WEB_APP/TS_005_FMS_SMART_Login feature</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -25,7 +25,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/TS_006_FMS_SMART_Logout feature</testSuiteEntity>
+         <testSuiteEntity>Test Suites/TEST_SUIT_02_FMS_SMART_WEB_APP/TS_006_FMS_SMART_Logout feature</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -35,7 +35,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/TS_007_FMS_SMART_BASIC_SANITY</testSuiteEntity>
+         <testSuiteEntity>Test Suites/TEST_SUIT_02_FMS_SMART_WEB_APP/TS_007_FMS_SMART_BASIC_SANITY</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

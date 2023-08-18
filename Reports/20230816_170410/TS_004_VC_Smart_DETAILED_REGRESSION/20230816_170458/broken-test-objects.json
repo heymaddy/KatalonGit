@@ -1,0 +1,33 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OB_011_VC_Smart_Scroll down/Page_VCSmart  Trimble/div_On Trip Safety Violation (830 Vehicles)",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027SD_3\u0027]/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230816_170410/TS_004_VC_Smart_DETAILED_REGRESSION/20230816_170458/Object Repository/OB_011_VC_Smart_Scroll down/Page_VCSmart  Trimble/div_On Trip Safety Violation (830 Vehicles)_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/button_Submit",
+      "brokenLocator": "//button[@id\u003d\u0027submitGenericFilterForm\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Apply\u0027])[1]/following::button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230816_170410/TS_004_VC_Smart_DETAILED_REGRESSION/20230816_170458/Object Repository/OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/button_Submit_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/button_Apply",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[48]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027dropdown-menu\u0027]/div/div/div[2]/div/button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230816_170410/TS_004_VC_Smart_DETAILED_REGRESSION/20230816_170458/Object Repository/OB_013_VC_Smart_REPORT Feature/Page_VCSmart  Trimble/button_Apply_idRelative.png"
+    }
+  ]
+}
